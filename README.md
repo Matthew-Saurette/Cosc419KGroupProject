@@ -1,2 +1,2 @@
 # Cosc419KGroupProject
-Math462 group Project - Matthew, Sarah, Tyler
+Math462 Group Project - Matthew, Sarah, Tyler
