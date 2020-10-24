@@ -1,3 +1,9 @@
+%Simplex plots
+
+%Input: 2 simplices and iterate, and output folder
+%output plot of 2 simplices into specified foler as png
+
+
 x=[0,1,0,0];
 y=[0,0,1,0];
 z=[0,0,0,1];
