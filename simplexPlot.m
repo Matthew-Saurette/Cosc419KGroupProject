@@ -16,6 +16,7 @@ classdef simplexPlot
             alpha(s1,0.1);
             legend show;
             saveas(gcf,strcat(outputFile,'simplex',string(iter), '-',string(iter+1),'.png'));
+            hold off;
         end
     end
 end

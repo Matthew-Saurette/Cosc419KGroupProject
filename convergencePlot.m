@@ -5,15 +5,19 @@
 
 classdef convergencePlot
     methods(Static)
-        function j = plot(X,Y,Z,outputFile)
-            logplot = false
-            plot(X(:,1),X(:,2))
+        function j = plot(X,Y,Z,outputFile,logplot)
+            if logplot
+                X(:,1) = log2(X(:,1))
+                Y(:,1) = log2(Y(:,1))
+                Z(:,1) = log2(Z(:,1))
+              
+            end
+            plot(X(:,1),X(:,2),'-o','MarkerSize',10)
             hold on
-            plot(Y(:,1),Y(:,2))
+            plot(Y(:,1),Y(:,2),'-x','MarkerSize',10)
             hold on
-            plot(Z(:,1),Z(:,2))
+            plot(Z(:,1),Z(:,2),'-d','MarkerSize',10)
             hold on
-            
             legend('Problem 1','Problem 2','Problem 3');
 
             if (logplot) 
