@@ -17,9 +17,9 @@ classdef convergencePlot
             plot(X(:,1),X(:,2),'-o','MarkerSize',10);
             hold on
             plot(Y(:,1),Y(:,2),'-x','MarkerSize',10);
-            hold on
+            
             plot(Z(:,1),Z(:,2),'-d','MarkerSize',10);
-            hold on
+            
             
             %add labels%
             title('Convergence plot');
@@ -34,6 +34,7 @@ classdef convergencePlot
             
             %save the plot png to folder%
             saveas(gcf,strcat(outputFile,'ConvergencePlot.png'));
+            hold off;
         end
     end
 end
