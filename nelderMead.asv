@@ -9,7 +9,7 @@ function [Yk, fkbest, fevals] = nelderMead(Y0,del_e,del_oc,del_ic,gamma,f)
 % Initialize the number of function evaluations and the storage vector for f
 Yk(:,:,1) = Y0;
 i = 0; %initialize counter of iterates so we can put stuff into lists
-fevals(1) = 4; %initialize to 4 to count the fevals in the first ordering step
+fevals = 4; %initialize to 4 to count the fevals in the first ordering step
 f_store = [];
 eps; % Desired error
 fkbest(1) = 20; %arbitrary value to start the while loop
@@ -21,19 +21,20 @@ while (fkbest - solution) > eps
     i = i+1;
     % This is 1. (Order) the above while loop will keep us within NM
     if i==1
-        Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
+        Yk(:,:,i) = tranpose(sortrows(transpose(Yk(:,:,i)), 'ComparisonMethod', f(Yk(:,:,i))));
     else
-        Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
+        Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1));
     end
-    %want to sort by value of f for each column, don't know if this is how it works...
-    
-    %     for i = 1:rank(Y0)
-    %         for j = 1:rank(Y0)              if we can get the above to work, I think it's more efficient
-    %             if f(Y0(j)) < f(Y0(i))
-    %                 f(Yk(i)) = f(Yk(j));
-    %             end
-    %         end
-    %     end
+           %sortcolumns doesn't seem to be a thing, so sort the transpose and transpose back
+           %want to sort by value of f for each row, don't know if this is how it works...
+           
+%     for i = 1:rank(Y0)
+%         for j = 1:rank(Y0)              if we can get the above to work, I think it's more efficient
+%             if f(Y0(j)) < f(Y0(i))
+%                 f(Yk(i)) = f(Yk(j));
+%             end
+%         end
+%     end
     
     % Setting fkbest to f(y0)
     fkbest(i) = f(Yk(:,1,i));
@@ -49,3 +50,4 @@ while (fkbest - solution) > eps
     
 end
 end
+    
