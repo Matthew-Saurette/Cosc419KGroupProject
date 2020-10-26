@@ -21,7 +21,7 @@ while (fkbest - solution) > eps
     i = i+1;
     % This is 1. (Order) the above while loop will keep us within NM
     if i==1
-        Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
+        Yk(:,:,i) = sort(Yk(:,:,i), 'ComparisonMethod', f(Yk(:,:,i)));
     else
         Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
     end
