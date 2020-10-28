@@ -36,6 +36,7 @@ while (fkbest - solution) > eps
     %     end
     
     % Setting fkbest to f(y0)
+    fkbest(i) = f_store(1)
     fkbest(i) = f(Yk(:,1,i));
     
     % Begin Reflection step
@@ -47,5 +48,34 @@ while (fkbest - solution) > eps
         continue;
     end
     
+    
 end
+end
+function [Yi,fYi,fEvals] = sortSimplex(f,Yi,fYi,fEvals,stepComputed)
+switch stepComputed
+    case "initalize"
+        for i = 1:length(Yi(1,:))
+            fYi(i) = f(Yi(:,i));
+            fEvals = fEvals+ 1;
+        end
+    case "reflection"
+        k = length(Yi(1,:))
+        for i = k:-1:1
+            if fYi(i)< fYi(i-1)
+                temp = Yi(:,i-1)
+                Yi(:,i-1) = Yi(:,i)
+                Yi(:,i) = temp
+                
+                
+                tempf = fYi(i-1)
+                fYi(i-1) = fYi(i)
+                fYi(i) = ftemp
+            else
+                break;
+            end
+        end
+                
+    case ""
+end
+
 end
