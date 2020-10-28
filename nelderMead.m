@@ -9,22 +9,31 @@ function [YkTotal, fkbest, fevals] = nelderMead(Y0,del_e,del_oc,del_ic,gamma,f)
 % Initialize the number of function evaluations and the storage vector for f
 YkTotal(:,:,1) = Y0;
 Yk = Y0;
-i = 0; %initialize counter of iterates so we can put stuff into lists
-fevals(1) = 4; %initialize to 4 to count the fevals in the first ordering step
+iter = 1; %initialize counter of iterates so we can put stuff into lists
+feval =0
+feval_total = []; %initialize  fevals 
 f_store = [];
 eps; % Desired error
 fkbest(1) = 20; %arbitrary value to start the while loop
 solution = 0; % True solution vector
-
+stepComputed = "shrink"
 k = length(Y0(1,:)) %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
 while (fkbest - solution) > eps
-    i = i+1;
+    iter = iter+1;
     % This is 1. (Order) the above while loop will keep us within NM
+  
     
-    %ORDER THE SIMPLEX
-    [Yk,f_store,fevals(i)] = sortSimplex(f,Yk,f_store,fevals(i),stepComputed)
+    %ORDER THE initial simplex SIMPLEX
+    if iter == 2
+    for i = 1:k
+        f_store(i) = f([Yk(:,i)]);
+        feval = feval +1
+    end
+    feval_total(iter-1) = feval
+    [Yk,f_store] = sortSimplex(Yk,f_store,stepComputed)
+    end
     
     % NEW FUNCTION CREATED FOR SORT
     %if i==1
@@ -54,7 +63,7 @@ while (fkbest - solution) > eps
     fr = f(xr);
     feval = feval + 1;
     
-    switch f_store %NM STEPS 2-5
+    switch fr %NM STEPS 2-5
         case f_store(1) <= fr < f_store(k-1) %REFLECTION STEP%
         Yk(:,k) = xr
         f_store(k) = fr
@@ -83,7 +92,7 @@ while (fkbest - solution) > eps
             else 
                 Yk(:,k) = xr;
                 f_store(k) = fr;
-                stepComputed = "nonshrink" stepComputed = "nonshrink" stepComputed = "nonshrink" stepComputed = "nonshrink"
+                stepComputed = "nonshrink" 
             end
         case fr >= f_store(k) %INSIDE CONTRACTION + SHRINK%
             xic = xc + del_ic(xc - Yk(:,k));
@@ -96,25 +105,37 @@ while (fkbest - solution) > eps
             else
                 for i = 2:k
                     Yk(:,i) = (1+gamma)*Yk(:,1) + gamma*Yk(:,i);
-                    f_store(i) = f(Yk(:,i));
+                    f_store(i) = f([Yk(:,i)]);
                     feval = feval + 1;
                 end
                 stepComputed = "shrink"
+            end
     end
-            
+    [Yk, f_store] = sortSimplex(Yk, f_store,stepComputed)
+    
     % Setting fkbest to f(y0)
-    fkbest(i - 1) = f_store(1);
+    fkbest(i) = f_store(1);
     YkTotal(:,:,i) = Yk
     feval_total(i) = feval;
     
     
 end
 end
-function [Yi,fYi,fEvals] = sortSimplex(f,Yi,fYi,fEvals,stepComputed)
+function [Yi,fYi] = sortSimplex(Yi,fYi,stepComputed)
+k = length(Yi(1,:))
 switch stepComputed
     case "shrink"
-        for i = 1:length(Yi(1,:))
-            
+        for i = 2:k
+            key = Yi(i)
+            fkey = fYi(i)
+            j = i-1
+            while (j>= 1) & fkey < fYi(j)
+                Yi(j+1) = Yi(j)
+                fYi(j+1) = fYi(j)
+                j = j -1
+            end
+            Yi(j+1) = key
+            fYi(j+1) = fkey
         end
     case "nonshrink"
         k = length(Yi(1,:))
@@ -132,7 +153,7 @@ switch stepComputed
                 break;
             end
         end
-                
-    case ""
+end
+   
 end
 
