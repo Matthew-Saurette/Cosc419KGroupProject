@@ -13,9 +13,7 @@ syms eta lambda beta;
 %f(eta, lambda, beta) = symsum(abs(eta*(1+lambda^2*(gammadot(1j))^2)^((beta-1)/2)-eta_i(1j)), 1j, [1 13]); 
 
 f = @(x) sum(abs(x(1)*(1+x(2)^2.*(gammadot).^2).^((x(3)-1)/2)-eta_i)); 
- stepComputed = "nonshrink"
- stepComputed = "nonshrink"
-  stepComputed = "nonshrink"
+
 % Question 1a)
 Y0a = [0 1 0 0;
        0 0 1 0;
