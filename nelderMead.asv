@@ -46,17 +46,17 @@ while (fkbest - solution) > eps
     
     
     %CALCULATE CENTROID%
-    xc
+    xc;
     %CALCULATE REFLECTION POINT%
-    xr
+    xr;
     fr;
-    switch f_store
+    switch f_store %
         case f_store(1) <= fr < f_store(k-1) %REFLECTION STEP%
         Yk(:,k) = xr
         f_store(k) = fr
-        stepComputed = "reflection"
+        stepComputed = "nonshrink"
         case  %EXPANSION%
-        stepComputed = "expansion"
+        stepComputed = "nonshrink"
         case %OUTSIDE CONTRACTION%
         case %INSIDE CONTRACTION + SHRINK%
             
@@ -77,12 +77,11 @@ end
 end
 function [Yi,fYi,fEvals] = sortSimplex(f,Yi,fYi,fEvals,stepComputed)
 switch stepComputed
-    case "initalize"
+    case "shrink"
         for i = 1:length(Yi(1,:))
-            fYi(i) = f(Yi(:,i));
-            fEvals = fEvals+ 1;
+            
         end
-    case "reflection"
+    case "nonshrink"
         k = length(Yi(1,:))
         for i = k:-1:1
             if fYi(i)< fYi(i-1)

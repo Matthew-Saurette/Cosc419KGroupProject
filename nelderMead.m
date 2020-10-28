@@ -15,20 +15,22 @@ eps; % Desired error
 fkbest(1) = 20; %arbitrary value to start the while loop
 solution = 0; % True solution vector
 
+k = length(Y0(1,:)) %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
 while (fkbest - solution) > eps
     i = i+1;
     % This is 1. (Order) the above while loop will keep us within NM
+    
     %ORDER THE SIMPLEX
     [Yk,f_store,fevals(i)] = sortSimplex(f,Yk,f_store,fevals(i),stepComputed)
     
-    
-    if i==1
-        Yk(:,:,i) = sort(Yk(:,:,i), 'ComparisonMethod', f(Yk(:,:,i)));
-    else
-        Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
-    end
+    % NEW FUNCTION CREATED FOR SORT
+    %if i==1
+    %    Yk(:,:,i) = sort(Yk(:,:,i), 'ComparisonMethod', f(Yk(:,:,i)));
+    %else
+    %    Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
+    %end
     %want to sort by value of f for each column, don't know if this is how it works...
     
     %     for i = 1:rank(Y0)
@@ -41,24 +43,24 @@ while (fkbest - solution) > eps
     
     
     
-    % Begin Reflection step
-    k = length(Yk(1,:))
+
     
     
     %CALCULATE CENTROID%
-    xc
+    xc;
     %CALCULATE REFLECTION POINT%
-    xr
+    xr;
     fr;
-    switch f_store
+    switch f_store %NM STEPS 2-5
         case f_store(1) <= fr < f_store(k-1) %REFLECTION STEP%
         Yk(:,k) = xr
         f_store(k) = fr
-        stepComputed = "reflection"
+        stepComputed = "nonshrink"
         case  %EXPANSION%
-        stepComputed = "expansion"
+        stepComputed = "nonshrink"
         case %OUTSIDE CONTRACTION%
         case %INSIDE CONTRACTION + SHRINK%
+    end
             
     
     % If Yk changed, then the reflection step was accepted, and therefore
