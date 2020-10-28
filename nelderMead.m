@@ -71,8 +71,7 @@ while (fkbest - solution) > eps
     end
     
     % Setting fkbest to f(y0)
-    fkbest(i) = f_store(1)
-    fkbest(i) = f(Yk(:,1,i));
+    fkbest(i) = f_store(1);
     YkTotal(:,:,i) = Yk
     
     
