@@ -5,10 +5,15 @@ clc;
 
 gammadot = [0.0137, 0.0274, 0.0434, 0.0866, 0.137, 0.274, 0.434, 0.866, 1.37, 2.74, 4.34, 5.46, 6.88];
 eta_i = [3220, 2190, 1640, 1050, 766, 490, 348, 223, 163, 104, 76.7, 68.1, 58.2];
-syms eta lambda beta;
+syms eta lambda beta ;
 %function we want to minimize - smallest value will be 0
-f(eta, lambda, beta) = symsum(abs(eta*(1+lambda^2*(gammadot(j))^2)^((beta-1)/2)-eta_i(j)), j, [1 13]);
-
+% Needs to be rewritten, can't use symsum with index calls apparently :(
+% Matt - Use sum, revert to vector, dot product, cross product, take the
+% difference, flux integrals...
+f(eta, lambda, beta) = symsum(abs(eta*(1+lambda^2*(gammadot(1j))^2)^((beta-1)/2)-eta_i(1j)), 1j, [1 13]); 
+ stepComputed = "nonshrink"
+ stepComputed = "nonshrink"
+  stepComputed = "nonshrink"
 % Question 1a)
 Y0a = [0 1 0 0;
        0 0 1 0;
