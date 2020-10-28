@@ -20,6 +20,10 @@ solution = 0; % True solution vector
 while (fkbest - solution) > eps
     i = i+1;
     % This is 1. (Order) the above while loop will keep us within NM
+    %ORDER THE SIMPLEX
+    [Yk,f_store,fevals(i)] = sortSimplex(f,Yk,f_store,fevals(i),stepComputed)
+    
+    
     if i==1
         Yk(:,:,i) = sort(Yk(:,:,i), 'ComparisonMethod', f(Yk(:,:,i)));
     else
@@ -35,12 +39,27 @@ while (fkbest - solution) > eps
     %         end
     %     end
     
-    % Setting fkbest to f(y0)
-    fkbest(i) = f_store(1)
-    fkbest(i) = f(Yk(:,1,i));
+    
     
     % Begin Reflection step
-    [Yk_next, x_c] = reflect(Yk,f,fkbest);
+    k = length(Yk(1,:))
+    
+    
+    %CALCULATE CENTROID%
+    xc
+    %CALCULATE REFLECTION POINT%
+    xr
+    fr;
+    switch f_store
+        case f_store(1) <= fr < f_store(k-1) %REFLECTION STEP%
+        Yk(:,k) = xr
+        f_store(k) = fr
+        stepComputed = "reflection"
+        case  %EXPANSION%
+        stepComputed = "expansion"
+        case %OUTSIDE CONTRACTION%
+        case %INSIDE CONTRACTION + SHRINK%
+            
     
     % If Yk changed, then the reflection step was accepted, and therefore
     % we must go back to 1.
@@ -48,17 +67,21 @@ while (fkbest - solution) > eps
         continue;
     end
     
+    % Setting fkbest to f(y0)
+    fkbest(i) = f_store(1)
+    fkbest(i) = f(Yk(:,1,i));
+    
+    
     
 end
 end
 function [Yi,fYi,fEvals] = sortSimplex(f,Yi,fYi,fEvals,stepComputed)
 switch stepComputed
-    case "initalize"
+    case "shrink"
         for i = 1:length(Yi(1,:))
-            fYi(i) = f(Yi(:,i));
-            fEvals = fEvals+ 1;
+            
         end
-    case "reflection"
+    case "nonshrink"
         k = length(Yi(1,:))
         for i = k:-1:1
             if fYi(i)< fYi(i-1)
