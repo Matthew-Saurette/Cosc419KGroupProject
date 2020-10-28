@@ -4,10 +4,11 @@
 %Yk(matrix) at each iterate (stored in list)
 %f(y0)=fkbest at at each iterate (store in list)
 %number of function evals [function eval,f(yk)]
-function [Yk, fkbest, fevals] = nelderMead(Y0,del_e,del_oc,del_ic,gamma,f)
+function [YkTotal, fkbest, fevals] = nelderMead(Y0,del_e,del_oc,del_ic,gamma,f)
 
 % Initialize the number of function evaluations and the storage vector for f
-Yk(:,:,1) = Y0;
+YkTotal(:,:,1) = Y0;
+Yk = Y0;
 i = 0; %initialize counter of iterates so we can put stuff into lists
 fevals(1) = 4; %initialize to 4 to count the fevals in the first ordering step
 f_store = [];
@@ -70,8 +71,8 @@ while (fkbest - solution) > eps
     end
     
     % Setting fkbest to f(y0)
-    fkbest(i) = f_store(1)
-    fkbest(i) = f(Yk(:,1,i));
+    fkbest(i) = f_store(1);
+    YkTotal(:,:,i) = Yk
     
     
     
