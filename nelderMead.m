@@ -48,32 +48,64 @@ while (fkbest - solution) > eps
     
     
     %CALCULATE CENTROID%
-    xc;
+    xc = (1/k)*sum(Yk(1,1:k - 1));
     %CALCULATE REFLECTION POINT%
-    xr;
-    fr;
+    xr = xc + (xc - Yk(:,k));
+    fr = f(xr);
+    feval = feval + 1;
+    
     switch f_store %NM STEPS 2-5
         case f_store(1) <= fr < f_store(k-1) %REFLECTION STEP%
         Yk(:,k) = xr
         f_store(k) = fr
         stepComputed = "nonshrink"
-        case  %EXPANSION%
+        case fr < f_store(1)  %EXPANSION%
+        xe = xc + del_e*(xc - Yk(:,k));
+        fe = f(xe);    
+        feval = feval + 1;
+            if fe < fr 
+                Yk(:,k) = xe;
+                f_store(k) = fe;
+            else
+                Yk(:,k) = xr
+                f_store(k) = fr
+            end
         stepComputed = "nonshrink"
-        case %OUTSIDE CONTRACTION%
-        case %INSIDE CONTRACTION + SHRINK%
+        case f_store(k-1) <= fr < f_store(k) %OUTSIDE CONTRACTION%
+            xoc = xc + del_oc*(xc - f_store(k));
+            foc = f(xoc);
+            feval = feval + 1;
+            stepComputed = "nonshrink"
+            if foc < fr
+                Yk(:,k) = xoc;
+                f_store(k) = foc
+                stepComputed = "nonshrink"
+            else 
+                Yk(:,k) = xr;
+                f_store(k) = fr;
+                stepComputed = "nonshrink" stepComputed = "nonshrink" stepComputed = "nonshrink" stepComputed = "nonshrink"
+            end
+        case fr >= f_store(k) %INSIDE CONTRACTION + SHRINK%
+            xic = xc + del_ic(xc - Yk(:,k));
+            fic = f(xic);
+            feval = feval + 1;
+            if fic < f_store(k)
+               Yk(:,k) = xic;
+               f_store(k) = fic
+            stepComputed = "nonshrink"
+            else
+                for i = 2:k
+                    Yk(:,i) = (1+gamma)*Yk(:,1) + gamma*Yk(:,i);
+                    f_store(i) = f(Yk(:,i));
+                    feval = feval + 1;
+                end
+                stepComputed = "shrink"
     end
             
-    
-    % If Yk changed, then the reflection step was accepted, and therefore
-    % we must go back to 1.
-    if Yk_next ~= Yk % I am pretty sure this works in Matlab
-        continue;
-    end
-    
     % Setting fkbest to f(y0)
-    fkbest(i) = f_store(1);
+    fkbest(i - 1) = f_store(1);
     YkTotal(:,:,i) = Yk
-    
+    feval_total(i) = feval;
     
     
 end
@@ -104,4 +136,3 @@ switch stepComputed
     case ""
 end
 
-end
