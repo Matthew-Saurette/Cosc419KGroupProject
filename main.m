@@ -25,10 +25,14 @@ gamma_s = 1/2;
 
 [Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f);
 
+
+simplexPlot.plotTotal(Yka,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
+
 % Question 1b)
-Y0b = Y0a + (9/5)*ones(3,4);   %translate Y0a by 9/5
+Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 %standard parameters as above
 [Ykb, fkbestb, fevalsb] = nelderMead(Y0b, del_e_s, del_oc_s, del_ic_s, gamma_s, f);
+simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1c)
 del_e_n = 2;            %_n stands for new parameters - these are the ones we propose
@@ -37,9 +41,8 @@ del_ic_n = -1/2;
 gamma_n = 1/2;
 
 %a_n is part a w/ new parameters, b_n is part b w/ new parameters
-[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_n, del_oc_n, del_ic_n, gamma_n, f);
-[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_n, del_oc_n, del_ic_n, gamma_n, f);
-
+%[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_n, del_oc_n, del_ic_n, gamma_n, f);
+%[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_n, del_oc_n, del_ic_n, gamma_n, f);
 % Question 1d)
 
 %convergence plots go here

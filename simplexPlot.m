@@ -19,12 +19,12 @@ classdef simplexPlot
             hold off;
         end
         
-        function j = plotTotal(T,outputFile)
+        function j = plotTotal(X,outputFile)
             
-            for i = 1:length(T)
-                X = T{i}
-                [k1,av1] = convhull(X(1,:),X(2,:),X(3,:));
-                s1 = trimesh(k1,X(1,:),X(2,:),X(3,:),'FaceColor',[1,i/length(T),0],'DisplayName',strcat('Y',string(i)));
+            for i = 1:length(X(1,1,:))
+                
+                [k1,av1] = convhull(X(1,:,i),X(2,:,i),X(3,:,i));
+                s1 = trimesh(k1,X(1,:,i),X(2,:,i),X(3,:,i),'FaceColor',[1,i/length(X(1,1,:)),0],'DisplayName',strcat('Y',string(i)));
                 alpha(s1,0.1);
                 if i ==1
                     hold on;
@@ -32,7 +32,7 @@ classdef simplexPlot
             end
                 
             legend show;
-            saveas(gcf,strcat(outputFile,'simplexCombined','.png'));
+            saveas(gcf,strcat(outputFile,'simplexCombined_a','.png'));
             hold off;
             
         end

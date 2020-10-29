@@ -2,7 +2,6 @@
 
 clc;
 clear all;
-
 Y = [0 0 0; 1 0 0; 0 1 0; 0 0 1];
 x_c = (1/rank(Y))*sum(Y(1:rank(Y),:));
 
