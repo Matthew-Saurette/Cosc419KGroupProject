@@ -24,8 +24,6 @@ del_ic_s = -1/2;
 gamma_s = 1/2;
 
 [Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f);
-
-
 simplexPlot.plotTotal(Yka,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1b)

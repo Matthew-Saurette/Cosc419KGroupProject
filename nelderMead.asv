@@ -10,18 +10,18 @@ function [YkTotal, fkbest, feval_total] = nelderMead(Y0,del_e,del_oc,del_ic,gamm
 YkTotal(:,:,1) = Y0;
 Yk = Y0;
 iter = 1; %initialize counter of iterates so we can put stuff into lists
-feval =0;
+feval = 0;
 feval_total = []; %initialize  fevals 
 f_store = [];
 eps = 0.1; % Desired error
 fkbest(1) = 20; %arbitrary value to start the while loop
-solution = -5; % True solution vector
+solution = 0; % True solution vector  
 stepComputed = "shrink";
 k = length(Y0(1,:)); %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
 %while (fkbest - solution) > eps
-while iter < 100
+while iter < 5
     iter = iter+1;
     % This is 1. (Order) the above while loop will keep us within NM
   
@@ -35,28 +35,7 @@ while iter < 100
     feval_total(iter-1) = feval;
     [Yk,f_store] = sortSimplex(Yk,f_store,stepComputed);
     end
-    
-    % NEW FUNCTION CREATED FOR SORT
-    %if i==1
-    %    Yk(:,:,i) = sort(Yk(:,:,i), 'ComparisonMethod', f(Yk(:,:,i)));
-    %else
-    %    Yk(:,:,i) = sort(Yk(:,:,i-1), 'ComparisonMethod', f(Yk(:,:,i-1)));
-    %end
-    %want to sort by value of f for each column, don't know if this is how it works...
-    
-    %     for i = 1:rank(Y0)
-    %         for j = 1:rank(Y0)              if we can get the above to work, I think it's more efficient
-    %             if f(Y0(j)) < f(Y0(i))
-    %                 f(Yk(i)) = f(Yk(j));
-    %             end
-    %         end
-    %     end
-    
-    
-    
-
-    
-    
+  
     %CALCULATE CENTROID%
     xc = [0;0;0];
     for i = 1:k-1
@@ -90,7 +69,7 @@ while iter < 100
         stepComputed = "nonshrink";
         elseif (f_store(k-1) <= fr)&&(fr < f_store(k)) %OUTSIDE CONTRACTION%
             
-            xoc = xc + del_oc*(xc - f_store(k));
+            xoc = xc + del_oc*(xc - Yk(:,k));
             foc = f(xoc);
             feval = feval + 1;
             stepComputed = "nonshrink";
