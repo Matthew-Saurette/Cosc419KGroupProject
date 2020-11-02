@@ -1,6 +1,6 @@
 clear; clc;
 
-eps = 0.000001; %our desired error
+eps = 1e-6; %our desired error
 f = @(x) x(1)^2+x(2)^2+x(3)^2;
 Y0a = [10 10 356 423;
        10 346 9 56;
