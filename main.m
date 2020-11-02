@@ -27,13 +27,13 @@ del_oc_s = 1/2;
 del_ic_s = -1/2;
 gamma_s = 1/2;
 
-%[Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
+[Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
 %simplexPlot.plotTotal(Yka,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1b)
 Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 %standard parameters as above
-[Ykb, fkbestb, fevalsb] = nelderMead(Y0b, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
+%[Ykb, fkbestb, fevalsb] = nelderMead(Y0b, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
 %simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1c)

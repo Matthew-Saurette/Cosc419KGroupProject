@@ -7,7 +7,6 @@ x_c = (1/rank(Y))*sum(Y(1:rank(Y),:));
 
 Y(rank(Y) + 1,:);
 x_r = x_c + (x_c - Y(rank(Y) + 1, :));
-y = [5,4,3,2,1;
-    5,4,3,2,1]
-x = [2,1,4,3,5]
-sortSimplex(y,x,"shrink")
+y = [5,4,3,2,1]
+x = [1,2,3,4,0]
+sortSimplex(y,x,"nonshrink;

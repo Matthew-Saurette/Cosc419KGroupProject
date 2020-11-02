@@ -3,15 +3,15 @@ k = length(Yi(1,:));
 switch stepComputed
     case 'shrink'
         for i = 2:k
-            key = Yi(i);
+            key = Yi(:,i);
             fkey = fYi(i);
             j = i-1;
-            while ((j>= 1) & (fkey < fYi(j)))
-                Yi(j+1) = Yi(j);
+            while ((j>= 1) && (fkey < fYi(j)))
+                Yi(:,j+1) = Yi(:,j);
                 fYi(j+1) = fYi(j);
                 j = j -1;
             end
-            Yi(j+1) = key;
+            Yi(:,j+1) = key;
             fYi(j+1) = fkey;
         end
     case 'nonshrink'
