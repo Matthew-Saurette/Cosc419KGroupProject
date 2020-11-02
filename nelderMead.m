@@ -20,8 +20,8 @@ k = length(Y0(1,:)); %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
 %while (fkbest - solution) > eps
-while abs(fkbest(iter)-solution)>eps
-%while iter<5
+%while abs(fkbest(iter)-solution)>eps
+while iter<1000
     iter = iter+1;
     % This is 1. (Order) the above while loop will keep us within NM
     
