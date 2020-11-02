@@ -1,6 +1,7 @@
 %Main mfile to run everything / what we need%
 clear;
 clc;
+close all;
 % Y# refers to simplex, y# refers to point in given simplex 
 
 eps = 10; %our desired error
@@ -35,20 +36,20 @@ gamma_s = 0.1;
 % Question 1b)
 Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 %standard parameters as above
-%[Ykb, fkbestb, fevalsb] = nelderMead(Y0b, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
+[Ykb, fkbestb, fevalsb] = nelderMead(Y0b, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
 %simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1c)
-del_e_n = 200000;            %_n stands for new parameters - these are the ones we propose
-del_oc_n = 1/2;
-del_ic_n = -1/2;
-gamma_n = 1/2;
+del_e_n = 2000;            %_n stands for new parameters - these are the ones we propose
+del_oc_n = 1/8;
+del_ic_n = -3/4;
+gamma_n = 1/6;
 
 %a_n is part a w/ new parameters, b_n is part b w/ new parameters
-%[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
-%[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
+[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
+[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
 % Question 1d)
 
 %convergence plots go here
-
+convergencePlot2([fevalsa(:),fkbesta(:)], [fevalsb(:),fkbestb(:)], [fevalsa_n(:),fkbesta_n(:)], [fevalsb_n(:),fkbestb_n(:)],'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\testConvergenceFolder',true)
 
