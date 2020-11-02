@@ -21,11 +21,9 @@ k = length(Y0(1,:)); %number of columns
 % for some stopping condition epsilon
 %while (fkbest - solution) > eps
 %while abs(fkbest(iter)-solution)>eps
-<<<<<<< HEAD
+
 while iter<100
-=======
-while iter<1000
->>>>>>> cb65b634b8e4f610c727ce7d5ae69797a842d956
+
     iter = iter+1;
     % This is 1. (Order) the above while loop will keep us within NM
     

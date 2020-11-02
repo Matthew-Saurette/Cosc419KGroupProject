@@ -31,7 +31,7 @@ bestparam = {};
 bestobj = 10000;
 bestvals = [];
 deleValues = 1.01:0.1:10;
-tic 
+7.8100    0.9800   -0.4800    0.7400tic 
 parfor (del_ex = 1:numel(deleValues))
     del_e = deleValues(del_ex);
    
