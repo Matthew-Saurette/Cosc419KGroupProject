@@ -27,28 +27,36 @@ del_e_s = 2;            %_s stands for standard parameters
 del_oc_s = 1/2;
 del_ic_s = -1/2;
 gamma_s = 0.1;
+bestparam = {};
+bestobj = 10000;
+bestvals = [];
+deleValues = 1.1:0.5:5;
+tic 
+parfor (del_ex = 1:numel(deleValues))
+    del_e = deleValues(del_ex);
+   
+    bestvals(del_ex) = 10000;
+    for del_oc = 0.05:0.1:0.95
+        for del_ic = -0.95:0.1:0.05
+            for gamma = 0.05:0.1:0.95
+            [Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e, del_oc, del_ic, gamma, f, eps);
+            if fkbesta(end) < bestvals(del_ex)
+                bestparam{del_ex} = [del_e,del_oc,del_ic,gamma];
+                bestvals(del_ex) = fkbesta(end);
+            end
+            end
+        end
+    end
+end
+best = bestvals(1);
+bestparams = bestparam{1};
+for i = 1:(length(bestvals))
+    if  best > bestvals(i)
+        best = bestvals(i);
+        bestparams = bestparam{i};
+    end
+end
+toc
 
-
-[Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
-%simplexPlot.plotTotal(Yka,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
-
-% Question 1b)
-Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
-%standard parameters as above
-%[Ykb, fkbestb, fevalsb] = nelderMead(Y0b, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
-%simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
-
-% Question 1c)
-del_e_n = 200000;            %_n stands for new parameters - these are the ones we propose
-del_oc_n = 1/2;
-del_ic_n = -1/2;
-gamma_n = 1/2;
-
-%a_n is part a w/ new parameters, b_n is part b w/ new parameters
-%[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
-%[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
-% Question 1d)
-
-%convergence plots go here
-
-
+disp(best)    
+disp(bestparams)
