@@ -21,7 +21,9 @@ k = length(Y0(1,:)); %number of columns
 % for some stopping condition epsilon
 %while (fkbest - solution) > eps
 %while abs(fkbest(iter)-solution)>eps
-while iter<1000
+
+while iter<100
+
     iter = iter+1;
     % This is 1. (Order) the above while loop will keep us within NM
     
@@ -50,12 +52,12 @@ while iter<1000
     
     %NM STEPS 2-5
     if (f_store(1) <= fr)&&(fr < f_store(k-1)) %REFLECTION STEP%
-        disp("ref")
+        %disp("ref")
         Yk(:,k) = xr;
         f_store(k) = fr;
         stepComputed = "nonshrink";
     elseif (fr < f_store(1))  %EXPANSION%
-        disp("exp")
+        %disp("exp")
         xe = xc + del_e*(xc - Yk(:,k));
         fe = f(xe);
         feval = feval + 1;
@@ -74,12 +76,12 @@ while iter<1000
         feval = feval + 1;
         stepComputed = "nonshrink";
         if foc < fr
-            disp("oc")
+           % disp("oc")
             Yk(:,k) = xoc;
             f_store(k) = foc;
             stepComputed = "nonshrink";
         else
-            disp("ocref")
+            %disp("ocref")
             Yk(:,k) = xr;
             f_store(k) = fr;
             stepComputed = "nonshrink" ;
@@ -90,12 +92,12 @@ while iter<1000
         fic = f(xic);
         feval = feval + 1;
         if fic < f_store(k)
-            disp("ic")
+           % disp("ic")
             Yk(:,k) = xic;
             f_store(k) = fic;
             stepComputed = "nonshrink";
         else
-            disp("shrink")
+           % disp("shrink")
             for i = 2:k
                 Yk(:,i) = (1+gamma).*Yk(:,1) + gamma.*Yk(:,i);
                 f_store(i) = f(Yk(:,i));
@@ -105,23 +107,23 @@ while iter<1000
             stepComputed = "shrink";
         end
     end
-    disp("before sort")
-    Yk
+    %disp("before sort")
+    %Yk
     [Yk, f_store] = sortSimplex(Yk, f_store,stepComputed);
-    disp("after sort")
-    Yk
+    %disp("after sort")
+    %Yk
     
     % Setting fkbest to f(y0)
     fkbest(iter) = f_store(1);
     YkTotal(:,:,iter) = Yk;
     feval_total(iter) = feval;
     
-    disp("fkbest")
-    fkbest(iter)
-    disp("values of f(Yk) across the columns")
-    disp([f_store(1), f_store(2), f_store(3), f_store(4)])
-    disp("fevals")
-    feval
+    %disp("fkbest")
+    %fkbest(iter)
+    %disp("values of f(Yk) across the columns")
+    %disp([f_store(1), f_store(2), f_store(3), f_store(4)])
+    %disp("fevals")
+    %feval
 
 end
 end

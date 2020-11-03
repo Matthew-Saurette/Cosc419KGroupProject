@@ -4,7 +4,7 @@ clc;
 close all;
 % Y# refers to simplex, y# refers to point in given simplex 
 
-eps = 120; %our desired error
+eps = 10; %our desired error
 
 gammadot = [0.0137, 0.0274, 0.0434, 0.0866, 0.137, 0.274, 0.434, 0.866, 1.37, 2.74, 4.34, 5.46, 6.88];
 eta_i = [3220, 2190, 1640, 1050, 766, 490, 348, 223, 163, 104, 76.7, 68.1, 58.2];
@@ -23,10 +23,12 @@ f([9.48,8.36,8.71])  %this is what we want the alg to go to
 Y0a = [0 1 0 0;
        0 0 1 0;
        0 0 0 1];
+ 
 del_e_s = 2;            %_s stands for standard parameters
 del_oc_s = 1/2;
 del_ic_s = -1/2;
-gamma_s = 1/2;
+gamma_s = 0.1;
+
 
 [Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f, eps);
 %simplexPlot.plotTotal(Yka,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
