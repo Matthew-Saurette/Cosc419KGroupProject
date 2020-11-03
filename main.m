@@ -38,14 +38,19 @@ Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 %simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1c)
-del_e_n = 2000;            %_n stands for new parameters - these are the ones we propose
-del_oc_n = 1/8;
-del_ic_n = -3/4;
-gamma_n = 1/6;
+del_e_na = 3.6;            %_n stands for new parameters - these are the ones we propose
+del_oc_na = 0.05;
+del_ic_na = -3/4;
+gamma_na = 0.95;
+
+del_e_nb = 3.6;            %_n stands for new parameters - these are the ones we propose
+del_oc_nb = 0.05;
+del_ic_nb = -3/4;
+gamma_nb = 0.95;
 
 %a_n is part a w/ new parameters, b_n is part b w/ new parameters
-[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
-[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_n, del_oc_n, del_ic_n, gamma_n, f, eps);
+[Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_na, del_oc_na, del_ic_na, gamma_na, f, eps);
+[Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_nb, del_oc_nb, del_ic_nb, gamma_nb, f, eps);
 % Question 1d)
 
 %convergence plots go here
