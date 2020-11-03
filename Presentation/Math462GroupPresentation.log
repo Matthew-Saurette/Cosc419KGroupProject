@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  3 NOV 2020 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  3 NOV 2020 11:27
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -974,246 +974,138 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (Math462GroupPresentation.nav) [1
 
 {C:/Users/sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<NMAlgorithm.jpg, id=50, 520.94624pt x 316.18124pt>
+<NMAlgorithm.jpg, id=51, 520.94624pt x 316.18124pt>
 File: NMAlgorithm.jpg Graphic file (type jpg)
 <use NMAlgorithm.jpg>
-Package pdftex.def Info: NMAlgorithm.jpg  used on input line 22.
+Package pdftex.def Info: NMAlgorithm.jpg  used on input line 26.
 (pdftex.def)             Requested size: 325.17949pt x 197.36191pt.
  [2
 
  <./NMAlgorithm.jpg>]
+<Initialize.jpg, id=78, 124.96687pt x 142.28156pt>
+File: Initialize.jpg Graphic file (type jpg)
+<use Initialize.jpg>
+Package pdftex.def Info: Initialize.jpg  used on input line 32.
+(pdftex.def)             Requested size: 119.80544pt x 136.4107pt.
+<InitializeFig.png, id=79, 553.31718pt x 425.33907pt>
+File: InitializeFig.png Graphic file (type png)
+<use InitializeFig.png>
+Package pdftex.def Info: InitializeFig.png  used on input line 32.
+(pdftex.def)             Requested size: 201.95297pt x 155.23772pt.
+ [3
 
-! LaTeX Error: File `Initialize' not found.
+ <./Initialize.jpg> <./InitializeFig.png>]
+<Order1.jpg, id=108, 222.8325pt x 212.29312pt>
+File: Order1.jpg Graphic file (type jpg)
+<use Order1.jpg>
+Package pdftex.def Info: Order1.jpg  used on input line 45.
+(pdftex.def)             Requested size: 113.81479pt x 108.43326pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `InitializeFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3
-
-]
-
-! LaTeX Error: File `Order' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `OrderFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 34.
+ut line 45.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1
 mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [4
+)
+<Order1Fig.png, id=109, 562.35094pt x 429.85594pt>
+File: Order1Fig.png Graphic file (type png)
+<use Order1Fig.png>
+Package pdftex.def Info: Order1Fig.png  used on input line 45.
+(pdftex.def)             Requested size: 191.8547pt x 146.64757pt.
+ [4
 
-]
+ <./Order1.jpg> <./Order1Fig.png>]
+<Order2.jpg, id=137, 187.45032pt x 164.86594pt>
+File: Order2.jpg Graphic file (type jpg)
+<use Order2.jpg>
+Package pdftex.def Info: Order2.jpg  used on input line 58.
+(pdftex.def)             Requested size: 113.81479pt x 100.10266pt.
+<Order2Fig.png, id=138, 843.15pt x 632.3625pt>
+File: Order2Fig.png Graphic file (type png)
+<use Order2Fig.png>
+Package pdftex.def Info: Order2Fig.png  used on input line 58.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [5
 
-! LaTeX Error: File `Reflect' not found.
+ <./Order2.jpg> <./Order2Fig.png (PNG copy)>]
+<Reflect.jpg, id=167, 268.00125pt x 87.32625pt>
+File: Reflect.jpg Graphic file (type jpg)
+<use Reflect.jpg>
+Package pdftex.def Info: Reflect.jpg  used on input line 71.
+(pdftex.def)             Requested size: 126.8198pt x 41.32315pt.
+<ReflectFig.png, id=168, 843.15pt x 632.3625pt>
+File: ReflectFig.png Graphic file (type png)
+<use ReflectFig.png>
+Package pdftex.def Info: ReflectFig.png  used on input line 71.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [6
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `RefelctFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5
-
-]
-
-! LaTeX Error: File `Expand' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `ExpandFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[6
-
-]
-
-! LaTeX Error: File `OC' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `OCFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ <./Reflect.jpg> <./ReflectFig.png (PNG copy)>]
+<Expand.jpg, id=195, 224.33812pt x 200.24812pt>
+File: Expand.jpg Graphic file (type jpg)
+<use Expand.jpg>
+Package pdftex.def Info: Expand.jpg  used on input line 84.
+(pdftex.def)             Requested size: 126.8198pt x 113.2015pt.
+<ExpandFig.png, id=196, 843.15pt x 632.3625pt>
+File: ExpandFig.png Graphic file (type png)
+<use ExpandFig.png>
+Package pdftex.def Info: ExpandFig.png  used on input line 84.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
 
 [7
 
-]
+ <./Expand.jpg> <./ExpandFig.png (PNG copy)>]
+<OC.jpg, id=224, 286.82156pt x 238.64156pt>
+File: OC.jpg Graphic file (type jpg)
+<use OC.jpg>
+Package pdftex.def Info: OC.jpg  used on input line 97.
+(pdftex.def)             Requested size: 126.8198pt x 105.51604pt.
+<OCFig.png, id=225, 843.15pt x 632.3625pt>
+File: OCFig.png Graphic file (type png)
+<use OCFig.png>
+Package pdftex.def Info: OCFig.png  used on input line 97.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [8
 
-! LaTeX Error: File `IC' not found.
+ <./OC.jpg> <./OCFig.png (PNG copy)>]
+<IC.jpg, id=252, 246.9225pt x 143.03438pt>
+File: IC.jpg Graphic file (type jpg)
+<use IC.jpg>
+Package pdftex.def Info: IC.jpg  used on input line 110.
+(pdftex.def)             Requested size: 126.8198pt x 73.46162pt.
+<ICFig.png, id=253, 843.15pt x 632.3625pt>
+File: ICFig.png Graphic file (type png)
+<use ICFig.png>
+Package pdftex.def Info: ICFig.png  used on input line 110.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [9
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ <./IC.jpg> <./ICFig.png (PNG copy)>]
+<Shrink.jpg, id=280, 345.54094pt x 154.32657pt>
+File: Shrink.jpg Graphic file (type jpg)
+<use Shrink.jpg>
+Package pdftex.def Info: Shrink.jpg  used on input line 123.
+(pdftex.def)             Requested size: 126.8198pt x 56.64073pt.
+<ShrinkFig.png, id=281, 843.15pt x 632.3625pt>
+File: ShrinkFig.png Graphic file (type png)
+<use ShrinkFig.png>
+Package pdftex.def Info: ShrinkFig.png  used on input line 123.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [10
 
-
-! LaTeX Error: File `ICFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8
-
-]
-
-! LaTeX Error: File `Shrink' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `ShrinkFig' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{frame}
-                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9
+ <./Shrink.jpg> <./ShrinkFig.png (PNG copy)>] [11
 
 ]
 \tf@nav=\write6
@@ -1225,21 +1117,21 @@ If that doesn't work, type  X <return>  to quit.
 \tf@snm=\write8
 \openout8 = `Math462GroupPresentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (Math462GroupPresentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18100 strings out of 492484
- 352050 string characters out of 3121601
- 413647 words of memory out of 3000000
- 21971 multiletter control sequences out of 15000+200000
- 9556 words of font info for 35 fonts, out of 3000000 for 9000
+ 18044 strings out of 492484
+ 351796 string characters out of 3121601
+ 413648 words of memory out of 3000000
+ 21917 multiletter control sequences out of 15000+200000
+ 14494 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,67p,820b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
@@ -1248,9 +1140,9 @@ blic/amsfonts/cm/cmss12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/sarah/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/sarah/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on Math462GroupPresentation.pdf (9 pages, 281335 bytes).
+Output written on Math462GroupPresentation.pdf (11 pages, 1271622 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

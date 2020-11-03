@@ -22,7 +22,6 @@ switch stepComputed
                 Yi(:,i-1) = Yi(:,i);
                 Yi(:,i) = temp;
                 
-                
                 tempf = fYi(i-1);
                 fYi(i-1) = fYi(i);
                 fYi(i) = tempf;

@@ -22,12 +22,10 @@ k = length(Y0(1,:)); %number of columns
 %while (fkbest - solution) > eps
 %while abs(fkbest(iter)-solution)>eps
 
-while iter<100
+while iter<2
 
     iter = iter+1;
-    % This is 1. (Order) the above while loop will keep us within NM
-    
-    
+
     %ORDER THE initial simplex SIMPLEX
     if iter == 2
         for i = 1:k
@@ -86,8 +84,7 @@ while iter<100
             f_store(k) = fr;
             stepComputed = "nonshrink" ;
         end
-    elseif (fr >= f_store(k)) %INSIDE CONTRACTION + SHRINK%
-        
+    elseif (fr >= f_store(k))  %INSIDE CONTRACTION + SHRINK% 
         xic = xc + del_ic.*(xc - Yk(:,k));
         fic = f(xic);
         feval = feval + 1;
@@ -103,8 +100,8 @@ while iter<100
                 f_store(i) = f(Yk(:,i));
                 feval = feval + 1;
             end
-            [Yk,f_store] = sortSimplex(Yk,f_store,stepComputed);
             stepComputed = "shrink";
+            [Yk,f_store] = sortSimplex(Yk,f_store,stepComputed);
         end
     end
     %disp("before sort")
@@ -126,5 +123,6 @@ while iter<100
     %feval
 
 end
+fkbest(iter)
 end
 

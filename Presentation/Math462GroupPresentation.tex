@@ -3,7 +3,7 @@
 \usepackage{amssymb}
 \usepackage{xcolor}
 
-\title[Nelder-Mead on the Rhology Problem]{Chapter 5 Project: Apply Nelder-Mead to the Rheology Problem}
+\title[Nelder-Mead on the Rheology Problem]{Chapter 5 Project: Apply Nelder-Mead to the Rheology Problem}
 \author[Matthew, Tyler, and Sarah]{Matthew Saurette, Tyler Weames, and Sarah Wyse}
 \institute[Math 462]{Math 462\\ University of British Columbia - Okanagan}
 \date{December 2020}
@@ -14,6 +14,10 @@
 \begin{document}
 \maketitle
 
+
+
+
+%%%%The NM Algorithm
 \begin{frame}{Nelder-Mead Algorithm}
     \centering
     \includegraphics[width=0.95\linewidth]{NMAlgorithm}\\
@@ -23,44 +27,108 @@
 
 \begin{frame}{0. Initialize}
 	\centering
-	\includegraphics[width=0.45\linewidth]{Initialize}
-	\includegraphics[width=0.45\linewidth]{InitializeFig}
+	\includegraphics[width=0.35\linewidth]{Initialize}
+	\includegraphics[width=0.59\linewidth]{InitializeFig}
 \end{frame}
 
-\begin{frame}{1. Order, create centroid, and compute $x^r$}
-	\centering
-	\includegraphics[width=0.45\linewidth]{Order}
-	\includegraphics[width=0.45\linewidth]{OrderFig}
+\begin{frame}{1. Order}
+	\begin{columns}
+	\begin{column}{0.35\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Order1}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Order1Fig}
+	\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{1 and 2. Create centroid and compute $x^r$}
+	\begin{columns}
+	\begin{column}{0.35\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Order2}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Order2Fig}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{2. Reflect}
-	\centering
-	\includegraphics[width=0.45\linewidth]{Reflect}
-	\includegraphics[width=0.45\linewidth]{RefelctFig}
+	\begin{columns}
+	\begin{column}{0.39\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Reflect}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{ReflectFig}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{3. Expand}
-	\centering
-	\includegraphics[width=0.45\linewidth]{Expand}
-	\includegraphics[width=0.45\linewidth]{ExpandFig}
+	\begin{columns}
+	\begin{column}{0.39\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Expand}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{ExpandFig}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{4.a) Outside Contraction}
-	\centering
-	\includegraphics[width=0.45\linewidth]{OC}
-	\includegraphics[width=0.45\linewidth]{OCFig}
+	\begin{columns}
+	\begin{column}{0.39\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{OC}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{OCFig}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{4.b) Inside Contraction}
-	\centering
-	\includegraphics[width=0.45\linewidth]{IC}
-	\includegraphics[width=0.45\linewidth]{ICFig}
+	\begin{columns}
+	\begin{column}{0.39\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{IC}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{ICFig}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{5. Shrink}
-	\centering
-	\includegraphics[width=0.45\linewidth]{Shrink}
-	\includegraphics[width=0.45\linewidth]{ShrinkFig}
+	\begin{columns}
+	\begin{column}{0.39\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Shrink}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{ShrinkFig}
+	\end{column}
+	\end{columns}
+\end{frame}
+
+
+
+
+
+%%%%The Rheology Problem
+\begin{frame}{The Rheology Problem}
+
 \end{frame}
 
 \end{document}
