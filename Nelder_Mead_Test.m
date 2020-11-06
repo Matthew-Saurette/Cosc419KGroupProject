@@ -76,12 +76,27 @@ end
 % Now that we have tested the cases in the same dimension as our
 % problem, we can test the Nelder Mead algorithm on other dimensions
 % Starting with the nonconvex
-function testRastrigin(testCase)
+function testRastrigin_2var(testCase)
 f = @(x) 20 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2)))); 
 
-Y0 = [-1.5 -3 0;
-       1 3 0;
-       4 4 0];
+Y0 = [-1.5 -3 1;
+       1 3 1];
+del_e = 2;            
+del_oc = 1/2;
+del_ic = -1/2;
+gamma = 1/2;
+eps = 1e-6;
+fkbest_expected = (0);
+[Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
+verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps);
+end
+
+function testRastrigin_10var(testCase)
+f = @(x) 20 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2))) + x(3)^2 - 10*cos(2*pi*x(3)) + (x(4)^2 - 10*cos(2*pi*x(4))) + x(5)^2 - 10*cos(2*pi*x(5)) + (x(6)^2 - 10*cos(2*pi*x(6))) + x(7)^2 - 10*cos(2*pi*x(7)) + (x(8)^2 - 10*cos(2*pi*x(8))) + x(9)^2 - 10*cos(2*pi*x(9)) + (x(10)^2 - 10*cos(2*pi*x(10))) ); 
+Y0 = [];
+for i = 1:10
+    Y0(i,:) = randperm(20,11);
+end
 del_e = 2;            
 del_oc = 1/2;
 del_ic = -1/2;

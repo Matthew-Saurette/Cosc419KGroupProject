@@ -36,7 +36,7 @@ while abs(fkbest(iter)-solution)>eps
     end
     
     %CALCULATE CENTROID%
-    xc = [0;0;0];
+    xc = zeros(k - 1,1);
     for i = 1:k-1
         xc = xc + Yk(:,i);
     end
