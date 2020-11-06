@@ -7,6 +7,7 @@ end
 
 % A trivial test case, where we test convergence on a convex function with
 % the origin as the optimal solution.
+
 function testConvex_atSolution(testCase)
 f = @(x) x(1)^2+x(2)^2+x(3)^2;
 Y0 = [1 0 0 0; 0 1 0 0; 0 0 1 0];
@@ -55,27 +56,7 @@ fkbest_expected = (10);
 verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
 end
 
-% A Nonconvex function with a global min and difficult valley to traverse
-% is the Rosenbrock function
-
-function testNonconvex_solution_min(testCase)
-
-f = @(x) (100*(x(2) - (x(1))^2) + (1 - x(1))^2) + (100*(x(3) - (x(2))^2) + (1 - x(2))^2);
-
-Y0 = [1 0 0 0;
-       0 1 0 0;
-       0 0 1 0];
-del_e = 2;            
-del_oc = 1/2;
-del_ic = -1/2;
-gamma = 1/2;
-eps = 1e-6;
-fkbest_expected = (0);
-[Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
-verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
-end
-
-% And lastly a nonconvex function that goes to -inf with arbitrary starting
+% A nonconvex function that goes to -inf with arbitrary starting
 % points.
 function testNonconvex_solution_no_min(testCase)
 f = @(x) x(1)*x(2) - x(2)*x(3) - x(3)*x(1);
@@ -88,6 +69,61 @@ del_ic = -1/2;
 gamma = 1/2;
 eps = 1e-6;
 fkbest_expected = (-inf);
+[Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
+verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
+end
+
+% Now that we have tested the cases in the same dimension as our
+% problem, we can test the Nelder Mead algorithm on other dimensions
+% Starting with the nonconvex
+function testRastrigin(testCase)
+f = @(x) 20 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2)))); 
+
+Y0 = [-1.5 -3 0;
+       1 3 0;
+       4 4 0];
+del_e = 2;            
+del_oc = 1/2;
+del_ic = -1/2;
+gamma = 1/2;
+eps = 1e-6;
+fkbest_expected = (0);
+[Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
+verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps);
+end
+
+function testSchaffer2(testCase)
+f = @(x) 0.5 + (sin(x(1)^2 - x(2)^2)^2 - 0.5)/(1 + 0.001*(x(1)^2 + x(2)^2))^2;
+
+Y0 = [-100 100 0;
+       10 50 0;
+       26 23 0];
+del_e = 2;            
+del_oc = 1/2;
+del_ic = -1/2;
+gamma = 1/2;
+eps = 1e-6;
+fkbest_expected = (0);
+[Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
+verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps);
+end
+
+% A Nonconvex function with a global min and difficult valley to traverse
+% is the Rosenbrock function
+
+function testRosenbrock(testCase)
+
+f = @(x) (100*(x(2) - (x(1))^2)^2 + (1 - x(1))^2) + (100*(x(3) - (x(2))^2)^2 + (1 - x(2))^2);
+
+Y0 = [1 0 0 0;
+       0 1 0 0;
+       0 0 1 0];
+del_e = 2;            
+del_oc = 1/2;
+del_ic = -1/2;
+gamma = 1/2;
+eps = 1e-6;
+fkbest_expected = (0);
 [Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
 verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
 end
