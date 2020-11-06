@@ -18,10 +18,10 @@ stepComputed = "shrink";
 k = length(Y0(1,:)); %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
-while (fkbest - solution) > eps
+
 while abs(fkbest(iter)-solution)>eps
 
-%while iter<2
+%while iter<100000
 
     iter = iter+1;
 
@@ -40,7 +40,7 @@ while abs(fkbest(iter)-solution)>eps
     for i = 1:k-1
         xc = xc + Yk(:,i);
     end
-    xc = (1/k).*xc;
+    xc = (1/(k-1)).*xc;
     
     %CALCULATE REFLECTION POINT%
     xr = xc + (xc - Yk(:,k));
@@ -95,7 +95,7 @@ while abs(fkbest(iter)-solution)>eps
         else
            % disp("shrink")
             for i = 2:k
-                Yk(:,i) = (1+gamma).*Yk(:,1) + gamma.*Yk(:,i);
+                Yk(:,i) = (1-gamma).*Yk(:,1) + gamma.*Yk(:,i);
                 f_store(i) = f(Yk(:,i));
                 feval = feval + 1;
             end
