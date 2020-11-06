@@ -55,8 +55,8 @@ fkbest_expected = (10);
 verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
 end
 
-% A Nonconvex function with a global min and many local mins, otherwise
-% known as the Rosenbrock function
+% A Nonconvex function with a global min and difficult valley to traverse
+% is the Rosenbrock function
 
 function testNonconvex_solution_min(testCase)
 
