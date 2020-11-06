@@ -21,8 +21,8 @@ k = length(Y0(1,:)); %number of columns
 
 while abs(fkbest(iter)-solution)>eps
 
-%while iter<100000
-
+%while iter<2
+    
     iter = iter+1;
 
     %ORDER THE initial simplex SIMPLEX
