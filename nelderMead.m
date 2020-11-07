@@ -19,9 +19,9 @@ k = length(Y0(1,:)); %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
 
-while abs(fkbest(iter)-solution)>eps
+%while abs(fkbest(iter)-solution)>eps
 
-%while iter<2
+while iter<10000
     
     iter = iter+1;
 
@@ -105,7 +105,7 @@ while abs(fkbest(iter)-solution)>eps
     end
     %disp("before sort")
     %Yk
-    [Yk, f_store] = sortSimplex(Yk, f_store,stepComputed);
+    %[Yk, f_store] = sortSimplex(Yk, f_store,stepComputed);
     %disp("after sort")
     %Yk
     
@@ -120,8 +120,9 @@ while abs(fkbest(iter)-solution)>eps
     %disp([f_store(1), f_store(2), f_store(3), f_store(4)])
     %disp("fevals")
     %feval
-
+    
 end
-fkbest(iter);
+fkbest(iter)
+Yk
 end
 

@@ -10,7 +10,7 @@ eta_i = [3220, 2190, 1640, 1050, 766, 490, 348, 223, 163, 104, 76.7, 68.1, 58.2]
 %function we want to minimize - smallest value will be 0
 f = @(x) sum((abs(520*x(1)*(1+(14*x(2))^2.*(gammadot).^2).^(((0.038*x(3))-1)/2)-eta_i)).^1); 
 eps = 40; %our desired error
-soln = [0; 0; 0];
+soln = 0;
 f([9.48,8.36,8.71]);  %this is what we want the alg to go to
 
 % Question 1a)
