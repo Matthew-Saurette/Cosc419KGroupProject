@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  6 NOV 2020 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 NOV 2020 19:52
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -973,146 +973,149 @@ tor-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (Math462GroupPresentation.nav) [1
 
-{C:/Users/sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<NMAlgorithm.jpg, id=51, 520.94624pt x 316.18124pt>
+{C:/Users/sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+]
+<NMAlgorithm.jpg, id=77, 520.94624pt x 316.18124pt>
 File: NMAlgorithm.jpg Graphic file (type jpg)
 <use NMAlgorithm.jpg>
-Package pdftex.def Info: NMAlgorithm.jpg  used on input line 26.
+Package pdftex.def Info: NMAlgorithm.jpg  used on input line 32.
 (pdftex.def)             Requested size: 325.17949pt x 197.36191pt.
- [2
-
- <./NMAlgorithm.jpg>]
-<Initialize.jpg, id=78, 124.96687pt x 142.28156pt>
-File: Initialize.jpg Graphic file (type jpg)
-<use Initialize.jpg>
-Package pdftex.def Info: Initialize.jpg  used on input line 32.
-(pdftex.def)             Requested size: 119.80544pt x 136.4107pt.
-<InitializeFig.png, id=79, 553.31718pt x 425.33907pt>
-File: InitializeFig.png Graphic file (type png)
-<use InitializeFig.png>
-Package pdftex.def Info: InitializeFig.png  used on input line 32.
-(pdftex.def)             Requested size: 201.95297pt x 155.23772pt.
  [3
 
+ <./NMAlgorithm.jpg>]
+<Initialize.jpg, id=104, 124.96687pt x 142.28156pt>
+File: Initialize.jpg Graphic file (type jpg)
+<use Initialize.jpg>
+Package pdftex.def Info: Initialize.jpg  used on input line 38.
+(pdftex.def)             Requested size: 119.80544pt x 136.4107pt.
+<InitializeFig.png, id=105, 553.31718pt x 425.33907pt>
+File: InitializeFig.png Graphic file (type png)
+<use InitializeFig.png>
+Package pdftex.def Info: InitializeFig.png  used on input line 38.
+(pdftex.def)             Requested size: 201.95297pt x 155.23772pt.
+ [4
+
  <./Initialize.jpg> <./InitializeFig.png>]
-<Order1.jpg, id=108, 222.8325pt x 212.29312pt>
+<Order1.jpg, id=134, 222.8325pt x 212.29312pt>
 File: Order1.jpg Graphic file (type jpg)
 <use Order1.jpg>
-Package pdftex.def Info: Order1.jpg  used on input line 45.
+Package pdftex.def Info: Order1.jpg  used on input line 52.
 (pdftex.def)             Requested size: 113.81479pt x 108.43326pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+<Shrink2.jpg, id=135, 262.73157pt x 180.675pt>
+File: Shrink2.jpg Graphic file (type jpg)
+<use Shrink2.jpg>
+Package pdftex.def Info: Shrink2.jpg  used on input line 52.
+(pdftex.def)             Requested size: 113.81479pt x 78.26767pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 45.
+ut line 52.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1
 mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<Order1Fig.png, id=109, 562.35094pt x 429.85594pt>
+<Order1Fig.png, id=136, 562.35094pt x 429.85594pt>
 File: Order1Fig.png Graphic file (type png)
 <use Order1Fig.png>
-Package pdftex.def Info: Order1Fig.png  used on input line 45.
+Package pdftex.def Info: Order1Fig.png  used on input line 52.
 (pdftex.def)             Requested size: 191.8547pt x 146.64757pt.
- [4
-
- <./Order1.jpg> <./Order1Fig.png>]
-<Order2.jpg, id=137, 187.45032pt x 165.61874pt>
-File: Order2.jpg Graphic file (type jpg)
-<use Order2.jpg>
-Package pdftex.def Info: Order2.jpg  used on input line 58.
-(pdftex.def)             Requested size: 113.81479pt x 100.55975pt.
-<Order2Fig.png, id=138, 843.15pt x 632.3625pt>
-File: Order2Fig.png Graphic file (type png)
-<use Order2Fig.png>
-Package pdftex.def Info: Order2Fig.png  used on input line 58.
-(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [5
 
- <./Order2.jpg> <./Order2Fig.png (PNG copy)>]
-<Reflect.jpg, id=167, 268.00125pt x 87.32625pt>
-File: Reflect.jpg Graphic file (type jpg)
-<use Reflect.jpg>
-Package pdftex.def Info: Reflect.jpg  used on input line 71.
-(pdftex.def)             Requested size: 126.8198pt x 41.32315pt.
-<ReflectFig.png, id=168, 843.15pt x 632.3625pt>
-File: ReflectFig.png Graphic file (type png)
-<use ReflectFig.png>
-Package pdftex.def Info: ReflectFig.png  used on input line 71.
+ <./Order1.jpg> <./Shrink2.jpg> <./Order1Fig.png>]
+<Order2.jpg, id=164, 187.45032pt x 165.61874pt>
+File: Order2.jpg Graphic file (type jpg)
+<use Order2.jpg>
+Package pdftex.def Info: Order2.jpg  used on input line 65.
+(pdftex.def)             Requested size: 113.81479pt x 100.55975pt.
+<Order2Fig.png, id=165, 843.15pt x 632.3625pt>
+File: Order2Fig.png Graphic file (type png)
+<use Order2Fig.png>
+Package pdftex.def Info: Order2Fig.png  used on input line 65.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [6
 
+ <./Order2.jpg> <./Order2Fig.png (PNG copy)>]
+<Reflect.jpg, id=194, 268.00125pt x 87.32625pt>
+File: Reflect.jpg Graphic file (type jpg)
+<use Reflect.jpg>
+Package pdftex.def Info: Reflect.jpg  used on input line 78.
+(pdftex.def)             Requested size: 126.8198pt x 41.32315pt.
+<ReflectFig.png, id=195, 843.15pt x 632.3625pt>
+File: ReflectFig.png Graphic file (type png)
+<use ReflectFig.png>
+Package pdftex.def Info: ReflectFig.png  used on input line 78.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [7
+
  <./Reflect.jpg> <./ReflectFig.png (PNG copy)>]
-<Expand.jpg, id=195, 224.33812pt x 200.24812pt>
+<Expand.jpg, id=223, 224.33812pt x 200.24812pt>
 File: Expand.jpg Graphic file (type jpg)
 <use Expand.jpg>
-Package pdftex.def Info: Expand.jpg  used on input line 84.
+Package pdftex.def Info: Expand.jpg  used on input line 91.
 (pdftex.def)             Requested size: 126.8198pt x 113.2015pt.
-<ExpandFig.png, id=196, 843.15pt x 632.3625pt>
+<ExpandFig.png, id=224, 843.15pt x 632.3625pt>
 File: ExpandFig.png Graphic file (type png)
 <use ExpandFig.png>
-Package pdftex.def Info: ExpandFig.png  used on input line 84.
-(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
-
-[7
-
- <./Expand.jpg> <./ExpandFig.png (PNG copy)>]
-<OC.jpg, id=224, 286.82156pt x 238.64156pt>
-File: OC.jpg Graphic file (type jpg)
-<use OC.jpg>
-Package pdftex.def Info: OC.jpg  used on input line 97.
-(pdftex.def)             Requested size: 126.8198pt x 105.51604pt.
-<OCFig.png, id=225, 843.15pt x 632.3625pt>
-File: OCFig.png Graphic file (type png)
-<use OCFig.png>
-Package pdftex.def Info: OCFig.png  used on input line 97.
+Package pdftex.def Info: ExpandFig.png  used on input line 91.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [8
 
- <./OC.jpg> <./OCFig.png (PNG copy)>]
-<IC.jpg, id=252, 246.9225pt x 143.03438pt>
-File: IC.jpg Graphic file (type jpg)
-<use IC.jpg>
-Package pdftex.def Info: IC.jpg  used on input line 110.
-(pdftex.def)             Requested size: 126.8198pt x 73.46162pt.
-<ICFig.png, id=253, 843.15pt x 632.3625pt>
-File: ICFig.png Graphic file (type png)
-<use ICFig.png>
-Package pdftex.def Info: ICFig.png  used on input line 110.
+ <./Expand.jpg> <./ExpandFig.png (PNG copy)>]
+<OC.jpg, id=251, 286.82156pt x 238.64156pt>
+File: OC.jpg Graphic file (type jpg)
+<use OC.jpg>
+Package pdftex.def Info: OC.jpg  used on input line 104.
+(pdftex.def)             Requested size: 126.8198pt x 105.51604pt.
+<OCFig.png, id=252, 843.15pt x 632.3625pt>
+File: OCFig.png Graphic file (type png)
+<use OCFig.png>
+Package pdftex.def Info: OCFig.png  used on input line 104.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [9
 
- <./IC.jpg> <./ICFig.png (PNG copy)>]
-<Shrink.jpg, id=280, 346.29375pt x 155.83218pt>
-File: Shrink.jpg Graphic file (type jpg)
-<use Shrink.jpg>
-Package pdftex.def Info: Shrink.jpg  used on input line 124.
-(pdftex.def)             Requested size: 126.8198pt x 57.0673pt.
-<Shrink2.jpg, id=281, 262.73157pt x 180.675pt>
-File: Shrink2.jpg Graphic file (type jpg)
-<use Shrink2.jpg>
-Package pdftex.def Info: Shrink2.jpg  used on input line 124.
-(pdftex.def)             Requested size: 113.47151pt x 78.03058pt.
-<ShrinkFig.png, id=282, 843.15pt x 632.3625pt>
-File: ShrinkFig.png Graphic file (type png)
-<use ShrinkFig.png>
-Package pdftex.def Info: ShrinkFig.png  used on input line 124.
+ <./OC.jpg> <./OCFig.png (PNG copy)>]
+<IC.jpg, id=279, 246.9225pt x 143.03438pt>
+File: IC.jpg Graphic file (type jpg)
+<use IC.jpg>
+Package pdftex.def Info: IC.jpg  used on input line 117.
+(pdftex.def)             Requested size: 126.8198pt x 73.46162pt.
+<ICFig.png, id=280, 843.15pt x 632.3625pt>
+File: ICFig.png Graphic file (type png)
+<use ICFig.png>
+Package pdftex.def Info: ICFig.png  used on input line 117.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [10
 
- <./Shrink.jpg> <./Shrink2.jpg> <./ShrinkFig.png (PNG copy)>] [11
+ <./IC.jpg> <./ICFig.png (PNG copy)>]
+<Shrink.jpg, id=306, 346.29375pt x 155.83218pt>
+File: Shrink.jpg Graphic file (type jpg)
+<use Shrink.jpg>
+Package pdftex.def Info: Shrink.jpg  used on input line 131.
+(pdftex.def)             Requested size: 126.8198pt x 57.0673pt.
+File: Shrink2.jpg Graphic file (type jpg)
+<use Shrink2.jpg>
+Package pdftex.def Info: Shrink2.jpg  used on input line 131.
+(pdftex.def)             Requested size: 113.47151pt x 78.03058pt.
+<ShrinkFig.png, id=307, 843.15pt x 632.3625pt>
+File: ShrinkFig.png Graphic file (type png)
+<use ShrinkFig.png>
+Package pdftex.def Info: ShrinkFig.png  used on input line 131.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [11
 
-]
+ <./Shrink.jpg> <./ShrinkFig.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `Math462GroupPresentation.nav'.
 
@@ -1122,11 +1125,11 @@ Package pdftex.def Info: ShrinkFig.png  used on input line 124.
 \tf@snm=\write8
 \openout8 = `Math462GroupPresentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (Math462GroupPresentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1145,7 +1148,7 @@ blic/amsfonts/cm/cmss12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/sarah/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/sarah/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on Math462GroupPresentation.pdf (11 pages, 1311123 bytes).
+Output written on Math462GroupPresentation.pdf (11 pages, 1311163 bytes).
 PDF statistics:
  356 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)

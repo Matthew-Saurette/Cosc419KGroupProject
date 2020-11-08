@@ -100,12 +100,12 @@ while iter<10000
                 feval = feval + 1;
             end
             stepComputed = "shrink";
-            [Yk,f_store] = sortSimplex(Yk,f_store,stepComputed);
+            %[Yk,f_store] = sortSimplex(Yk,f_store,stepComputed);
         end
     end
     %disp("before sort")
     %Yk
-    %[Yk, f_store] = sortSimplex(Yk, f_store,stepComputed);
+    [Yk, f_store] = sortSimplex(Yk, f_store,stepComputed);
     %disp("after sort")
     %Yk
     
