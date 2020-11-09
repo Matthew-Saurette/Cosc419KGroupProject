@@ -34,18 +34,7 @@ Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 %simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1c)
-<<<<<<< HEAD
-del_e_na = 4.71;            %_n stands for new parameters - these are the ones we propose
-del_oc_na = 0.65;
-del_ic_na = -0.3;
-gamma_na = 0.94;
 
-
-del_e_nb = 3.6;            %_n stands for new parameters - these are the ones we propose
-del_oc_nb = 0.05;
-del_ic_nb = -3/4;
-gamma_nb = 0.95;
-=======
 del_e_na = 2.81;            %_n stands for new parameters - these are the ones we propose
 del_oc_na = 0.81;
 del_ic_na = -0.39;
@@ -55,7 +44,6 @@ del_e_nb = 2.81;            %_n stands for new parameters - these are the ones w
 del_oc_nb = 0.81;
 del_ic_nb = -0.39;
 gamma_nb = 0.1;
->>>>>>> d87f602c64920f66ab334b7277b79ad17653d45c
 
 %a_n is part a w/ new parameters, b_n is part b w/ new parameters
 [Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_na, del_oc_na, del_ic_na, gamma_na, f, soln, eps);
