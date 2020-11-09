@@ -4,8 +4,11 @@
 %Yk(matrix) at each iterate (stored in list)
 %f(y0)=fkbest at at each iterate (store in list)
 %number of function evals [function eval,f(yk)]
-function [YkTotal, fkbest, feval_total] = nelderMead(Y0,del_e,del_oc,del_ic,gamma,f, solution, eps)
+function [YkTotal, fkbest, feval_total] = FortnelderMead(Y0,del_e,del_oc,del_ic,gamma,f, solution, eps)
 
+sigma = @(x) x^2; 
+beta = @(x) x^2;
+v = von(Y0)/2;
 % Initialize the number of function evaluations and the storage vector for f
 YkTotal(:,:,1) = Y0;
 Yk = Y0;
@@ -47,8 +50,23 @@ while iter<10000
     fr = f(xr);
     feval = feval + 1;
     
+    %Calculate Fbar%
+    for i = 1:k-1
+        fbar = fbar + f_store(i);
+    end
+    fbar = (1/(k-1)).*fbar;
+    %check vol refstep
+    Ykr = Yk
+    Ykr(:,k) = xr
+    zbar = 2.*Yk(:,1) - Yk(:,k)
+    if (von(Ykr) < v)
+    fzbar = f(zbar)
+    feval = feval + 1;
+    if fzbar <= (f_store(1) - min(sigma(diam(
+    else
+        
     %NM STEPS 2-5
-    if (f_store(1) <= fr)&&(fr < f_store(k-1)) %REFLECTION STEP%
+    if (f_store(1) <= fr)&&(fr < (f_store(k-1)-max(sigma(diam(Yk)),(f_store(k)-fbar)-beta(diam(Yk))))) %REFLECTION STEP%
         %disp("ref")
         Yk(:,k) = xr;
         f_store(k) = fr;
@@ -58,7 +76,9 @@ while iter<10000
         xe = xc + del_e*(xc - Yk(:,k));
         fe = f(xe);
         feval = feval + 1;
-        if fe < fr
+        Yke = Yk
+        Yke(:,k) = xe
+        if (fe < fr ) && (von(Yke) >=v)
             Yk(:,k) = xe;
             f_store(k) = fe;
         else
@@ -72,7 +92,9 @@ while iter<10000
         foc = f(xoc);
         feval = feval + 1;
         stepComputed = "nonshrink";
-        if foc < fr
+        Ykoc = Yk
+        Ykoc(:,k) = xoc
+        if (foc < (fr - sigma(diam(Yk)))) && (von(Ykoc) >= v)
            % disp("oc")
             Yk(:,k) = xoc;
             f_store(k) = foc;
@@ -87,7 +109,9 @@ while iter<10000
         xic = xc + del_ic.*(xc - Yk(:,k));
         fic = f(xic);
         feval = feval + 1;
-        if fic < f_store(k)
+        Ykic = Yk
+        Ykic(:,k) = xic
+        if (fic < (f_store(k)- sigma(diam(Yk)))) && (von(Ykic) >= v)
            % disp("ic")
             Yk(:,k) = xic;
             f_store(k) = fic;
@@ -101,6 +125,7 @@ while iter<10000
             end
             stepComputed = "shrink";
         end
+    end
     end
     %disp("before sort")
     %Yk
@@ -124,4 +149,29 @@ end
 %fkbest(iter)
 %Yk
 end
+function [diam] = diamHull(Yk)
+max = -1
+for i = 1:len(Yk(1,:))
+    for j = i:len(Yk(1,:))
+        norm = norm(Yk(:,i)-Yk(:,j))
+        if norm > max
+            max = norm
+        end
+    end
+end
+diam = max
+        
+end
+function [vol] = volumeHull(Yk)
+for i = 2:len(Yk(1,:))
+    L(:,i-1) = Yk(:,i)-Yk(:,1)
+end
+vol = abs(det(L))/factorial(len(L(1,:)))
+
+end
+function [von] = vonHull(Yk)
+von = volumeHull(Yk)/(diamHull(Yk)^(len(Yk(1,:))-1))
+end
+
+
 

@@ -34,10 +34,11 @@ Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 %simplexPlot.plotTotal(Ykb,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
 
 % Question 1c)
-del_e_na = 3.6;            %_n stands for new parameters - these are the ones we propose
-del_oc_na = 0.05;
-del_ic_na = -3/4;
-gamma_na = 0.95;
+del_e_na = 4.71;            %_n stands for new parameters - these are the ones we propose
+del_oc_na = 0.65;
+del_ic_na = -0.3;
+gamma_na = 0.94;
+
 
 del_e_nb = 3.6;            %_n stands for new parameters - these are the ones we propose
 del_oc_nb = 0.05;

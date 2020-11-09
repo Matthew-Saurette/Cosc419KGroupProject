@@ -27,18 +27,19 @@ del_e_s = 2;            %_s stands for standard parameters
 del_oc_s = 1/2;
 del_ic_s = -1/2;
 gamma_s = 0.1;
+eps = 40
 bestparam = {};
 bestobj = 10000;
 bestvals = [];
-deleValues = 1.01:0.1:10;
+deleValues = 4.70:0.001:4.72;
 tic 
 parfor (del_ex = 1:numel(deleValues))
     del_e = deleValues(del_ex);
    
-    bestvals(del_ex) = 10000;
-    for del_oc = 0.01:0.01:0.99
-        for del_ic = -0.99:0.01:0.01
-            for gamma = 0.01:0.01:0.99
+    bestvals(del_ex) = 1000000;
+    for del_oc = 0.64:0.001:0.66
+        for del_ic = -0.31:0.001:-0.29
+            for gamma = 0.93:0.001:0.95
             [Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e, del_oc, del_ic, gamma, f, eps);
             if fkbesta(end) < bestvals(del_ex)
                 bestparam{del_ex} = [del_e,del_oc,del_ic,gamma];

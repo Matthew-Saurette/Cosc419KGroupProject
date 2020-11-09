@@ -92,7 +92,7 @@ verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'Ab
 end
 
 function testRastrigin_10var(testCase)
-f = @(x) 20 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2))) + x(3)^2 - 10*cos(2*pi*x(3)) + (x(4)^2 - 10*cos(2*pi*x(4))) + x(5)^2 - 10*cos(2*pi*x(5)) + (x(6)^2 - 10*cos(2*pi*x(6))) + x(7)^2 - 10*cos(2*pi*x(7)) + (x(8)^2 - 10*cos(2*pi*x(8))) + x(9)^2 - 10*cos(2*pi*x(9)) + (x(10)^2 - 10*cos(2*pi*x(10))) ); 
+f = @(x) 100 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2))) + x(3)^2 - 10*cos(2*pi*x(3)) + (x(4)^2 - 10*cos(2*pi*x(4))) + x(5)^2 - 10*cos(2*pi*x(5)) + (x(6)^2 - 10*cos(2*pi*x(6))) + x(7)^2 - 10*cos(2*pi*x(7)) + (x(8)^2 - 10*cos(2*pi*x(8))) + x(9)^2 - 10*cos(2*pi*x(9)) + (x(10)^2 - 10*cos(2*pi*x(10))) ); 
 Y0 = [];
 for i = 1:10
     Y0(i,:) = randperm(20,11);
@@ -112,7 +112,7 @@ f = @(x) 0.5 + (sin(x(1)^2 - x(2)^2)^2 - 0.5)/(1 + 0.001*(x(1)^2 + x(2)^2))^2;
 
 Y0 = [-100 100 0;
        10 50 0;
-       26 23 0];
+       ];
 del_e = 2;            
 del_oc = 1/2;
 del_ic = -1/2;
