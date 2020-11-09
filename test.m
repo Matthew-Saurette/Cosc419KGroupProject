@@ -1,23 +1,39 @@
-%This is a test file for our github to play around with :) %
+%Main mfile to run everything / what we need%
+clear;
+clc;
+close all;
 
 
-%testing simplex plot%%
-X=[0,1,0,0;
-    0,0,1,0;
-    0,0,0,1];
-Y=[0,-1,0,0;
-    0,0,-1,0;
-   0,0,0,-1];
-Z = [0,-0.5,0,0;
-    0,0,-.5,0;
-   0,0,0,-.5];
+gammadot = [0.0137, 0.0274, 0.0434, 0.0866, 0.137, 0.274, 0.434, 0.866, 1.37, 2.74, 4.34, 5.46, 6.88];
+eta_i = [3220, 2190, 1640, 1050, 766, 490, 348, 223, 163, 104, 76.7, 68.1, 58.2];
 
-simplexPlot.plot(X,Y,1,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
-X = {X,Y,Z}
-simplexPlot.plotTotal(X,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testSimplexPlotFolder\');
-%testing convergence plot%
-X =[0,100; 1,90;2,80;3,70];
-Y =[0,110; 1,100;2,90];
-Z =[0,70; 1,60;2,50];
+%function we want to minimize - smallest value will be 0
 
-convergencePlot.plot(X,Y,Z,'C:\Users\User\Desktop\Math462\GroupProject\Cosc419KGroupProject\testConvergenceFolder\',true);
+
+mu = (1-sqrt(33))/8
+lambda = (1+sqrt(33))/8
+eps = 40; %our desired error
+soln = 0;  %this is what we want the alg to go to
+
+% Question 1a)
+Y0a = [0 lambda 1 ;
+       0 mu 1 ];
+ 
+del_e_s = 2;            %_s stands for standard parameters
+del_oc_s = 1/2;
+del_ic_s = -1/2;
+gamma_s = 1/2;
+
+
+[Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, @f, soln, eps);
+[Ykb, fkbestb, fevalsb] = fortifiedNelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, @f, soln, eps);
+convergencePlot2([fevalsa(:),fkbesta(:)], [fevalsb(:),fkbestb(:)], [fevalsa(:),fkbesta(:)], [fevalsa(:),fkbesta(:)],'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\testConvergenceFolder\',false)
+
+function y = f(x)
+y=0;
+if x(1)<=0
+    y= 360*x(1)^2+x(2)+x(2)^2;
+else
+    y=6*x(1)^2+x(2)+x(2)^2;
+end
+end
