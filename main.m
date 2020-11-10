@@ -18,10 +18,10 @@ Y0a = [0 1 0 0;
        0 0 1 0;
        0 0 0 1];
  
-del_e_s = 2;            %_s stands for standard parameters
-del_oc_s = 1/2;
-del_ic_s = -1/2;
-gamma_s = 1/2;
+del_e_s = 4.71;            %_s stands for standard parameters
+del_oc_s = 0.65;
+del_ic_s = -0.3;
+gamma_s = 0.94;
 
 
 [Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, f, soln, eps);
@@ -35,10 +35,10 @@ Y0b = Y0a + (9.5)*ones(3,4);   %translate Y0a by 9.5
 
 % Question 1c)
 
-del_e_na = 2.81;            %_n stands for new parameters - these are the ones we propose
-del_oc_na = 0.81;
-del_ic_na = -0.39;
-gamma_na = 0.1;
+del_e_na = 1.6;            %_n stands for new parameters - these are the ones we propose
+del_oc_na = 0.7784;
+del_ic_na = -0.5;
+gamma_na = 0.2569;
 
 del_e_nb = 2.81;            %_n stands for new parameters - these are the ones we propose
 del_oc_nb = 0.81;

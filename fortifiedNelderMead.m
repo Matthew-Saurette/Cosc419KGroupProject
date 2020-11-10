@@ -6,10 +6,11 @@
 %number of function evals [function eval,f(yk)]
 function [YkTotal, fkbest, feval_total] = fortifiedNelderMead(Y0,del_e,del_oc,del_ic,gamma,f, solution, eps)
 
-sigma = @(x) 10^(-5)*min(x^2,1); 
-beta = @(x) 10^(5)*x^2;
-v = 10^(-5)
-theta = 0.1
+sigma = @(x) (10^(-5))*min(0.5*x^2,1); 
+beta = @(x) (10^(6))*x^2;
+disp(vonHull(Y0));
+v = 10^(-10);
+theta = 0.1;
 % Initialize the number of function evaluations and the storage vector for f
 YkTotal(:,:,1) = Y0;
 Yk = Y0;
@@ -66,6 +67,7 @@ while iter<10000
     fzbar = f(zbar);
     feval = feval + 1;
     if fzbar <= (f_store(1) - min(sigma(diamHull(Yk)),theta*(f_store(k)-f_store(1))-beta(diamHull(Yk))))
+       % disp("rotation" + iter)
         Yk = 2.*Yk(:,1) - Yk;
         stepComputed = "shrink";
         

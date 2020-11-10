@@ -21,7 +21,7 @@ k = length(Y0(1,:)); %number of columns
 
 %while abs(fkbest(iter)-solution)>eps
 
-while iter<10000
+while iter<100
     
     iter = iter+1;
 
