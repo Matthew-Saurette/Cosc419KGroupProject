@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  12 NOV 2020 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  12 NOV 2020 17:14
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -973,145 +973,152 @@ tor-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (Math462GroupPresentation.nav) [1
 
-{C:/Users/sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
-
-]
-<NMAlgorithm.jpg, id=77, 520.94624pt x 316.18124pt>
-File: NMAlgorithm.jpg Graphic file (type jpg)
-<use NMAlgorithm.jpg>
-Package pdftex.def Info: NMAlgorithm.jpg  used on input line 32.
-(pdftex.def)             Requested size: 325.17949pt x 197.36191pt.
- [3
-
- <./NMAlgorithm.jpg>]
-<Initialize.jpg, id=104, 124.96687pt x 142.28156pt>
-File: Initialize.jpg Graphic file (type jpg)
-<use Initialize.jpg>
-Package pdftex.def Info: Initialize.jpg  used on input line 38.
-(pdftex.def)             Requested size: 119.80544pt x 136.4107pt.
-<InitializeFig.png, id=105, 553.31718pt x 425.33907pt>
-File: InitializeFig.png Graphic file (type png)
-<use InitializeFig.png>
-Package pdftex.def Info: InitializeFig.png  used on input line 38.
-(pdftex.def)             Requested size: 201.95297pt x 155.23772pt.
- [4
-
- <./Initialize.jpg> <./InitializeFig.png>]
-<Order1.jpg, id=134, 222.8325pt x 212.29312pt>
-File: Order1.jpg Graphic file (type jpg)
-<use Order1.jpg>
-Package pdftex.def Info: Order1.jpg  used on input line 52.
-(pdftex.def)             Requested size: 113.81479pt x 108.43326pt.
-<Shrink2.jpg, id=135, 262.73157pt x 180.675pt>
-File: Shrink2.jpg Graphic file (type jpg)
-<use Shrink2.jpg>
-Package pdftex.def Info: Shrink2.jpg  used on input line 52.
-(pdftex.def)             Requested size: 113.81479pt x 78.26767pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+{C:/Users/sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
 
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 52.
+ut line 38.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1
 mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<Order1Fig.png, id=136, 562.35094pt x 429.85594pt>
+<Data.jpg, id=53, 238.64156pt x 191.21437pt>
+File: Data.jpg Graphic file (type jpg)
+<use Data.jpg>
+Package pdftex.def Info: Data.jpg  used on input line 38.
+(pdftex.def)             Requested size: 146.32976pt x 117.24747pt.
+ [2
+
+ <./Data.jpg>]
+<NMAlgorithm.jpg, id=87, 520.94624pt x 316.18124pt>
+File: NMAlgorithm.jpg Graphic file (type jpg)
+<use NMAlgorithm.jpg>
+Package pdftex.def Info: NMAlgorithm.jpg  used on input line 47.
+(pdftex.def)             Requested size: 325.17949pt x 197.36191pt.
+ [3
+
+ <./NMAlgorithm.jpg>]
+<Initialize.jpg, id=114, 124.96687pt x 142.28156pt>
+File: Initialize.jpg Graphic file (type jpg)
+<use Initialize.jpg>
+Package pdftex.def Info: Initialize.jpg  used on input line 53.
+(pdftex.def)             Requested size: 119.80544pt x 136.4107pt.
+<InitializeFig.png, id=115, 553.31718pt x 425.33907pt>
+File: InitializeFig.png Graphic file (type png)
+<use InitializeFig.png>
+Package pdftex.def Info: InitializeFig.png  used on input line 53.
+(pdftex.def)             Requested size: 201.95297pt x 155.23772pt.
+ [4
+
+ <./Initialize.jpg> <./InitializeFig.png>]
+<Order1.jpg, id=144, 222.8325pt x 212.29312pt>
+File: Order1.jpg Graphic file (type jpg)
+<use Order1.jpg>
+Package pdftex.def Info: Order1.jpg  used on input line 67.
+(pdftex.def)             Requested size: 113.81479pt x 108.43326pt.
+<Shrink2.jpg, id=145, 262.73157pt x 180.675pt>
+File: Shrink2.jpg Graphic file (type jpg)
+<use Shrink2.jpg>
+Package pdftex.def Info: Shrink2.jpg  used on input line 67.
+(pdftex.def)             Requested size: 113.81479pt x 78.26767pt.
+<Order1Fig.png, id=146, 562.35094pt x 429.85594pt>
 File: Order1Fig.png Graphic file (type png)
 <use Order1Fig.png>
-Package pdftex.def Info: Order1Fig.png  used on input line 52.
+Package pdftex.def Info: Order1Fig.png  used on input line 67.
 (pdftex.def)             Requested size: 191.8547pt x 146.64757pt.
  [5
 
  <./Order1.jpg> <./Shrink2.jpg> <./Order1Fig.png>]
-<Order2.jpg, id=164, 187.45032pt x 165.61874pt>
+<Order2.jpg, id=174, 187.45032pt x 165.61874pt>
 File: Order2.jpg Graphic file (type jpg)
 <use Order2.jpg>
-Package pdftex.def Info: Order2.jpg  used on input line 65.
+Package pdftex.def Info: Order2.jpg  used on input line 80.
 (pdftex.def)             Requested size: 113.81479pt x 100.55975pt.
-<Order2Fig.png, id=165, 843.15pt x 632.3625pt>
+<Order2Fig.png, id=175, 843.15pt x 632.3625pt>
 File: Order2Fig.png Graphic file (type png)
 <use Order2Fig.png>
-Package pdftex.def Info: Order2Fig.png  used on input line 65.
+Package pdftex.def Info: Order2Fig.png  used on input line 80.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
- [6
+
+[6
 
  <./Order2.jpg> <./Order2Fig.png (PNG copy)>]
-<Reflect.jpg, id=194, 268.00125pt x 87.32625pt>
+<Reflect.jpg, id=203, 268.00125pt x 87.32625pt>
 File: Reflect.jpg Graphic file (type jpg)
 <use Reflect.jpg>
-Package pdftex.def Info: Reflect.jpg  used on input line 78.
+Package pdftex.def Info: Reflect.jpg  used on input line 93.
 (pdftex.def)             Requested size: 126.8198pt x 41.32315pt.
-<ReflectFig.png, id=195, 843.15pt x 632.3625pt>
+<ReflectFig.png, id=204, 843.15pt x 632.3625pt>
 File: ReflectFig.png Graphic file (type png)
 <use ReflectFig.png>
-Package pdftex.def Info: ReflectFig.png  used on input line 78.
+Package pdftex.def Info: ReflectFig.png  used on input line 93.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [7
 
  <./Reflect.jpg> <./ReflectFig.png (PNG copy)>]
-<Expand.jpg, id=223, 224.33812pt x 200.24812pt>
+<Expand.jpg, id=232, 224.33812pt x 200.24812pt>
 File: Expand.jpg Graphic file (type jpg)
 <use Expand.jpg>
-Package pdftex.def Info: Expand.jpg  used on input line 91.
+Package pdftex.def Info: Expand.jpg  used on input line 106.
 (pdftex.def)             Requested size: 126.8198pt x 113.2015pt.
-<ExpandFig.png, id=224, 843.15pt x 632.3625pt>
+<ExpandFig.png, id=233, 843.15pt x 632.3625pt>
 File: ExpandFig.png Graphic file (type png)
 <use ExpandFig.png>
-Package pdftex.def Info: ExpandFig.png  used on input line 91.
+Package pdftex.def Info: ExpandFig.png  used on input line 106.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [8
 
  <./Expand.jpg> <./ExpandFig.png (PNG copy)>]
-<OC.jpg, id=251, 286.82156pt x 238.64156pt>
+<OC.jpg, id=260, 286.82156pt x 238.64156pt>
 File: OC.jpg Graphic file (type jpg)
 <use OC.jpg>
-Package pdftex.def Info: OC.jpg  used on input line 104.
+Package pdftex.def Info: OC.jpg  used on input line 119.
 (pdftex.def)             Requested size: 126.8198pt x 105.51604pt.
-<OCFig.png, id=252, 843.15pt x 632.3625pt>
+<OCFig.png, id=261, 843.15pt x 632.3625pt>
 File: OCFig.png Graphic file (type png)
 <use OCFig.png>
-Package pdftex.def Info: OCFig.png  used on input line 104.
+Package pdftex.def Info: OCFig.png  used on input line 119.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [9
 
  <./OC.jpg> <./OCFig.png (PNG copy)>]
-<IC.jpg, id=279, 246.9225pt x 143.03438pt>
+<IC.jpg, id=288, 246.9225pt x 143.03438pt>
 File: IC.jpg Graphic file (type jpg)
 <use IC.jpg>
-Package pdftex.def Info: IC.jpg  used on input line 117.
+Package pdftex.def Info: IC.jpg  used on input line 132.
 (pdftex.def)             Requested size: 126.8198pt x 73.46162pt.
-<ICFig.png, id=280, 843.15pt x 632.3625pt>
+<ICFig.png, id=289, 843.15pt x 632.3625pt>
 File: ICFig.png Graphic file (type png)
 <use ICFig.png>
-Package pdftex.def Info: ICFig.png  used on input line 117.
+Package pdftex.def Info: ICFig.png  used on input line 132.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [10
 
  <./IC.jpg> <./ICFig.png (PNG copy)>]
-<Shrink.jpg, id=307, 346.29375pt x 155.83218pt>
+<Shrink.jpg, id=316, 346.29375pt x 155.83218pt>
 File: Shrink.jpg Graphic file (type jpg)
 <use Shrink.jpg>
-Package pdftex.def Info: Shrink.jpg  used on input line 131.
+Package pdftex.def Info: Shrink.jpg  used on input line 146.
 (pdftex.def)             Requested size: 126.8198pt x 57.0673pt.
 File: Shrink2.jpg Graphic file (type jpg)
 <use Shrink2.jpg>
-Package pdftex.def Info: Shrink2.jpg  used on input line 131.
+Package pdftex.def Info: Shrink2.jpg  used on input line 146.
 (pdftex.def)             Requested size: 113.47151pt x 78.03058pt.
-<ShrinkFig.png, id=308, 843.15pt x 632.3625pt>
+<ShrinkFig.png, id=317, 843.15pt x 632.3625pt>
 File: ShrinkFig.png Graphic file (type png)
 <use ShrinkFig.png>
-Package pdftex.def Info: ShrinkFig.png  used on input line 131.
+Package pdftex.def Info: ShrinkFig.png  used on input line 146.
 (pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
  [11
 
@@ -1131,32 +1138,40 @@ Package pdftex.def Info: ShrinkFig.png  used on input line 131.
 \tf@snm=\write8
 \openout8 = `Math462GroupPresentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
- (Math462GroupPresentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+
+(Math462GroupPresentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18085 strings out of 492484
- 352629 string characters out of 3121601
+ 18100 strings out of 492484
+ 352883 string characters out of 3121601
  418780 words of memory out of 3000000
- 21952 multiletter control sequences out of 15000+200000
+ 21967 multiletter control sequences out of 15000+200000
  14801 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,820b,850s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,15n,67p,820b,762s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmss10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmss12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/sarah/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/sarah/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on Math462GroupPresentation.pdf (14 pages, 1331140 bytes).
+/cm/cmex10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sarah/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/sarah/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/sar
+ah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><
+C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmssi10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmssi12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sarah/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sarah/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on Math462GroupPresentation.pdf (14 pages, 1434896 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
+ 463 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

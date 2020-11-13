@@ -18,8 +18,23 @@
 %%%%The Rheology Problem
 %------------------------------------------------------------------------
 \begin{frame}{The Rheology Problem}
-
-
+\begin{block}{Viscosity of a system}
+$$\eta(\dot{\gamma}) = \eta_0(1+\lambda^2\dot{\gamma}^2)^{\frac{\beta -1}{2}}$$
+A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambda$, and $\beta$.
+\end{block}
+\begin{columns}
+	\begin{column}{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Data}
+	\end{column}
+	\begin{column}{0.53\linewidth}
+		Absolute Error:
+		$$\epsilon_i(\eta_0, \lambda, \beta) = |\eta_0(1+\lambda^2\dot{\gamma}^2)^{\frac{\beta -1}{2}} - \eta_i|$$
+		Non-smooth optimization problem:
+		$$\hat{g}(\eta_0, \lambda, \beta) = \sum\limits_{i=1}^{13}\epsilon_i(\eta_0, \lambda, \beta)$$
+	\end{column}
+\end{columns}
+\hfill \tiny Table 1.1 from textbook
 \end{frame}
 
 %%%%The NM Algorithm
@@ -140,18 +155,19 @@
 %%%%Solve the Rheology Problem
 %------------------------------------------------------------------------
 \begin{frame}{The Rheology Problem: Revisited}
+%maybe turn this into 2 slides, one for standard and one for new params
 	\begin{columns}
 	\begin{column}{0.49\linewidth}
 	\begin{block}{1. Standard parameters}
 		Here is the code we gave to NM to run the standard parameters\\
-		Here is the function values we obtained by running NM on the standard parameters
+		Here is the simplex and function values we obtained by running NM on the standard parameters
 	\end{block}
 	\end{column}
 	\begin{column}{0.49\linewidth}
 	\begin{block}{2. New parameters}
 		We proposed new parameters using grid search on the parameter space\\
 		Here is the code we gave to NM to run the new parameters\\
-		Here is the function values we obtained by running NM on our new parameters
+		Here is the simplex and function values we obtained by running NM on our new parameters
 	\end{block}
 	\end{column}
 	\end{columns}
