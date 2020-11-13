@@ -49,12 +49,10 @@ while iter<100
     
     %NM STEPS 2-5
     if (f_store(1) <= fr)&&(fr < f_store(k-1)) %REFLECTION STEP%
-        %disp("ref")
         Yk(:,k) = xr;
         f_store(k) = fr;
         stepComputed = "nonshrink";
     elseif (fr < f_store(1))  %EXPANSION%
-        %disp("exp")
         xe = xc + del_e*(xc - Yk(:,k));
         fe = f(xe);
         feval = feval + 1;
@@ -73,12 +71,10 @@ while iter<100
         feval = feval + 1;
         stepComputed = "nonshrink";
         if foc < fr
-           % disp("oc")
             Yk(:,k) = xoc;
             f_store(k) = foc;
             stepComputed = "nonshrink";
         else
-            %disp("ocref")
             Yk(:,k) = xr;
             f_store(k) = fr;
             stepComputed = "nonshrink" ;
@@ -88,12 +84,10 @@ while iter<100
         fic = f(xic);
         feval = feval + 1;
         if fic < f_store(k)
-           % disp("ic")
             Yk(:,k) = xic;
             f_store(k) = fic;
             stepComputed = "nonshrink";
         else
-           % disp("shrink")
             for i = 2:k
                 Yk(:,i) = (1-gamma).*Yk(:,1) + gamma.*Yk(:,i);
                 f_store(i) = f(Yk(:,i));

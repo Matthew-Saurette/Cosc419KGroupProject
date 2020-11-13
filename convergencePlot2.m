@@ -21,7 +21,7 @@ plot(Z2(:,1),Z2(:,2),'-s','MarkerSize',10);
 
 %add labels%
 title('Convergence plot');
-legend('Problem 1','Problem 2','Problem 3a','Problem 3b');
+legend('Problem 1a','Problem 1b','Problem 2a','Problem 2b');
 if (logplot)
     xlabel(strcat('log_2(Number of Function Evaluations)'));
     ylabel('log_2(Best Function Value Found)');
