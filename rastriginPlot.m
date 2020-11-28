@@ -1,6 +1,6 @@
 clear all;
 clc;
-
+% Has the minimum at f(0,0) = 0
 [X,Y] = meshgrid(-2:.2:2);
 Z1 = 20 + (X^2 - 10*cos(2*pi*X)) + (Y^2 - 10*cos(2*pi*Y));
 h = figure;

@@ -44,10 +44,9 @@ end
 % demonstrate the Nelder Mead method is not simply converging to the
 % origin.
 function testConvex_solution_not_origin(testCase)
-f = @(x) (x(1)-3)^2+(x(2)-3)^2+(x(3)-3)^2 + 10;
-Y0 = [10 10 356 423;
-       10 346 9 56;
-       2456 234565 34567 345];
+f = @(x) (x(1)-3)^2+(x(2)-3)^2 + 10;
+Y0 = [10 10 356;
+       10 346 9;];
 del_e = 2;            
 del_oc = 1/2;
 del_ic = -1/2;
@@ -57,23 +56,6 @@ fkbest_expected = (10);
 [Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
 verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
 end
-
-% A nonconvex function that goes to -inf with arbitrary starting
-% points.
-% function testNonconvex_solution_no_min(testCase)
-% f = @(x) x(1)*x(2) - x(2)*x(3) - x(3)*x(1);
-% Y0 = [10 10 356 423;
-%        10 346 9 56;
-%        2456 234565 34567 345];
-% del_e = 2;            
-% del_oc = 1/2;
-% del_ic = -1/2;
-% gamma = 1/2;
-% eps = 1e-6;
-% fkbest_expected = (-inf);
-% [Yk_actual, fkbest_actual, fevals_actual] = nelderMead(Y0, del_e, del_oc, del_ic, gamma, f, fkbest_expected,eps);
-% verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
-% end
 
 % Now that we have tested the cases in the same dimension as our
 % problem, we can test the Nelder Mead algorithm the flexibility of our
