@@ -7,8 +7,9 @@ end
 
 % A trivial test case, where we test convergence on a convex function with
 % the origin as the optimal solution. We also let the first iteration be at
-% the optimal solution, to test if Nelder Mead provides a proper output.
-% ie) It outputs the optimal solution
+% the optimal solution, to test if Nelder Mead provides a 
+% 
+
 function testConvex_atSolution(testCase)
 f = @(x) x(1)^2+x(2)^2+x(3)^2;
 Y0 = [1 0 0 0; 0 1 0 0; 0 0 1 0];
@@ -22,9 +23,8 @@ fkbest_expected = (0);
 verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
 end
 
-% Now that we know that our Nelder Mead Method is capable of producing
-% optimal outputs, we test on the same convex function without a trivial
-% starting point.
+% A less nontrivial test case, where we test with vectors not associated
+% with coordinate directions.
 function testConvex(testCase)
 f = @(x) x(1)^2+x(2)^2+x(3)^2;
 Y0 = [10 10 356 423;
@@ -40,10 +40,10 @@ fkbest_expected = (0);
 verifyEqual(testCase, fkbest_actual(length(fkbest_actual)), fkbest_expected, 'AbsTol', eps); 
 end
 
-% This is a less trivial test case, where we shift the optimal solution to
-% demonstrate the Nelder Mead method is not simply converging to the
-% origin.
-function testConvex_solution_not_origin(testCase)
+% Less nontrivial test case, one where the origin is no longer the optimal
+% solution, and shifted such that there are different vectors assosciated
+% with the optimal solution.
+function testConvex_solution_nonzero(testCase)
 f = @(x) (x(1)-3)^2+(x(2)-3)^2+(x(3)-3)^2 + 10;
 Y0 = [10 10 356 423;
        10 346 9 56;
@@ -76,9 +76,8 @@ end
 % end
 
 % Now that we have tested the cases in the same dimension as our
-% problem, we can test the Nelder Mead algorithm the flexibility of our
-% Nelder Mead method in other dimensions. Below is a famous optimization
-% problem called the Rastrigin problem.
+% problem, we can test the Nelder Mead algorithm on other dimensions
+% Starting with the nonconvex
 function testRastrigin_2var(testCase)
 f = @(x) 20 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2)))); 
 
@@ -131,6 +130,7 @@ end
 
 function testRosenbrock(testCase)
 
+f = @(x) (100*(x(2) - (x(1))^2)^2 + (1 - x(1))^2) + (100*(x(3) - (x(2))^2)^2 + (1 - x(2))^2);
 
 Y0 = [1 0 0 0;
        0 1 0 0;
