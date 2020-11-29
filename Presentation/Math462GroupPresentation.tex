@@ -182,26 +182,95 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 
 %%%%Solve the Rheology Problem
 %------------------------------------------------------------------------
-\begin{frame}{The Rheology Problem: Revisited}
-%maybe turn this into 2 slides, one for standard and one for new params
-	\begin{columns}
-	\begin{column}{0.49\linewidth}
-	\begin{block}{1. Standard parameters}
-		Here is the code we gave to NM to run the standard parameters\\
-		Here is the simplex and function values we obtained by running NM on the standard parameters
-	\end{block}
-	\end{column}
-	\begin{column}{0.49\linewidth}
-	\begin{block}{2. New parameters}
-		We proposed new parameters using grid search on the parameter space\\
-		Here is the code we gave to NM to run the new parameters\\
-		Here is the simplex and function values we obtained by running NM on our new parameters
-	\end{block}
-	\end{column}
-	\end{columns}
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{1.a) Standard parameters with simplex A}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.45\linewidth]{Y0a}\\
+	\includegraphics[width=0.45\linewidth]{StandardParams}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1aSimplex}
+	$$f^k_{best} = 32.7239$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex1}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1aSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
 \end{frame}
 
-\begin{frame}{The Rheology Problem: Revisited}
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{1.b) Standard parameters with simplex B}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.75\linewidth]{Y0b}\\
+	\includegraphics[width=0.45\linewidth]{StandardParams}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1bSimplex}
+	$$f^k_{best} = 32.7238$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex2}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1bSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{2.a) New parameters with simplex A}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.45\linewidth]{Y0a}\\
+	\includegraphics[width=0.45\linewidth]{NewParamsA}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1aSimplex}
+	$$f^k_{best} = 32.7238$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex1}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1aSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{2.b) New parameters with simplex B}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.75\linewidth]{Y0b}\\
+	\includegraphics[width=0.45\linewidth]{NewParamsB}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1bSimplex}
+	$$f^k_{best} = 32.7238$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex2}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1bSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+\begin{frame}{The Rheology Problem: Solved}
 	\centering
 	\includegraphics[width=0.85\linewidth]{convergencePlot}
 \end{frame}

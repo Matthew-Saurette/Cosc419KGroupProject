@@ -49,6 +49,8 @@ gamma_nb = 0.01;
 [Yka_n, fkbesta_n, fevalsa_n] = nelderMead(Y0a, del_e_na, del_oc_na, del_ic_na, gamma_na, f, soln, eps);
 [Ykb_n, fkbestb_n, fevalsb_n] = nelderMead(Y0b, del_e_nb, del_oc_nb, del_ic_nb, gamma_nb, f, soln, eps);
 
+Ykb_n(:, :, end)
+fkbestb_n(end)
 
 % Question 1d)
 convergencePlot2([fevalsa(:),fkbesta(:)], [fevalsb(:),fkbestb(:)], [fevalsa_n(:),fkbesta_n(:)], [fevalsb_n(:),fkbestb_n(:)],'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\testConvergenceFolder\',true)
