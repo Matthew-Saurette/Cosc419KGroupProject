@@ -148,33 +148,49 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 %------------------------------------------------------------------------
 \begin{frame}{Examples of Nelder-Mead at work: A nice example}
 \begin{columns}
-\begin{column}{0.4\linewidth}
-	plot of a nice function goes here	
+\begin{column}{0.49\linewidth}
+	$$f(x) = x_1^2 + x_2^2 - 2$$
+	\includegraphics[width=0.95\linewidth]{NiceFunctionPlot}	\\
+	$min(f(x))=-2$ for $x=(0,0)$
 \end{column}
-\begin{column}{0.58\linewidth}
-	put a convergence plot here and the min that we observe vs what our NM code takes us to
+\begin{column}{0.49\linewidth}
+	\includegraphics[width=0.95\linewidth]{NiceFunctionSimplex}	\\
+	$f^k_{best}=-2$ for $x^k_{best}=(0,0)$
+	
 \end{column}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Examples of Nelder-Mead at work: Rosenbrock function}
 \begin{columns}
-\begin{column}{0.4\linewidth}
+\begin{column}{0.49\linewidth}
 	\includegraphics[width=0.95\linewidth]{rosenbrockPlotS1}
 \end{column}
-\begin{column}{0.58\linewidth}
-	put a convergence plot here and the min that we observe vs what our NM code takes us to
+\begin{column}{0.49\linewidth}
+	put initial simplex and resulting simplex here, give function and min value of function (both real value and NM value)
 \end{column}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Examples of Nelder-Mead at work: Rastrigin function}
 \begin{columns}
-\begin{column}{0.4\linewidth}
+\begin{column}{0.49\linewidth}
 	\includegraphics[width=0.95\linewidth]{rastriginPlotS1}	
 \end{column}
-\begin{column}{0.58\linewidth}
-	put a convergence plot here and the min that we observe vs what our NM code takes us to
+\begin{column}{0.49\linewidth}
+	put initial simplex and resulting simplex here, give function and min value of function (both real value and NM value)
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Examples of Nelder-Mead at work: Rastrigin function}
+\begin{columns}
+\begin{column}{0.49\linewidth}
+	\includegraphics[width=0.95\linewidth]{rastriginPlotS1}	
+\end{column}
+\begin{column}{0.49\linewidth}
+	use a different starting simplex to get a different min that still minimizes \\
+	put initial simplex and resulting simplex here, give function and min value of function (both real value and NM value)
 \end{column}
 \end{columns}
 \end{frame}
