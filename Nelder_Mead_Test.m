@@ -112,7 +112,7 @@ end
 % is the Rosenbrock function
 
 function testRosenbrock(testCase)
-
+f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2;
 
 Y0 = [1 0 0 0;
        0 1 0 0;

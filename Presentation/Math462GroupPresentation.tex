@@ -148,33 +148,57 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 %------------------------------------------------------------------------
 \begin{frame}{Examples of Nelder-Mead at work: A nice example}
 \begin{columns}
-\begin{column}{0.4\linewidth}
-	plot of a nice function goes here	
+\begin{column}{0.49\linewidth}
+	$$f(x) = x_1^2 + x_2^2 - 2$$
+	\includegraphics[width=0.95\linewidth]{NiceFunctionPlot}	\\
+	$min(f(x))=-2$ for $x=(0,0)$
 \end{column}
-\begin{column}{0.58\linewidth}
-	put a convergence plot here and the min that we observe vs what our NM code takes us to
+\begin{column}{0.49\linewidth}
+	\includegraphics[width=0.95\linewidth]{NiceFunctionSimplex}	\\
+	$f^k_{best}=-2$ for $x^k_{best}=(0,0)$
 \end{column}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Examples of Nelder-Mead at work: Rosenbrock function}
 \begin{columns}
-\begin{column}{0.4\linewidth}
-	\includegraphics[width=0.95\linewidth]{rosenbrockPlotS1}
+\begin{column}{0.49\linewidth}
+	$f(x) =(1-x_1)^2 + 100(x_2-x_1)^2$ \\
+	\includegraphics[width=0.95\linewidth]{rosenbrockPlotS1} \\
+	$min(f(x))= fill in here $ for $x= fill in here$
 \end{column}
-\begin{column}{0.58\linewidth}
-	put a convergence plot here and the min that we observe vs what our NM code takes us to
+\begin{column}{0.49\linewidth}
+	put initial simplex and resulting simplex here\\
+	$f^k_{best}= fill in here $ for $x^k_{best}= fill in here$
 \end{column}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Examples of Nelder-Mead at work: Rastrigin function}
 \begin{columns}
-\begin{column}{0.4\linewidth}
-	\includegraphics[width=0.95\linewidth]{rastriginPlotS1}	
+\begin{column}{0.49\linewidth}
+	\small $f(x) = 20 + x_1^2 - 10cos(2\pi x_1) + x_2^2 - 10cos(2\pi x_2)$ \\
+	\includegraphics[width=0.95\linewidth]{rastriginPlotS1}	 \\
+	$min(f(x))= fill in here $ for $x= fill in here$
 \end{column}
-\begin{column}{0.58\linewidth}
-	put a convergence plot here and the min that we observe vs what our NM code takes us to
+\begin{column}{0.49\linewidth}
+	put initial simplex and resulting simplex here\\
+	$f^k_{best}= fill in here $ for $x^k_{best}= fill in here$
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Examples of Nelder-Mead at work: Rastrigin function}
+\begin{columns}
+\begin{column}{0.49\linewidth}
+	\small $f(x) = 20 + x_1^2 - 10cos(2\pi x_1) + x_2^2 - 10cos(2\pi x_2)$ \\
+	\includegraphics[width=0.95\linewidth]{rastriginPlotS1}	\\
+	$min(f(x))= fill in here $ for $x= fill in here$
+\end{column}
+\begin{column}{0.49\linewidth}
+	use a different starting simplex to get a different min that still minimizes \\
+	put initial simplex and resulting simplex here \\
+	$f^k_{best}= fill in here $ for $x^k_{best}= fill in here$
 \end{column}
 \end{columns}
 \end{frame}
@@ -182,36 +206,97 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 
 %%%%Solve the Rheology Problem
 %------------------------------------------------------------------------
-\begin{frame}{The Rheology Problem: Revisited}
-%maybe turn this into 2 slides, one for standard and one for new params
-	\begin{columns}
-	\begin{column}{0.49\linewidth}
-	\begin{block}{1. Standard parameters}
-		Here is the code we gave to NM to run the standard parameters\\
-		Here is the simplex and function values we obtained by running NM on the standard parameters
-	\end{block}
-	\end{column}
-	\begin{column}{0.49\linewidth}
-	\begin{block}{2. New parameters}
-		We proposed new parameters using grid search on the parameter space\\
-		Here is the code we gave to NM to run the new parameters\\
-		Here is the simplex and function values we obtained by running NM on our new parameters
-	\end{block}
-	\end{column}
-	\end{columns}
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{1.a) Standard parameters with simplex A}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.45\linewidth]{Y0a}\\
+	\includegraphics[width=0.45\linewidth]{StandardParams}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1aSimplex}
+	$$f^k_{best} = 32.7239$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex1}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1aSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
 \end{frame}
 
-\begin{frame}{The Rheology Problem: Revisited}
-	\begin{columns}
-	\begin{column}{0.39\linewidth}
-		\centering
-		Here is our convergence plot code
-	\end{column}
-	\begin{column}{0.59\linewidth}
-		\centering
-		Here is our convergence plot of all the cases
-	\end{column}
-	\end{columns}
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{1.b) Standard parameters with simplex B}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.75\linewidth]{Y0b}\\
+	\includegraphics[width=0.45\linewidth]{StandardParams}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1bSimplex}
+	$$f^k_{best} = 32.7238$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex2}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1bSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{2.a) New parameters with simplex A}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.45\linewidth]{Y0a}\\
+	\includegraphics[width=0.45\linewidth]{NewParamsA}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1aSimplex}
+	$$f^k_{best} = 32.7238$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex1}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1aSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+\begin{frame}{The Rheology Problem: Solved}
+\begin{block}{2.b) New parameters with simplex B}
+\begin{columns}
+\begin{column}{0.35\linewidth}
+	\underline{Input:}\\
+	\includegraphics[width=0.75\linewidth]{Y0b}\\
+	\includegraphics[width=0.45\linewidth]{NewParamsB}\\
+	\vspace{0.65cm}
+	\underline{Output:}\\
+	\includegraphics[width=0.95\linewidth]{1bSimplex}
+	$$f^k_{best} = 32.7238$$
+	\vspace{0.1cm}
+\end{column}
+\begin{column}{0.63\linewidth}
+	\includegraphics[width=0.45\linewidth]{Simplex2}\\
+	\vspace{5mm}
+	\includegraphics[width=0.45\linewidth]{1bSimplexPlot}
+\end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+\begin{frame}{The Rheology Problem: Solved}
+	\centering
+	\includegraphics[width=0.85\linewidth]{convergencePlot}
 \end{frame}
 
 
