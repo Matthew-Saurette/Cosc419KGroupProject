@@ -24,9 +24,7 @@ hold on
 %plot3(1, 0, 0, 'o', 'linewidth', 2, 'Color', 'r')      %Shrink - y0
 %plot3(9.5062, 8.4167, 8.7269, 'o', 'linewidth', 2, 'Color', 'r')
 plot3(0, 0, -2, 'o', 'linewidth', 2, 'Color', 'r')
-xlabel('x');
-ylabel('y');
-zlabel('z');
+
 legend('Y1', 'Yk\_best', 'centroid', 'inside contraction point', 'Location', 'best')
 
 
