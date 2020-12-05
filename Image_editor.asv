@@ -1,0 +1,32 @@
+% Basline code for adding axes to figures
+clear all;
+clc;
+
+% Opens saved figure
+h = openfig('NiceFunctionSimplex.fig');
+hold on
+
+xlabel('x');
+ylabel('y');
+zlabel('z');
+
+print(h_current, 'NiceFunctionSimplex_edit.jpg','-dpdf')
+
+% This file will be used to open figures.
+clear all;
+clc;
+
+% Opens saved figure
+h = openfig('achievement_scalarized_method3.fig');
+
+% find all line objects in the current axes
+object_list = findobj('Parent',gca,'Type','Line');
+
+%set marker color
+set(object_list,'markeredgecolor','b');
+
+h_current = figure(1);
+set(h_current, 'Units','Inches');
+pos = get(h_current,'Position');
+set(h_current,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3),pos(4)]);
+print(h_current, 'achievement_scalarized_ZDT1','-dpdf')

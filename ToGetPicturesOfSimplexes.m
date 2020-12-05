@@ -1,10 +1,21 @@
 clc; close all; clear;
-Y0a = [1 0 0 0;
-       0 1 0 0;
-       0 0 1 0];
-% Y0a(:,:,1) = [9.5 10.5 9.5 9.5;
-%               9.5 9.5 10.5 9.5;
-%               9.5 9.5 9.5 10.5];
+Y0a(:,:,1) = [0 -10 -1 0;
+              0 5 -21 0;
+              0 7 -1 1];
+del_e = 2;            
+del_oc = 1/2;
+del_ic = -1/2;
+gamma = 1/2;
+solution = 0;
+eps = 1e-6;
+f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2;
+
+[YkTotal, fkbest, feval_total] = nelderMead(Y0a,del_e,del_oc,del_ic,gamma,f, solution, eps);
+YkTotal(1,1,500)
+YkTotal(2,1,500)
+%  Y0a(:,:,1) = [9.5 10.5 9.5 9.5;
+%                9.5 9.5 10.5 9.5;
+%                9.5 9.5 9.5 10.5];
 
 %Y0a(:,4,2) = [1/3;1/3;0] + ([1/3;1/3;0]-Y0a(:,4,2))     %reflection
 %Y0a(:,4,2) = [1/3;1/3;0] + 2.*([1/3;1/3;0]-Y0a(:,4,2))     %expansion  
@@ -23,7 +34,7 @@ hold on
 %plot3(0.1667, 0.1667, 0.5, 'o', 'linewidth', 2, 'Color', 'r')      %IC
 %plot3(1, 0, 0, 'o', 'linewidth', 2, 'Color', 'r')      %Shrink - y0
 %plot3(9.5062, 8.4167, 8.7269, 'o', 'linewidth', 2, 'Color', 'r')
-plot3(0, 0, -2, 'o', 'linewidth', 2, 'Color', 'r')
+plot3(YkTotal(1,1,500), YkTotal(2,1,500), fkbest(500), 'o', 'linewidth', 2, 'Color', 'r')
 xlabel('x');
 ylabel('y');
 zlabel('z');
