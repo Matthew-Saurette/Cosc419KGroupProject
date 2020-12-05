@@ -50,7 +50,6 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
         current_Simplex(:,k) = xr;
         function_at_simplex(k) = fr;
         stepComputed = "partialSort";
-        
     elseif (fr < function_at_simplex(1))  %EXPANSION%
         xe = xc + del_e*(xc - current_Simplex(:,k));
         fe = f(xe);
@@ -63,7 +62,6 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
             function_at_simplex(k) = fr;
         end
         stepComputed = "partialSort";
-        
     elseif (function_at_simplex(k-1) <= fr)&&(fr < function_at_simplex(k)) %OUTSIDE CONTRACTION%
         
         xoc = xc + del_oc*(xc - current_Simplex(:,k));
@@ -79,7 +77,6 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
             function_at_simplex(k) = fr;
             stepComputed = "partialSort" ;
         end
-        
     elseif (fr >= function_at_simplex(k))  %INSIDE CONTRACTION + SHRINK% 
         xic = xc + del_ic.*(xc - current_Simplex(:,k));
         fic = f(xic);
@@ -102,7 +99,7 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
     [current_Simplex, function_at_simplex] = sortSimplex(current_Simplex, function_at_simplex,stepComputed);
   
     
-    % Setting best_Function_val to f(y0)
+    % Setting fkbest to f(y0)
     best_Function_val(iteration) = function_at_simplex(1);
     total_Simplecies(:,:,iteration) = current_Simplex;
     feval_total(iteration) = feval;
