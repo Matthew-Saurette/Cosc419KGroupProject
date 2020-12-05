@@ -1,7 +1,7 @@
 function [Yi,fYi] = sortSimplex(Yi,fYi,stepComputed)
 k = length(Yi(1,:));
 switch stepComputed
-    case 'fullSort'
+    case 'shrink'
         %Do Insertion Sort to sort the simplex
         for i = 2:k
             key = Yi(:,i);
@@ -15,8 +15,8 @@ switch stepComputed
             Yi(:,j+1) = key;
             fYi(j+1) = fkey;
         end
-    case 'partialSort'
-        %Sort the added vector Yn in the simplex 
+    case 'nonshrink'
+        
         k = length(Yi(1,:));
         for i = k:-1:2
             if fYi(i)< fYi(i-1)
