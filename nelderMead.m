@@ -46,12 +46,14 @@ while ((abs(best_Function_val(iteration)-solution)>eps) && (iteration<500))
     feval = feval + 1;
     
     %NM STEPS 2-5
-    if (function_at_simplex(1) <= fr)&&(fr < function_at_simplex(k-1)) %REFLECTION STEP%
+    %REFLECTION STEP%
+    if (function_at_simplex(1) <= fr)&&(fr < function_at_simplex(k-1)) 
         current_Simplex(:,k) = xr;
         function_at_simplex(k) = fr;
         stepComputed = "partialSort";
         
-    elseif (fr < function_at_simplex(1))  %EXPANSION%
+    %EXPANSION%    
+    elseif (fr < function_at_simplex(1))  
         xe = xc + del_e*(xc - current_Simplex(:,k));
         fe = f(xe);
         feval = feval + 1;
@@ -64,8 +66,8 @@ while ((abs(best_Function_val(iteration)-solution)>eps) && (iteration<500))
         end
         stepComputed = "partialSort";
         
-    elseif (function_at_simplex(k-1) <= fr)&&(fr < function_at_simplex(k)) %OUTSIDE CONTRACTION%
-        
+    %OUTSIDE CONTRACTION%    
+    elseif (function_at_simplex(k-1) <= fr)&&(fr < function_at_simplex(k))  
         xoc = xc + del_oc*(xc - current_Simplex(:,k));
         foc = f(xoc);
         feval = feval + 1;
@@ -79,8 +81,9 @@ while ((abs(best_Function_val(iteration)-solution)>eps) && (iteration<500))
             function_at_simplex(k) = fr;
             stepComputed = "partialSort" ;
         end
-        
-    elseif (fr >= function_at_simplex(k))  %INSIDE CONTRACTION + SHRINK% 
+    
+    %INSIDE CONTRACTION + SHRINK%      
+    elseif (fr >= function_at_simplex(k))  
         xic = xc + del_ic.*(xc - current_Simplex(:,k));
         fic = f(xic);
         feval = feval + 1;
@@ -95,7 +98,6 @@ while ((abs(best_Function_val(iteration)-solution)>eps) && (iteration<500))
                 feval = feval + 1;
             end
             stepComputed = "fullSort";
-
         end
     end
   
