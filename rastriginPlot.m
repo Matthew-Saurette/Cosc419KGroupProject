@@ -9,6 +9,7 @@ mesh(X,Y,Z1);
 title('Rastrigin');
 xlabel('x');
 ylabel('y');
+zlabel('z');
 
 set(h,'Units','Inches');
 pos = get(h,'Position');
