@@ -18,7 +18,7 @@ stepComputed = "fullSort";
 k = length(Y0(1,:)); %number of columns
 
 
-while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
+while ((abs(best_Function_val(iteration)-solution)>eps) && (iteration<500))
 
     
     iteration = iteration+1;
