@@ -6,10 +6,10 @@
 %number of function evals [function eval,f(yk)]
 function [YkTotal, fkbest, feval_total] = fortifiedNelderMead(Y0,del_e,del_oc,del_ic,gamma,f, solution, eps)
 
-sigma = @(x) (10^(-5))*min(0.5*x^2,1); 
-beta = @(x) (10^(6))*x^2;
+sigma = @(x) (10^(-5))*min(x^2,1); 
+beta = @(x) (10^(5))*x^2;
 disp(vonHull(Y0));
-v = 10^(-10);
+v = vonHull(Y0)/2;
 theta = 0.1;
 % Initialize the number of function evaluations and the storage vector for f
 YkTotal(:,:,1) = Y0;
@@ -19,14 +19,14 @@ feval = 0;
 feval_total = []; %initialize  fevals
 f_store = [];
 fkbest(1) = f(Y0(:,1)); %arbitrary value to start the while loop
-stepComputed = "shrink";
+stepComputed = "fullSort";
 k = length(Y0(1,:)); %number of columns
 % Insert a while loop here to encapsulate the rest of the algorithm
 % for some stopping condition epsilon
 
 %while abs(fkbest(iter)-solution)>eps
 
-while iter<10000
+while iter<50
     
     iter = iter+1;
 
@@ -69,7 +69,7 @@ while iter<10000
     if fzbar <= (f_store(1) - min(sigma(diamHull(Yk)),theta*(f_store(k)-f_store(1))-beta(diamHull(Yk))))
        % disp("rotation" + iter)
         Yk = 2.*Yk(:,1) - Yk;
-        stepComputed = "shrink";
+        stepComputed = "fullSort";
         
     else
     for i = 2:k
@@ -77,7 +77,7 @@ while iter<10000
         f_store(i) = f(Yk(:,i));
         feval = feval + 1;
     end
-    stepComputed = "shrink";
+    stepComputed = "fullSort";
     end
     else
     %NM STEPS 2-5
@@ -85,7 +85,7 @@ while iter<10000
         %disp("ref")
         Yk(:,k) = xr;
         f_store(k) = fr;
-        stepComputed = "nonshrink";
+        stepComputed = "partialSort";
     elseif (fr < f_store(1))  %EXPANSION%
         %disp("exp")
         xe = xc + del_e*(xc - Yk(:,k));
@@ -100,25 +100,25 @@ while iter<10000
             Yk(:,k) = xr;
             f_store(k) = fr;
         end
-        stepComputed = "nonshrink";
+        stepComputed = "partialSort";
     elseif (f_store(k-1) <= fr)&&(fr < f_store(k)) %OUTSIDE CONTRACTION%
         
         xoc = xc + del_oc*(xc - Yk(:,k));
         foc = f(xoc);
         feval = feval + 1;
-        stepComputed = "nonshrink";
+        stepComputed = "partialSort";
         Ykoc = Yk;
         Ykoc(:,k) = xoc;
         if (foc < (fr - sigma(diamHull(Yk)))) && (vonHull(Ykoc) >= v)
            % disp("oc")
             Yk(:,k) = xoc;
             f_store(k) = foc;
-            stepComputed = "nonshrink";
+            stepComputed = "partialSort";
         else
             %disp("ocref")
             Yk(:,k) = xr;
             f_store(k) = fr;
-            stepComputed = "nonshrink" ;
+            stepComputed = "partialSort" ;
         end
     elseif (fr >= f_store(k))  %INSIDE CONTRACTION + SHRINK% 
         xic = xc + del_ic.*(xc - Yk(:,k));
@@ -130,7 +130,7 @@ while iter<10000
            % disp("ic")
             Yk(:,k) = xic;
             f_store(k) = fic;
-            stepComputed = "nonshrink";
+            stepComputed = "partialSort";
         else
            % disp("shrink")
             for i = 2:k
@@ -138,7 +138,7 @@ while iter<10000
                 f_store(i) = f(Yk(:,i));
                 feval = feval + 1;
             end
-            stepComputed = "shrink";
+            stepComputed = "fullSort";
         end
     end
     end
