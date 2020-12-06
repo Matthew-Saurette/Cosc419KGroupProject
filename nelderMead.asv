@@ -30,7 +30,8 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
             feval = feval +1;
         end
         feval_total(iteration-1) = feval;
-        [current_Simplex,function_at_simplex] = sortSimplex(current_Simplex,function_at_simplex,stepComputed);
+        [current_Simplex,function_at_simplex] 
+                = sortSimplex(current_Simplex,function_at_simplex,stepComputed);
     end
     
     %CALCULATE CENTROID%
@@ -67,7 +68,8 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
         stepComputed = "partialSort";
         
     %OUTSIDE CONTRACTION%    
-    elseif (function_at_simplex(k-1) <= fr)&&(fr < function_at_simplex(k))  
+    elseif (function_at_simplex(k-1) <= fr)&&(fr < function_at_simplex(k)) 
+        
         xoc = xc + del_oc*(xc - current_Simplex(:,k));
         foc = f(xoc);
         feval = feval + 1;
@@ -82,7 +84,7 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
             stepComputed = "partialSort" ;
         end
     
-    %INSIDE CONTRACTION + SHRINK%      
+    %INSIDE CONTRACTION + SHRINK%     
     elseif (fr >= function_at_simplex(k))  
         xic = xc + del_ic.*(xc - current_Simplex(:,k));
         fic = f(xic);
@@ -98,6 +100,7 @@ while ((abs(best_Function_val(iteration)-solution)>eps) || (iteration<500))
                 feval = feval + 1;
             end
             stepComputed = "fullSort";
+
         end
     end
   
