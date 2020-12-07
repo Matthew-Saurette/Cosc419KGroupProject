@@ -42,7 +42,7 @@ f = @(x) x(1)^2+x(2)^2 - 2;
 
 %plot3(0, 0, -2, 'o', 'linewidth', 2, 'Color', 'r')
 
-for i = 1:length(YkTotal(1,1,:))
+for i = 1:length(YkTotal(1,1,:))-1
 destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Nice_Function_gif\';
 plot3(YkTotal(1,1,end), YkTotal(2,1,end), fkbest(end), 'o', 'linewidth', 2, 'Color', 'r')
 hold on
