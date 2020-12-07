@@ -14,29 +14,6 @@
 \begin{document}
 \maketitle
 
-
-%%%%The Rheology Problem
-%------------------------------------------------------------------------
-\begin{frame}{The Rheology Problem}
-\begin{block}{Viscosity of a system}
-$$\eta(\dot{\gamma}) = \eta_0(1+\lambda^2\dot{\gamma}^2)^{\frac{\beta -1}{2}}$$
-A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambda$, and $\beta$.
-\end{block}
-\begin{columns}
-	\begin{column}{0.45\linewidth}
-		\centering
-		\includegraphics[width=0.95\linewidth]{Data}
-	\end{column}
-	\begin{column}{0.53\linewidth}
-		Absolute Error:
-		$$\epsilon_i(\eta_0, \lambda, \beta) = |\eta_0(1+\lambda^2\dot{\gamma}^2)^{\frac{\beta -1}{2}} - \eta_i|$$
-		Non-smooth optimization problem:
-		$$\hat{g}(\eta_0, \lambda, \beta) = \sum\limits_{i=1}^{13}\epsilon_i(\eta_0, \lambda, \beta)$$
-	\end{column}
-\end{columns}
-\hfill \tiny (Audet and Hare, 2017)
-\end{frame}
-
 %%%%The NM Algorithm
 %-------------------------------------------------------------------------
 \begin{frame}{Nelder-Mead Algorithm}
@@ -46,9 +23,16 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 \end{frame}
 
 \begin{frame}{0. Initialize}
-	\centering
-	\includegraphics[width=0.35\linewidth]{Initialize}
-	\includegraphics[width=0.59\linewidth]{InitializeFig}
+	\begin{columns}
+	\begin{column}{0.35\linewidth}
+		\centering
+		\includegraphics[width=0.75\linewidth]{Initialize}
+	\end{column}
+	\begin{column}{0.59\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{InitializeFig}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{1. Order}
@@ -56,7 +40,6 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 	\begin{columns}
 	\begin{column}{0.35\linewidth}
 		\centering
-		
 		\includegraphics[width=0.95\linewidth]{Shrink2}
 		\includegraphics[width=0.95\linewidth]{Order3}
 	\end{column}
@@ -82,11 +65,11 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 
 \begin{frame}{2. Reflect}
 	\begin{columns}
-	\begin{column}{0.39\linewidth}
+	\begin{column}{0.49\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{Reflect}
 	\end{column}
-	\begin{column}{0.59\linewidth}
+	\begin{column}{0.5\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{ReflectFig}
 	\end{column}
@@ -108,11 +91,11 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 
 \begin{frame}{4.a) Outside Contraction}
 	\begin{columns}
-	\begin{column}{0.39\linewidth}
+	\begin{column}{0.49\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{OC}
 	\end{column}
-	\begin{column}{0.59\linewidth}
+	\begin{column}{0.5\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{OCFig}
 	\end{column}
@@ -194,6 +177,29 @@ A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambd
 	$f^k_{best}= 1.899 $ for $x^k_{best}= (-0.9950, -0.9950)$
 \end{column}
 \end{columns}
+\end{frame}
+
+
+%%%%The Rheology Problem
+%------------------------------------------------------------------------
+\begin{frame}{The Rheology Problem}
+\begin{block}{Viscosity of a system}
+$$\eta(\dot{\gamma}) = \eta_0(1+\lambda^2\dot{\gamma}^2)^{\frac{\beta -1}{2}}$$
+A function of the strain rate, $\dot{\gamma}$, with parameters $\eta_0$, $\lambda$, and $\beta$.
+\end{block}
+\begin{columns}
+	\begin{column}{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Data}
+	\end{column}
+	\begin{column}{0.53\linewidth}
+		Absolute Error:
+		$$\epsilon_i(\eta_0, \lambda, \beta) = |\eta_0(1+\lambda^2\dot{\gamma}^2)^{\frac{\beta -1}{2}} - \eta_i|$$
+		Non-smooth optimization problem:
+		$$\hat{g}(\eta_0, \lambda, \beta) = \sum\limits_{i=1}^{13}\epsilon_i(\eta_0, \lambda, \beta)$$
+	\end{column}
+\end{columns}
+\hfill \tiny (Audet and Hare, 2017)
 \end{frame}
 
 
