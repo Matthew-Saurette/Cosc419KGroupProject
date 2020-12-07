@@ -24,14 +24,9 @@ del_oc_s = 1/2;
 del_ic_s = -1/2;
 gamma_s = 1/2;
 
-g = @(x) (100*(x(2) - (x(1))^2)^2 + (1 - x(1))^2) + (100*(x(3) - (x(2))^2)^2 + (1 - x(2))^2);
-
-Y0a = [1 0 0 0;
-       0 1 0 0;
-       0 0 1 0];
-[Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, g, soln, eps);
-[Ykb, fkbestb, fevalsb] = fortifiedNelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, g, soln, eps);
-convergencePlot2([fevalsa(:),fkbesta(:)+1], [fevalsb(:),fkbestb(:)+1], [fevalsb(:),fkbestb(:)+1], [fevalsb(:),fkbestb(:)+1],'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\testConvergenceFolder\',true)
+[Yka, fkbesta, fevalsa] = nelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, @f, soln, eps);
+[Ykb, fkbestb, fevalsb] = fortifiedNelderMead(Y0a, del_e_s, del_oc_s, del_ic_s, gamma_s, @f, soln, eps);
+convergencePlot2([fevalsa(:),fkbesta(:)], [fevalsb(:),fkbestb(:)], [fevalsb(:),fkbestb(:)], [fevalsb(:),fkbestb(:)],'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\testConvergenceFolder\',false)
 
 function y = f(x)
 y=0;
