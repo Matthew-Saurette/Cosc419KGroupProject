@@ -9,13 +9,13 @@ classdef simplexPlot
 
             [k1,av1] = convhull(X(1,:),X(2,:),X(3,:));
             [k2,av2] = convhull(Y(1,:),Y(2,:),Y(3,:));
-
-            s1 = trimesh(k1,X(1,:),X(2,:),X(3,:),'FaceColor','cyan','DisplayName',strcat('Y',string(iter)));
-            hold on;
+            s1 = trimesh(k1,X(1,:),X(2,:),X(3,:),'FaceColor','red','DisplayName',strcat('Y',string(iter)));
+            hold on;            
             s2 = trimesh(k2,Y(1,:),Y(2,:),Y(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter+1)));
             alpha(s1,0.1);
             legend show;
-            saveas(gcf,strcat(outputFile,'simplex',string(iter), '-',string(iter+1),'.png'));
+
+            %saveas(gcf,strcat(outputFile,'simplex',string(iter), '-',string(iter+1),'.png'));
             hold off;
         end
         function j = plot2(X,Y,Z,W,iter,outputFile)

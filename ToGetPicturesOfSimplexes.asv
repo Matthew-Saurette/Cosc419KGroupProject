@@ -60,6 +60,8 @@ set(h_current, 'Units','Inches');
 pos = get(h_current,'Position');
 set(h_current,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3),pos(4)]);
 print(h_current, strcat(destination,'niceFunctionSimplex',num2str(i), '-', num2str(i+1)),'-djpeg')
+simplexPlot.plot(YkTotal(:,:,i),YkTotal(:,:,i+1),i,destination);
+
 end
 
 
