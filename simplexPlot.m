@@ -6,6 +6,9 @@ classdef simplexPlot
     methods(Static)
         function j = plot(X,Y,iter,outputFile)
             
+%             [k1,av1] = convhull(X(1,:),X(2,:));
+%             [k2,av2] = convhull(Y(1,:),Y(2,:));
+            
             [k1,av1] = convhull(X(1,:),X(2,:),X(3,:));
             [k2,av2] = convhull(Y(1,:),Y(2,:),Y(3,:));
             if mod(iter,2) == 1
@@ -15,8 +18,6 @@ classdef simplexPlot
             alpha(s1,0.1);
             legend show;
             else 
-            [k1,av1] = convhull(X(1,:),X(2,:),X(3,:));
-            [k2,av2] = convhull(Y(1,:),Y(2,:),Y(3,:));
             s1 = trimesh(k2,Y(1,:),Y(2,:),Y(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter)));
             hold on;            
             s2 = trimesh(k1,X(1,:),X(2,:),X(3,:),'FaceColor','red','DisplayName',strcat('Y',string(iter+1)));

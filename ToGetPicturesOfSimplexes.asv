@@ -9,7 +9,7 @@ del_ic = -1/2;
 gamma = 1/2;
 solution = -2;
 eps = 1e-6;
-f = @(x) x(1)^2+x(2)^2 - 2; 
+f = @(x) x(1)^2+x(2)^2 + x(3)^2- 2; 
 
 [YkTotal, fkbest, feval_total] = nelderMead(Y0a,del_e,del_oc,del_ic,gamma,f, solution, eps);
 
@@ -45,11 +45,12 @@ f = @(x) x(1)^2+x(2)^2 - 2;
 for i = 1:length(YkTotal(1,1,:))
 destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Nice_Function_gif\';
 plot3(YkTotal(1,1,end), YkTotal(2,1,end), fkbest(end), 'o', 'linewidth', 2, 'Color', 'r')
+ xlim([-1 3])
+ ylim([-1 4])
+ zlim([-3 3])
 hold on
+axis tight
 simplexPlot.plot(YkTotal(:,:,i),YkTotal(:,:,i+1),i,destination);
-% xlim([-5 5])
-% ylim([-5 5])
-% zlim([-5 5])
 xlabel('x');
 ylabel('y');
 zlabel('z');
