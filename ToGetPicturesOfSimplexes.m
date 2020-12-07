@@ -28,8 +28,14 @@ f = @(x) x(1)^2+x(2)^2 + x(3)^2- 2;
 %Y0a(:,2,2) = Y0a(:,1,1) + (1/2)*(Y0a(:,2,1)-Y0a(:,1,1))     %Shrink
 %Y0a(:,3,2) = Y0a(:,1,1) + (1/2)*(Y0a(:,3,1)-Y0a(:,1,1))     %Shrink
 %Y0a(:,4,2) = Y0a(:,1,1) + (1/2)*(Y0a(:,4,1)-Y0a(:,1,1))     %Shrink
+<<<<<<< HEAD
+%simplexPlot.plotTotal(YkTotal(:,:,1:5),'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject');
+simplexPlot.plotTotal(YkTotal(:,:,1:5:end),'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\Presentation\');
+hold on
+=======
 %simplexPlot.plot(YkTotal(:,:,1),YkTotal(:,:,2),1,'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject');
 %simplexPlot.plotTotal(Y0a,'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\Presentation\');
+>>>>>>> a04a1d0babdb24153330306aa52921d2a685ef10
 %plot3(1/3, 1/3, 0, 'o', 'linewidth', 2, 'Color', 'b')  %centroid
 %plot3(0.6667, 0.6667, -1, 'o', 'linewidth', 2, 'Color', 'r')     %reflection
 %plot3(1, 1, -2, 'o', 'linewidth', 2, 'Color', 'r')      %expansion
@@ -53,8 +59,13 @@ zlim([-3 3])
 xlabel('x');
 ylabel('y');
 zlabel('z');
+<<<<<<< HEAD
+legend('Y1', 'Y2', 'Y3','Y4','Y5', 'Yk\_best', 'centroid', 'inside contraction point', 'Location', 'best')
+h_current = figure(1);
+=======
 legend('min',strcat('Y', num2str(i)), strcat('Y',num2str(i+1)))
 h_current = gcf;
+>>>>>>> a04a1d0babdb24153330306aa52921d2a685ef10
 axes = gca;
 set(h_current, 'Units','Inches');
 pos = get(h_current,'Position');
