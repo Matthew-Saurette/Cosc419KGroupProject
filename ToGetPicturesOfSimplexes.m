@@ -19,8 +19,8 @@ gamma = 1/2;
 solution = -2;
 eps = 1e-6;
 
-f = @(x) x(1)^2 + x(2)^2 + x(3)^2 - 2;
-%f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2 + (1 - x(2))^2 + 100*(x(3) - x(2))^2;
+%f = @(x) x(1)^2 + x(2)^2 + x(3)^2 - 2;
+f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2 + (1 - x(2))^2 + 100*(x(3) - x(2))^2;
 %f = @(x) 30 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2))) + x(3)^2 - 10*cos(2*pi*x(3))); 
 
 [YkTotal, fkbest, feval_total] = nelderMead(Y0a,del_e,del_oc,del_ic,gamma,f, solution, eps);
@@ -30,7 +30,7 @@ f = @(x) x(1)^2 + x(2)^2 + x(3)^2 - 2;
 %% For Single simplex plots
 for i = 1:length(YkTotal(1,1,:))-1
 %destination = 'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\Rheology2a\';
-destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Nice_Function_gif';
+destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Rosenbrock';
 
 plot3(YkTotal(1,1,end), YkTotal(2,1,end), YkTotal(3,1,end), 'o', 'linewidth', 2, 'Color', 'r')
 hold on
@@ -48,7 +48,7 @@ axes = gca;
 set(h_current, 'Units','Inches');
 pos = get(h_current,'Position');
 set(h_current,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3),pos(4)]);
-print(h_current, strcat(destination,'\niceFunction',num2str(i)),'-dpng')
+print(h_current, strcat(destination,'\Rosenbrock',num2str(i)),'-dpng')
 simplexPlot.plot(YkTotal(:,:,i),YkTotal(:,:,i+1),i,destination);
 
 end
