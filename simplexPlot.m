@@ -45,13 +45,13 @@ classdef simplexPlot
             s4 = trimesh(k4,W(1,:),W(2,:),W(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter+1)));
             
             else
-            s2 = trimesh(k2,Y(1,:),Y(2,:),Y(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter)));
+            s1 = trimesh(k2,Y(1,:),Y(2,:),Y(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter)));
             hold on;
-            s1 = trimesh(k1,X(1,:),X(2,:),X(3,:),'FaceColor','red','DisplayName',strcat('Y',string(iter+1)));
+            s2 = trimesh(k1,X(1,:),X(2,:),X(3,:),'FaceColor','red','DisplayName',strcat('Y',string(iter+1)));
             alpha(s2,0.1);
-            s4 = trimesh(k4,W(1,:),W(2,:),W(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter)));
-            alpha(s4,0.1);            
-            s3 = trimesh(k3,Z(1,:),Z(2,:),Z(3,:),'FaceColor','red','DisplayName',strcat('Y',string(iter+1)));
+            s3 = trimesh(k4,W(1,:),W(2,:),W(3,:),'FaceColor','blue','DisplayName',strcat('Y',string(iter)));           
+            s4 = trimesh(k3,Z(1,:),Z(2,:),Z(3,:),'FaceColor','red','DisplayName',strcat('Y',string(iter+1)));
+            alpha(s4,0.1);
             end
             
             %legend show;
