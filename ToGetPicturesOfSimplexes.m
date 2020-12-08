@@ -64,6 +64,7 @@ simplexPlot.plot2(YkTotala(:,:,i),YkTotala(:,:,i+1),YkTotalb(:,:,i),YkTotalb(:,:
 xlim([-10 5])
 ylim([-5 5])
 zlim([-6 4])
+grid on
 xlabel('x');
 ylabel('y');
 zlabel('z');
