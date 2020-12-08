@@ -7,10 +7,9 @@ clc; close all; clear;
 Y0a(:,:,1) = [3 1 3 2.1;
               3 2 2 1.9;
               3 3 1 2];
-          
 Y0b(:,:,1) =  -2*[4 1 3 2.1;
               3 2 2 1.9;
-              5 3 1 2]; 
+              3 3 1 2]; 
 
 
 del_e = 2;            
@@ -55,6 +54,7 @@ f = @(x) 30 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2))) + x(3)^
 % end
 
 %% For comparison of simplices in Rastrigin
+length(ykTotala(1,1,:)) - 1
 for i = 1:length(YkTotala(1,1,:)) - 1
 destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Rastrigin\';
 plot3(YkTotala(1,1,end), YkTotala(2,1,end), YkTotala(3,1,end), 'o', 'linewidth', 2, 'Color', 'r')
@@ -64,7 +64,6 @@ simplexPlot.plot2(YkTotala(:,:,i),YkTotala(:,:,i+1),YkTotalb(:,:,i),YkTotalb(:,:
 xlim([-10 5])
 ylim([-5 5])
 zlim([-6 4])
-grid on
 xlabel('x');
 ylabel('y');
 zlabel('z');

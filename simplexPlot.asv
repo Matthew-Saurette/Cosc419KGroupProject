@@ -61,6 +61,9 @@ classdef simplexPlot
         function j = plotTotal(X,outputFile)
             
             for i = 1:length(X(1,1,:))
+                
+                [k1,av1] = convhull(X(:,1,i),X(:,2,i),X(:,3,i));
+                s1 = trimesh(k1,X(:,1,i),X(:,2,i),X(:,1,i),'FaceColor',[1,i/length(X(1,1,:)),0],'DisplayName',strcat('Y',string(i)));
                 [k1,av1] = convhull(X(1,:,i),X(2,:,i),X(3,:,i));
                 s1 = trimesh(k1,X(1,:,i),X(2,:,i),X(3,:,i),'FaceColor',[1,i/length(X(1,1,:)),0],'DisplayName',strcat('Y',string(i)));
                 alpha(s1,0.1);
