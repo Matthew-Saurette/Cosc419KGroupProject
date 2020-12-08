@@ -131,7 +131,7 @@ end
 
 %% For comparison of simplices in Rastrigin
 for i = 1:length(YkTotal(1,1,:)) - 1
-destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Rastrigintry\';
+destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 462\Group_Project_Test\Cosc419KGroupProject\Rastrigin\';
 plot3(YkTotala(1,1,end), YkTotala(2,1,end), YkTotala(3,1,end), 'o', 'linewidth', 2, 'Color', 'r')
 hold on
 plot3(YkTotalb(1,1,end), YkTotalb(2,1,end), YkTotalb(3,1,end), 'o', 'linewidth', 2, 'Color', 'b')
