@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 DEC 2020 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 DEC 2020 16:41
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -1235,192 +1235,628 @@ Package pdftex.def Info: NMAlgorithm.jpg  used on input line 24.
  [2
 
  <./NMAlgorithm.jpg>]
+<niceFunction1.png, id=80, 421.575pt x 316.0608pt>
+File: niceFunction1.png Graphic file (type png)
+<use niceFunction1.png>
+Package pdftex.def Info: niceFunction1.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction1.png (PNG copy)> <a0,fr0>
+<niceFunction2.png, id=86, 421.575pt x 316.0608pt>
+File: niceFunction2.png Graphic file (type png)
+<use niceFunction2.png>
+Package pdftex.def Info: niceFunction2.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction2.png (PNG copy)> <a0,fr1>
+<niceFunction3.png, id=92, 421.575pt x 316.0608pt>
+File: niceFunction3.png Graphic file (type png)
+<use niceFunction3.png>
+Package pdftex.def Info: niceFunction3.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction3.png (PNG copy)> <a0,fr2>
+<niceFunction4.png, id=98, 421.575pt x 316.0608pt>
+File: niceFunction4.png Graphic file (type png)
+<use niceFunction4.png>
+Package pdftex.def Info: niceFunction4.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction4.png (PNG copy)> <a0,fr3>
+<niceFunction5.png, id=104, 421.575pt x 316.0608pt>
+File: niceFunction5.png Graphic file (type png)
+<use niceFunction5.png>
+Package pdftex.def Info: niceFunction5.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction5.png (PNG copy)> <a0,fr4>
+<niceFunction6.png, id=110, 421.575pt x 316.0608pt>
+File: niceFunction6.png Graphic file (type png)
+<use niceFunction6.png>
+Package pdftex.def Info: niceFunction6.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction6.png (PNG copy)> <a0,fr5>
+<niceFunction7.png, id=116, 421.575pt x 316.0608pt>
+File: niceFunction7.png Graphic file (type png)
+<use niceFunction7.png>
+Package pdftex.def Info: niceFunction7.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction7.png (PNG copy)> <a0,fr6>
+<niceFunction8.png, id=122, 421.575pt x 316.0608pt>
+File: niceFunction8.png Graphic file (type png)
+<use niceFunction8.png>
+Package pdftex.def Info: niceFunction8.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction8.png (PNG copy)> <a0,fr7>
+<niceFunction9.png, id=128, 421.575pt x 316.0608pt>
+File: niceFunction9.png Graphic file (type png)
+<use niceFunction9.png>
+Package pdftex.def Info: niceFunction9.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction9.png (PNG copy)> <a0,fr8>
+<niceFunction10.png, id=134, 421.575pt x 316.0608pt>
+File: niceFunction10.png Graphic file (type png)
+<use niceFunction10.png>
+Package pdftex.def Info: niceFunction10.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction10.png (PNG copy)> <a0,fr9>
+<niceFunction11.png, id=140, 421.575pt x 316.0608pt>
+File: niceFunction11.png Graphic file (type png)
+<use niceFunction11.png>
+Package pdftex.def Info: niceFunction11.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction11.png (PNG copy)> <a0,fr10>
+<niceFunction12.png, id=146, 421.575pt x 316.0608pt>
+File: niceFunction12.png Graphic file (type png)
+<use niceFunction12.png>
+Package pdftex.def Info: niceFunction12.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction12.png (PNG copy)> <a0,fr11>
+<niceFunction13.png, id=152, 421.575pt x 316.0608pt>
+File: niceFunction13.png Graphic file (type png)
+<use niceFunction13.png>
+Package pdftex.def Info: niceFunction13.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction13.png (PNG copy)>
+<a0,fr12>
+<niceFunction14.png, id=158, 421.575pt x 316.0608pt>
+File: niceFunction14.png Graphic file (type png)
+<use niceFunction14.png>
+Package pdftex.def Info: niceFunction14.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction14.png (PNG copy)> <a0,fr13>
+<niceFunction15.png, id=164, 421.575pt x 316.0608pt>
+File: niceFunction15.png Graphic file (type png)
+<use niceFunction15.png>
+Package pdftex.def Info: niceFunction15.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction15.png (PNG copy)> <a0,fr14>
+<niceFunction16.png, id=170, 421.575pt x 316.0608pt>
+File: niceFunction16.png Graphic file (type png)
+<use niceFunction16.png>
+Package pdftex.def Info: niceFunction16.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction16.png (PNG copy)> <a0,fr15>
+<niceFunction17.png, id=176, 421.575pt x 316.0608pt>
+File: niceFunction17.png Graphic file (type png)
+<use niceFunction17.png>
+Package pdftex.def Info: niceFunction17.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction17.png (PNG copy)> <a0,fr16>
+<niceFunction18.png, id=182, 421.575pt x 316.0608pt>
+File: niceFunction18.png Graphic file (type png)
+<use niceFunction18.png>
+Package pdftex.def Info: niceFunction18.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction18.png (PNG copy)> <a0,fr17>
+<niceFunction19.png, id=188, 421.575pt x 316.0608pt>
+File: niceFunction19.png Graphic file (type png)
+<use niceFunction19.png>
+Package pdftex.def Info: niceFunction19.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction19.png (PNG copy)> <a0,fr18>
+<niceFunction20.png, id=194, 421.575pt x 316.0608pt>
+File: niceFunction20.png Graphic file (type png)
+<use niceFunction20.png>
+Package pdftex.def Info: niceFunction20.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction20.png (PNG copy)>
+<a0,fr19>
+<niceFunction21.png, id=200, 421.575pt x 316.0608pt>
+File: niceFunction21.png Graphic file (type png)
+<use niceFunction21.png>
+Package pdftex.def Info: niceFunction21.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction21.png (PNG copy)> <a0,fr20>
+<niceFunction22.png, id=206, 421.575pt x 316.0608pt>
+File: niceFunction22.png Graphic file (type png)
+<use niceFunction22.png>
+Package pdftex.def Info: niceFunction22.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction22.png (PNG copy)> <a0,fr21>
+<niceFunction23.png, id=212, 421.575pt x 316.0608pt>
+File: niceFunction23.png Graphic file (type png)
+<use niceFunction23.png>
+Package pdftex.def Info: niceFunction23.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction23.png (PNG copy)> <a0,fr22>
+<niceFunction24.png, id=218, 421.575pt x 316.0608pt>
+File: niceFunction24.png Graphic file (type png)
+<use niceFunction24.png>
+Package pdftex.def Info: niceFunction24.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction24.png (PNG copy)> <a0,fr23>
+<niceFunction25.png, id=224, 421.575pt x 316.0608pt>
+File: niceFunction25.png Graphic file (type png)
+<use niceFunction25.png>
+Package pdftex.def Info: niceFunction25.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction25.png (PNG copy)> <a0,fr24>
+<niceFunction26.png, id=230, 421.575pt x 316.0608pt>
+File: niceFunction26.png Graphic file (type png)
+<use niceFunction26.png>
+Package pdftex.def Info: niceFunction26.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction26.png (PNG copy)> <a0,fr25>
+<niceFunction27.png, id=236, 421.575pt x 316.0608pt>
+File: niceFunction27.png Graphic file (type png)
+<use niceFunction27.png>
+Package pdftex.def Info: niceFunction27.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction27.png (PNG copy)>
+<a0,fr26>
+<niceFunction28.png, id=242, 421.575pt x 316.0608pt>
+File: niceFunction28.png Graphic file (type png)
+<use niceFunction28.png>
+Package pdftex.def Info: niceFunction28.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction28.png (PNG copy)> <a0,fr27>
+<niceFunction29.png, id=248, 421.575pt x 316.0608pt>
+File: niceFunction29.png Graphic file (type png)
+<use niceFunction29.png>
+Package pdftex.def Info: niceFunction29.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction29.png (PNG copy)> <a0,fr28>
+<niceFunction30.png, id=254, 421.575pt x 316.0608pt>
+File: niceFunction30.png Graphic file (type png)
+<use niceFunction30.png>
+Package pdftex.def Info: niceFunction30.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction30.png (PNG copy)> <a0,fr29>
+<niceFunction31.png, id=260, 421.575pt x 316.0608pt>
+File: niceFunction31.png Graphic file (type png)
+<use niceFunction31.png>
+Package pdftex.def Info: niceFunction31.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction31.png (PNG copy)> <a0,fr30>
+<niceFunction32.png, id=266, 421.575pt x 316.0608pt>
+File: niceFunction32.png Graphic file (type png)
+<use niceFunction32.png>
+Package pdftex.def Info: niceFunction32.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction32.png (PNG copy)> <a0,fr31>
+<niceFunction33.png, id=272, 421.575pt x 316.0608pt>
+File: niceFunction33.png Graphic file (type png)
+<use niceFunction33.png>
+Package pdftex.def Info: niceFunction33.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction33.png (PNG copy)> <a0,fr32>
+<niceFunction34.png, id=278, 421.575pt x 316.0608pt>
+File: niceFunction34.png Graphic file (type png)
+<use niceFunction34.png>
+Package pdftex.def Info: niceFunction34.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction34.png (PNG copy)>
+<a0,fr33>
+<niceFunction35.png, id=284, 421.575pt x 316.0608pt>
+File: niceFunction35.png Graphic file (type png)
+<use niceFunction35.png>
+Package pdftex.def Info: niceFunction35.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction35.png (PNG copy)> <a0,fr34>
+<niceFunction36.png, id=290, 421.575pt x 316.0608pt>
+File: niceFunction36.png Graphic file (type png)
+<use niceFunction36.png>
+Package pdftex.def Info: niceFunction36.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction36.png (PNG copy)> <a0,fr35>
+<niceFunction37.png, id=296, 421.575pt x 316.0608pt>
+File: niceFunction37.png Graphic file (type png)
+<use niceFunction37.png>
+Package pdftex.def Info: niceFunction37.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction37.png (PNG copy)> <a0,fr36>
+<niceFunction38.png, id=302, 421.575pt x 316.0608pt>
+File: niceFunction38.png Graphic file (type png)
+<use niceFunction38.png>
+Package pdftex.def Info: niceFunction38.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction38.png (PNG copy)> <a0,fr37>
+<niceFunction39.png, id=308, 421.575pt x 316.0608pt>
+File: niceFunction39.png Graphic file (type png)
+<use niceFunction39.png>
+Package pdftex.def Info: niceFunction39.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction39.png (PNG copy)> <a0,fr38>
+<niceFunction40.png, id=314, 421.575pt x 316.0608pt>
+File: niceFunction40.png Graphic file (type png)
+<use niceFunction40.png>
+Package pdftex.def Info: niceFunction40.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction40.png (PNG copy)> <a0,fr39>
+<niceFunction41.png, id=320, 421.575pt x 316.0608pt>
+File: niceFunction41.png Graphic file (type png)
+<use niceFunction41.png>
+Package pdftex.def Info: niceFunction41.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction41.png (PNG copy)>
+<a0,fr40>
+<niceFunction42.png, id=326, 421.575pt x 316.0608pt>
+File: niceFunction42.png Graphic file (type png)
+<use niceFunction42.png>
+Package pdftex.def Info: niceFunction42.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction42.png (PNG copy)> <a0,fr41>
+<niceFunction43.png, id=332, 421.575pt x 316.0608pt>
+File: niceFunction43.png Graphic file (type png)
+<use niceFunction43.png>
+Package pdftex.def Info: niceFunction43.png  used on input line 30.
+(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
+ <./niceFunction43.png (PNG copy)> <a0,fr42>
+Overfull \hbox (79.27866pt too wide) in paragraph at lines 30--30
+ [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
 
-LaTeX Warning: Reference `anim@abspage0' on page 3 undefined on input line 38.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \def 
-l.38 \end{frame}
-                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Overfull \vbox (78.18004pt too high) detected at line 30
+ []
 
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \def 
-l.38 \end{frame}
-                
-I was expecting to see `<', `=', or `>'. Didn't.
+[3
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \def 
-l.38 \end{frame}
-                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+]
+<Initialize.jpg, id=369, 103.88812pt x 114.4275pt>
+File: Initialize.jpg Graphic file (type jpg)
+<use Initialize.jpg>
+Package pdftex.def Info: Initialize.jpg  used on input line 43.
+(pdftex.def)             Requested size: 89.85406pt x 98.97318pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
-! Undefined control sequence.
-<argument> ... allowed}{}}{}\fi \def \@anim@relop 
-                                                  {>}\let \@anim@numtemplate...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> ...im@relop {>}\let \@anim@numtemplate 
-                                                  \@anim@first \ifnum \@anim...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   |
-l.38 \end{frame}
-                
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   |
-l.38 \end{frame}
-                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\\animategraphics ...tbox \else \xdef \@anim@nfps 
-                                                  {#2\space }\xdef \@anim@nf...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\\animategraphics ...{#2\space }\xdef \@anim@nfps 
-                                                  {\expandafter \zap@space \...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\\animategraphics ...after \zap@space \@anim@nfps 
-                                                  \@empty }\ifdim \@anim@nfp...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \zap@space has an extra }.
-<inserted text> 
-                \par 
-l.38 \end{frame}
-                
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@empty 
-! Paragraph ended before \zap@space was complete.
-<to be read again> 
-                   \par 
-l.38 \end{frame}
-                
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Undefined control sequence.
-\\animategraphics ... \@empty }\ifdim \@anim@nfps 
-                                                  pt<\z@ \PackageError {anim...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.38 \end{frame}
-                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\\animategraphics ...}\fi \global \let \@anim@fps 
-                                                  \@anim@nfps \if@anim@expor...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\\animategraphics ... \let \@anim@fps \@anim@nfps 
-                                                  \if@anim@export \if@anim@t...
-l.38 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-! Incomplete \iffalse; all text was ignored after line 38.
-<inserted text> 
-                \fi 
-<*> ./Math462GroupPresentation.tex
-                                  
-The file ended while I was skipping conditional text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
-! Emergency stop.
-<*> ./Math462GroupPresentation.tex
-                                  
-*** (job aborted, no legal \end found)
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 43.
 
- 
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1
+mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<InitializeFig.png, id=370, 553.31718pt x 425.33907pt>
+File: InitializeFig.png Graphic file (type png)
+<use InitializeFig.png>
+Package pdftex.def Info: InitializeFig.png  used on input line 43.
+(pdftex.def)             Requested size: 191.8547pt x 147.47551pt.
+ [4
+
+ <./Initialize.jpg> <./InitializeFig.png>]
+<Order1.jpg, id=400, 648.92438pt x 130.23656pt>
+File: Order1.jpg Graphic file (type jpg)
+<use Order1.jpg>
+Package pdftex.def Info: Order1.jpg  used on input line 58.
+(pdftex.def)             Requested size: 256.72147pt x 51.52335pt.
+<Shrink2.jpg, id=401, 272.51813pt x 197.23688pt>
+File: Shrink2.jpg Graphic file (type jpg)
+<use Shrink2.jpg>
+Package pdftex.def Info: Shrink2.jpg  used on input line 58.
+(pdftex.def)             Requested size: 113.81479pt x 82.37242pt.
+<Order3.jpg, id=402, 280.79906pt x 225.09094pt>
+File: Order3.jpg Graphic file (type jpg)
+<use Order3.jpg>
+Package pdftex.def Info: Order3.jpg  used on input line 58.
+(pdftex.def)             Requested size: 113.81479pt x 91.23344pt.
+<Order1Fig.png, id=403, 562.35094pt x 429.85594pt>
+File: Order1Fig.png Graphic file (type png)
+<use Order1Fig.png>
+Package pdftex.def Info: Order1Fig.png  used on input line 58.
+(pdftex.def)             Requested size: 191.8547pt x 146.64757pt.
+ [5
+
+ <./Order1.jpg> <./Shrink2.jpg> <./Order3.jpg> <./Order1Fig.png>]
+<Order2.jpg, id=432, 243.91125pt x 160.34906pt>
+File: Order2.jpg Graphic file (type jpg)
+<use Order2.jpg>
+Package pdftex.def Info: Order2.jpg  used on input line 71.
+(pdftex.def)             Requested size: 113.81479pt x 74.82333pt.
+<Order2Fig.png, id=433, 843.15pt x 632.3625pt>
+File: Order2Fig.png Graphic file (type png)
+<use Order2Fig.png>
+Package pdftex.def Info: Order2Fig.png  used on input line 71.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [6
+
+ <./Order2.jpg> <./Order2Fig.png (PNG copy)>]
+<Reflect.jpg, id=463, 409.53pt x 74.52844pt>
+File: Reflect.jpg Graphic file (type jpg)
+<use Reflect.jpg>
+Package pdftex.def Info: Reflect.jpg  used on input line 84.
+(pdftex.def)             Requested size: 159.33974pt x 28.99773pt.
+<ReflectFig.png, id=464, 843.15pt x 632.3625pt>
+File: ReflectFig.png Graphic file (type png)
+<use ReflectFig.png>
+Package pdftex.def Info: ReflectFig.png  used on input line 84.
+(pdftex.def)             Requested size: 162.58974pt x 121.9352pt.
+ [7
+
+ <./Reflect.jpg> <./ReflectFig.png (PNG copy)>]
+<Expand.jpg, id=493, 303.38344pt x 189.70876pt>
+File: Expand.jpg Graphic file (type jpg)
+<use Expand.jpg>
+Package pdftex.def Info: Expand.jpg  used on input line 97.
+(pdftex.def)             Requested size: 126.8198pt x 79.30371pt.
+<ExpandFig.png, id=494, 843.15pt x 632.3625pt>
+File: ExpandFig.png Graphic file (type png)
+<use ExpandFig.png>
+Package pdftex.def Info: ExpandFig.png  used on input line 97.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+ [8
+
+ <./Expand.jpg> <./ExpandFig.png (PNG copy)>]
+<OC.jpg, id=522, 431.36156pt x 212.29312pt>
+File: OC.jpg Graphic file (type jpg)
+<use OC.jpg>
+Package pdftex.def Info: OC.jpg  used on input line 110.
+(pdftex.def)             Requested size: 159.33974pt x 78.41765pt.
+<OCFig.png, id=523, 843.15pt x 632.3625pt>
+File: OCFig.png Graphic file (type png)
+<use OCFig.png>
+Package pdftex.def Info: OCFig.png  used on input line 110.
+(pdftex.def)             Requested size: 162.58974pt x 121.9352pt.
+ [9
+
+ <./OC.jpg> <./OCFig.png (PNG copy)>]
+<IC.jpg, id=551, 319.1925pt x 127.22531pt>
+File: IC.jpg Graphic file (type jpg)
+<use IC.jpg>
+Package pdftex.def Info: IC.jpg  used on input line 123.
+(pdftex.def)             Requested size: 126.8198pt x 50.54755pt.
+<ICFig.png, id=552, 843.15pt x 632.3625pt>
+File: ICFig.png Graphic file (type png)
+<use ICFig.png>
+Package pdftex.def Info: ICFig.png  used on input line 123.
+(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
+[10
+
+ <./IC.jpg> <./ICFig.png (PNG copy)>]
+<Shrink.jpg, id=580, 544.28343pt x 100.12407pt>
+File: Shrink.jpg Graphic file (type jpg)
+<use Shrink.jpg>
+Package pdftex.def Info: Shrink.jpg  used on input line 129.
+(pdftex.def)             Requested size: 290.9531pt x 53.5223pt.
+<ShrinkFig.png, id=581, 843.15pt x 632.3625pt>
+File: ShrinkFig.png Graphic file (type png)
+<use ShrinkFig.png>
+Package pdftex.def Info: ShrinkFig.png  used on input line 129.
+(pdftex.def)             Requested size: 222.48985pt x 166.86124pt.
+ [11
+
+ <./Shrink.jpg> <./ShrinkFig.png (PNG copy)>]
+<NiceFunctionPlot.jpg, id=609, 1124.2pt x 843.15pt>
+File: NiceFunctionPlot.jpg Graphic file (type jpg)
+<use NiceFunctionPlot.jpg>
+Package pdftex.def Info: NiceFunctionPlot.jpg  used on input line 145.
+(pdftex.def)             Requested size: 159.33974pt x 119.49399pt.
+<NiceFunctionSimplex.jpg, id=610, 878.28125pt x 755.82375pt>
+File: NiceFunctionSimplex.jpg Graphic file (type jpg)
+<use NiceFunctionSimplex.jpg>
+Package pdftex.def Info: NiceFunctionSimplex.jpg  used on input line 145.
+(pdftex.def)             Requested size: 159.33974pt x 137.11496pt.
+ [12
+
+ <./NiceFunctionPlot.jpg> <./NiceFunctionSimplex.jpg>]
+<rosenbrockPlotS1.jpg, id=641, 1124.2pt x 843.15pt>
+File: rosenbrockPlotS1.jpg Graphic file (type jpg)
+<use rosenbrockPlotS1.jpg>
+Package pdftex.def Info: rosenbrockPlotS1.jpg  used on input line 159.
+(pdftex.def)             Requested size: 159.33974pt x 119.49399pt.
+<Rosenbrock.jpg, id=642, 562.1pt x 421.575pt>
+File: Rosenbrock.jpg Graphic file (type jpg)
+<use Rosenbrock.jpg>
+Package pdftex.def Info: Rosenbrock.jpg  used on input line 159.
+(pdftex.def)             Requested size: 159.33974pt x 119.50041pt.
+ [13
+
+ <./rosenbrockPlotS1.jpg> <./Rosenbrock.jpg>]
+<rastriginFunction.jpg, id=671, 878.28125pt x 658.46pt>
+File: rastriginFunction.jpg Graphic file (type jpg)
+<use rastriginFunction.jpg>
+Package pdftex.def Info: rastriginFunction.jpg  used on input line 173.
+(pdftex.def)             Requested size: 159.33974pt x 119.45207pt.
+<Rastrigin1.jpg, id=672, 562.1pt x 421.575pt>
+File: Rastrigin1.jpg Graphic file (type jpg)
+<use Rastrigin1.jpg>
+Package pdftex.def Info: Rastrigin1.jpg  used on input line 173.
+(pdftex.def)             Requested size: 159.33974pt x 119.50041pt.
+ [14
+
+ <./rastriginFunction.jpg> <./Rastrigin1.jpg>]
+File: rastriginFunction.jpg Graphic file (type jpg)
+<use rastriginFunction.jpg>
+Package pdftex.def Info: rastriginFunction.jpg  used on input line 187.
+(pdftex.def)             Requested size: 159.33974pt x 119.45207pt.
+<Rastrigin2.jpg, id=700, 562.1pt x 421.575pt>
+File: Rastrigin2.jpg Graphic file (type jpg)
+<use Rastrigin2.jpg>
+Package pdftex.def Info: Rastrigin2.jpg  used on input line 187.
+(pdftex.def)             Requested size: 159.33974pt x 119.50041pt.
+ [15
+
+ <./Rastrigin2.jpg>]
+<Data.jpg, id=730, 238.64156pt x 191.21437pt>
+File: Data.jpg Graphic file (type jpg)
+<use Data.jpg>
+Package pdftex.def Info: Data.jpg  used on input line 210.
+(pdftex.def)             Requested size: 146.32976pt x 117.24747pt.
+ [16
+
+ <./Data.jpg>]
+<Y0a.jpg, id=761, 102.3825pt x 46.67438pt>
+File: Y0a.jpg Graphic file (type jpg)
+<use Y0a.jpg>
+Package pdftex.def Info: Y0a.jpg  used on input line 235.
+(pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
+<StandardParams.jpg, id=762, 109.1578pt x 63.23625pt>
+File: StandardParams.jpg Graphic file (type jpg)
+<use StandardParams.jpg>
+Package pdftex.def Info: StandardParams.jpg  used on input line 235.
+(pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
+<1aSimplex.jpg, id=763, 239.39438pt x 55.70813pt>
+File: 1aSimplex.jpg Graphic file (type jpg)
+<use 1aSimplex.jpg>
+Package pdftex.def Info: 1aSimplex.jpg  used on input line 235.
+(pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
+<Simplex1.jpg, id=764, 1124.2pt x 843.15pt>
+File: Simplex1.jpg Graphic file (type jpg)
+<use Simplex1.jpg>
+Package pdftex.def Info: Simplex1.jpg  used on input line 235.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+<1aSimplexPlot.jpg, id=765, 1124.2pt x 843.15pt>
+File: 1aSimplexPlot.jpg Graphic file (type jpg)
+<use 1aSimplexPlot.jpg>
+Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 235.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+ [17
+
+ <./Y0a.jpg> <./StandardParams.jpg> <./1aSimplex.jpg> <./Simplex1.jpg> <./1aSim
+plexPlot.jpg>]
+<Y0b.jpg, id=793, 176.91093pt x 22.58438pt>
+File: Y0b.jpg Graphic file (type jpg)
+<use Y0b.jpg>
+Package pdftex.def Info: Y0b.jpg  used on input line 257.
+(pdftex.def)             Requested size: 89.85406pt x 11.47066pt.
+File: StandardParams.jpg Graphic file (type jpg)
+<use StandardParams.jpg>
+Package pdftex.def Info: StandardParams.jpg  used on input line 257.
+(pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
+<1bSimplex.jpg, id=794, 233.37187pt x 49.68562pt>
+File: 1bSimplex.jpg Graphic file (type jpg)
+<use 1bSimplex.jpg>
+Package pdftex.def Info: 1bSimplex.jpg  used on input line 257.
+(pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
+<Simplex2.jpg, id=795, 1124.2pt x 843.15pt>
+File: Simplex2.jpg Graphic file (type jpg)
+<use Simplex2.jpg>
+Package pdftex.def Info: Simplex2.jpg  used on input line 257.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+<1bSimplexPlot.jpg, id=796, 1124.2pt x 843.15pt>
+File: 1bSimplexPlot.jpg Graphic file (type jpg)
+<use 1bSimplexPlot.jpg>
+Package pdftex.def Info: 1bSimplexPlot.jpg  used on input line 257.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+ [18
+
+ <./Y0b.jpg> <./1bSimplex.jpg> <./Simplex2.jpg> <./1bSimplexPlot.jpg>]
+File: Y0a.jpg Graphic file (type jpg)
+<use Y0a.jpg>
+Package pdftex.def Info: Y0a.jpg  used on input line 279.
+(pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
+<NewParamsA.jpg, id=824, 112.92188pt x 63.23625pt>
+File: NewParamsA.jpg Graphic file (type jpg)
+<use NewParamsA.jpg>
+Package pdftex.def Info: NewParamsA.jpg  used on input line 279.
+(pdftex.def)             Requested size: 53.91208pt x 30.19093pt.
+File: 1aSimplex.jpg Graphic file (type jpg)
+<use 1aSimplex.jpg>
+Package pdftex.def Info: 1aSimplex.jpg  used on input line 279.
+(pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
+File: Simplex1.jpg Graphic file (type jpg)
+<use Simplex1.jpg>
+Package pdftex.def Info: Simplex1.jpg  used on input line 279.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+File: 1aSimplexPlot.jpg Graphic file (type jpg)
+<use 1aSimplexPlot.jpg>
+Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 279.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+ [19
+
+ <./NewParamsA.jpg>]
+File: Y0b.jpg Graphic file (type jpg)
+<use Y0b.jpg>
+Package pdftex.def Info: Y0b.jpg  used on input line 301.
+(pdftex.def)             Requested size: 89.85406pt x 11.47066pt.
+<NewParamsB.jpg, id=853, 122.70844pt x 63.23625pt>
+File: NewParamsB.jpg Graphic file (type jpg)
+<use NewParamsB.jpg>
+Package pdftex.def Info: NewParamsB.jpg  used on input line 301.
+(pdftex.def)             Requested size: 53.91208pt x 27.78253pt.
+File: 1bSimplex.jpg Graphic file (type jpg)
+<use 1bSimplex.jpg>
+Package pdftex.def Info: 1bSimplex.jpg  used on input line 301.
+(pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
+File: Simplex2.jpg Graphic file (type jpg)
+<use Simplex2.jpg>
+Package pdftex.def Info: Simplex2.jpg  used on input line 301.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+File: 1bSimplexPlot.jpg Graphic file (type jpg)
+<use 1bSimplexPlot.jpg>
+Package pdftex.def Info: 1bSimplexPlot.jpg  used on input line 301.
+(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
+ [20
+
+ <./NewParamsB.jpg>]
+<convergencePlot.jpg, id=880, 1124.2pt x 843.15pt>
+File: convergencePlot.jpg Graphic file (type jpg)
+<use convergencePlot.jpg>
+Package pdftex.def Info: convergencePlot.jpg  used on input line 306.
+(pdftex.def)             Requested size: 290.9531pt x 218.21033pt.
+ [21
+
+ <./convergencePlot.jpg>]
+\tf@nav=\write6
+\openout6 = `Math462GroupPresentation.nav'.
+
+\tf@toc=\write7
+\openout7 = `Math462GroupPresentation.toc'.
+
+\tf@snm=\write8
+\openout8 = `Math462GroupPresentation.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+
+(Math462GroupPresentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
+d.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 28852 strings out of 492484
- 561659 string characters out of 3121601
- 626043 words of memory out of 3000000
- 32711 multiletter control sequences out of 15000+200000
- 534150 words of font info for 30 fonts, out of 3000000 for 9000
+ 29838 strings out of 492484
+ 581174 string characters out of 3121601
+ 629050 words of memory out of 3000000
+ 33588 multiletter control sequences out of 15000+200000
+ 544839 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,87p,820b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 58i,15n,87p,820b,877s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmex10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sarah/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/sarah/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/sar
+ah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><
+C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmssi10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmssi12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sarah/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sarah/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on Math462GroupPresentation.pdf (21 pages, 3060031 bytes).
+PDF statistics:
+ 955 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 1005 words of extra memory for PDF output out of 10000 (max. 10000000)
+
