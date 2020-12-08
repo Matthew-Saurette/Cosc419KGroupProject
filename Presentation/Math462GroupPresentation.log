@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 DEC 2020 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 DEC 2020 16:16
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -777,6 +777,259 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
 )
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/animate\animate.st
+y"
+Package: animate 2020/10/07 PDF & SVG animations from files and inline graphics
+
+
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
+y"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
+tex"
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
+.tex"
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count157
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ifdraft.s
+ty"
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+) ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count158
+\calc@Bcount=\count159
+\calc@Adimen=\dimen189
+\calc@Bdimen=\dimen190
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count160
+\calc@Cskip=\skip59
+)
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\zref-absp
+age.sty"
+Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
+
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\zref-base
+.sty"
+Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
+Package zref Info: New property list: main on input line 762.
+Package zref Info: New property: default on input line 763.
+Package zref Info: New property: page on input line 764.
+)
+\c@abspage=\count161
+Package zref Info: New property: abspage on input line 65.
+)
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/media9\pdfbase.sty
+"
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
+"
+Package: expl3 2019-11-07 L3 programming layer (loader) 
+
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-cod
+e.tex"
+Package: expl3 2019-11-07 L3 programming layer (code)
+\c_max_int=\count162
+\l_tmpa_int=\count163
+\l_tmpb_int=\count164
+\g_tmpa_int=\count165
+\g_tmpb_int=\count166
+\l__seq_internal_a_int=\count167
+\l__seq_internal_b_int=\count168
+\g__kernel_prg_map_int=\count169
+\c__ior_term_noprompt_ior=\count170
+\c_log_iow=\count171
+\l_iow_line_count_int=\count172
+\l__iow_line_target_int=\count173
+\l__iow_one_indent_int=\count174
+\l__iow_indent_int=\count175
+\c_zero_dim=\dimen191
+\c_max_dim=\dimen192
+\l_tmpa_dim=\dimen193
+\l_tmpb_dim=\dimen194
+\g_tmpa_dim=\dimen195
+\g_tmpb_dim=\dimen196
+\c_zero_skip=\skip60
+\c_max_skip=\skip61
+\l_tmpa_skip=\skip62
+\l_tmpb_skip=\skip63
+\g_tmpa_skip=\skip64
+\g_tmpb_skip=\skip65
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count176
+\l__intarray_loop_int=\count177
+\c__intarray_sp_dim=\dimen197
+\g__intarray_font_int=\count178
+\c__fp_leading_shift_int=\count179
+\c__fp_middle_shift_int=\count180
+\c__fp_trailing_shift_int=\count181
+\c__fp_big_leading_shift_int=\count182
+\c__fp_big_middle_shift_int=\count183
+\c__fp_big_trailing_shift_int=\count184
+\c__fp_Bigg_leading_shift_int=\count185
+\c__fp_Bigg_middle_shift_int=\count186
+\c__fp_Bigg_trailing_shift_int=\count187
+\c__kernel_randint_max_int=\count188
+\g__fp_array_int=\count189
+\l__fp_array_loop_int=\count190
+\l__sort_length_int=\count191
+\l__sort_min_int=\count192
+\l__sort_top_int=\count193
+\l__sort_max_int=\count194
+\l__sort_true_max_int=\count195
+\l__sort_block_int=\count196
+\l__sort_begin_int=\count197
+\l__sort_end_int=\count198
+\l__sort_A_int=\count199
+\l__sort_B_int=\count266
+\l__sort_C_int=\count267
+\l__str_internal_int=\count268
+\c__str_replacement_char_int=\count269
+\l__tl_analysis_normal_int=\count270
+\l__tl_analysis_index_int=\count271
+\l__tl_analysis_nesting_int=\count272
+\l__tl_analysis_type_int=\count273
+\l__regex_internal_a_int=\count274
+\l__regex_internal_b_int=\count275
+\l__regex_internal_c_int=\count276
+\l__regex_balance_int=\count277
+\l__regex_group_level_int=\count278
+\l__regex_mode_int=\count279
+\c__regex_cs_in_class_mode_int=\count280
+\c__regex_cs_mode_int=\count281
+\l__regex_catcodes_int=\count282
+\l__regex_default_catcodes_int=\count283
+\c__regex_catcode_D_int=\count284
+\c__regex_catcode_S_int=\count285
+\c__regex_catcode_L_int=\count286
+\c__regex_catcode_O_int=\count287
+\c__regex_catcode_A_int=\count288
+\c__regex_all_catcodes_int=\count289
+\l__regex_show_lines_int=\count290
+\l__regex_min_state_int=\count291
+\l__regex_max_state_int=\count292
+\l__regex_left_state_int=\count293
+\l__regex_right_state_int=\count294
+\l__regex_capturing_group_int=\count295
+\l__regex_min_pos_int=\count296
+\l__regex_max_pos_int=\count297
+\l__regex_curr_pos_int=\count298
+\l__regex_start_pos_int=\count299
+\l__regex_success_pos_int=\count300
+\l__regex_curr_char_int=\count301
+\l__regex_curr_catcode_int=\count302
+\l__regex_last_char_int=\count303
+\l__regex_case_changed_char_int=\count304
+\l__regex_curr_state_int=\count305
+\l__regex_step_int=\count306
+\l__regex_min_active_int=\count307
+\l__regex_max_active_int=\count308
+\l__regex_replacement_csnames_int=\count309
+\l__regex_match_count_int=\count310
+\l__regex_min_submatch_int=\count311
+\l__regex_submatch_int=\count312
+\l__regex_zeroth_submatch_int=\count313
+\g__regex_trace_regex_int=\count314
+\c_empty_box=\box55
+\l_tmpa_box=\box56
+\l_tmpb_box=\box57
+\g_tmpa_box=\box58
+\g_tmpb_box=\box59
+\l__box_top_dim=\dimen198
+\l__box_bottom_dim=\dimen199
+\l__box_left_dim=\dimen256
+\l__box_right_dim=\dimen257
+\l__box_top_new_dim=\dimen258
+\l__box_bottom_new_dim=\dimen259
+\l__box_left_new_dim=\dimen260
+\l__box_right_new_dim=\dimen261
+\l__box_internal_box=\box60
+\l__coffin_internal_box=\box61
+\l__coffin_internal_dim=\dimen262
+\l__coffin_offset_x_dim=\dimen263
+\l__coffin_offset_y_dim=\dimen264
+\l__coffin_x_dim=\dimen265
+\l__coffin_y_dim=\dimen266
+\l__coffin_x_prime_dim=\dimen267
+\l__coffin_y_prime_dim=\dimen268
+\c_empty_coffin=\box62
+\l__coffin_aligned_coffin=\box63
+\l__coffin_aligned_internal_coffin=\box64
+\l_tmpa_coffin=\box65
+\l_tmpb_coffin=\box66
+\g_tmpa_coffin=\box67
+\g_tmpb_coffin=\box68
+\l__coffin_bounding_shift_dim=\dimen269
+\l__coffin_left_corner_dim=\dimen270
+\l__coffin_right_corner_dim=\dimen271
+\l__coffin_bottom_corner_dim=\dimen272
+\l__coffin_top_corner_dim=\dimen273
+\l__coffin_scaled_total_height_dim=\dimen274
+\l__coffin_scaled_width_dim=\dimen275
+\c__coffin_empty_coffin=\box69
+\l__coffin_display_coffin=\box70
+\l__coffin_display_coord_coffin=\box71
+\l__coffin_display_pole_coffin=\box72
+\l__coffin_display_offset_dim=\dimen276
+\l__coffin_display_x_dim=\dimen277
+\l__coffin_display_y_dim=\dimen278
+\g__char_data_ior=\read2
+
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3depreca
+tion.def"
+File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
+))
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+d-pdfmode.def"
+File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count315
+\l__pdf_internal_box=\box73
+))
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3keys2
+e\l3keys2e.sty"
+Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2020/09/10 v0.44 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count316
+\g_pbs_oc_int=\count317
+)
+("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ocgx2\ocgbase.sty"
+Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count318
+)
+\@anim@box=\box74
+\@anim@measbox=\box75
+\@anim@tmpdima=\dimen279
+\@anim@tmpdimb=\dimen280
+\@anim@num=\count319
+\@anim@curframe=\count320
+\@anim@curframe@zb=\count321
+\@anim@resizeflags=\count322
+\@anim@skipfram=\count323
+\@anim@mulframecnt=\count324
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count325
+\c@@anim@ltxcnt=\count326
+\@anim@curlayer=\count327
+\@anim@lineno=\count328
+\@anim@curfield=\count329
+\@anim@@resizeflags=\count330
+)
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamertheme
 Madrid.sty"
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamercolor
@@ -791,20 +1044,20 @@ themeinfolines.sty"))
 themeseahorse.sty") (Math462GroupPresentation.aux)
 \openout1 = `Math462GroupPresentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -844,17 +1097,17 @@ LaTeX Font Info:    ... okay on input line 14.
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count157
-\scratchdimen=\dimen189
-\scratchbox=\box55
-\nofMPsegments=\count158
-\nofMParguments=\count159
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count160
-\MPscratchDim=\dimen190
-\MPnumerator=\count161
-\makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count331
+\scratchdimen=\dimen281
+\scratchbox=\box76
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen282
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks48
 )
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty"
@@ -871,8 +1124,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 14.
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring OFF on input line 15.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -886,67 +1139,67 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (Math462GroupPresentation.out) (Math462GroupPresentation.out)
 \@outlinefile=\write5
 \openout5 = `Math462GroupPresentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 14.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 15.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 14.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 14.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 14.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 14.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 14.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 14.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 14.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-4.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-14.
+15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 14.
+ut line 15.
 
 ("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
 tor-basic-dictionary-English.dict"
@@ -974,361 +1227,200 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (Math462GroupPresentation.nav) [1
 
 {C:/Users/sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<NMAlgorithm.jpg, id=51, 520.94624pt x 316.18124pt>
+<NMAlgorithm.jpg, id=52, 520.94624pt x 316.18124pt>
 File: NMAlgorithm.jpg Graphic file (type jpg)
 <use NMAlgorithm.jpg>
-Package pdftex.def Info: NMAlgorithm.jpg  used on input line 23.
+Package pdftex.def Info: NMAlgorithm.jpg  used on input line 24.
 (pdftex.def)             Requested size: 325.17949pt x 197.36191pt.
  [2
 
  <./NMAlgorithm.jpg>]
-<Initialize.jpg, id=78, 103.88812pt x 114.4275pt>
-File: Initialize.jpg Graphic file (type jpg)
-<use Initialize.jpg>
-Package pdftex.def Info: Initialize.jpg  used on input line 36.
-(pdftex.def)             Requested size: 89.85406pt x 98.97318pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
+LaTeX Warning: Reference `anim@abspage0' on page 3 undefined on input line 38.
 
-("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+! Missing number, treated as zero.
+<to be read again> 
+                   \def 
+l.38 \end{frame}
+                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \def 
+l.38 \end{frame}
+                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \def 
+l.38 \end{frame}
+                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... allowed}{}}{}\fi \def \@anim@relop 
+                                                  {>}\let \@anim@numtemplate...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...im@relop {>}\let \@anim@numtemplate 
+                                                  \@anim@first \ifnum \@anim...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   |
+l.38 \end{frame}
+                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   |
+l.38 \end{frame}
+                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\\animategraphics ...tbox \else \xdef \@anim@nfps 
+                                                  {#2\space }\xdef \@anim@nf...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\animategraphics ...{#2\space }\xdef \@anim@nfps 
+                                                  {\expandafter \zap@space \...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\animategraphics ...after \zap@space \@anim@nfps 
+                                                  \@empty }\ifdim \@anim@nfp...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \zap@space has an extra }.
+<inserted text> 
+                \par 
+l.38 \end{frame}
+                
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@empty 
+! Paragraph ended before \zap@space was complete.
+<to be read again> 
+                   \par 
+l.38 \end{frame}
+                
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\\animategraphics ... \@empty }\ifdim \@anim@nfps 
+                                                  pt<\z@ \PackageError {anim...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.38 \end{frame}
+                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\\animategraphics ...}\fi \global \let \@anim@fps 
+                                                  \@anim@nfps \if@anim@expor...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\animategraphics ... \let \@anim@fps \@anim@nfps 
+                                                  \if@anim@export \if@anim@t...
+l.38 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+! Incomplete \iffalse; all text was ignored after line 38.
+<inserted text> 
+                \fi 
+<*> ./Math462GroupPresentation.tex
+                                  
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
 
-("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 36.
+! Emergency stop.
+<*> ./Math462GroupPresentation.tex
+                                  
+*** (job aborted, no legal \end found)
 
-("C:\Users\sarah\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1
-mathkerncmss.fd"
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-<InitializeFig.png, id=79, 553.31718pt x 425.33907pt>
-File: InitializeFig.png Graphic file (type png)
-<use InitializeFig.png>
-Package pdftex.def Info: InitializeFig.png  used on input line 36.
-(pdftex.def)             Requested size: 191.8547pt x 147.47551pt.
- [3
-
- <./Initialize.jpg> <./InitializeFig.png>]
-<Order1.jpg, id=108, 648.92438pt x 130.23656pt>
-File: Order1.jpg Graphic file (type jpg)
-<use Order1.jpg>
-Package pdftex.def Info: Order1.jpg  used on input line 51.
-(pdftex.def)             Requested size: 256.72147pt x 51.52335pt.
-<Shrink2.jpg, id=109, 272.51813pt x 197.23688pt>
-File: Shrink2.jpg Graphic file (type jpg)
-<use Shrink2.jpg>
-Package pdftex.def Info: Shrink2.jpg  used on input line 51.
-(pdftex.def)             Requested size: 113.81479pt x 82.37242pt.
-<Order3.jpg, id=110, 280.79906pt x 225.09094pt>
-File: Order3.jpg Graphic file (type jpg)
-<use Order3.jpg>
-Package pdftex.def Info: Order3.jpg  used on input line 51.
-(pdftex.def)             Requested size: 113.81479pt x 91.23344pt.
-<Order1Fig.png, id=111, 562.35094pt x 429.85594pt>
-File: Order1Fig.png Graphic file (type png)
-<use Order1Fig.png>
-Package pdftex.def Info: Order1Fig.png  used on input line 51.
-(pdftex.def)             Requested size: 191.8547pt x 146.64757pt.
- [4
-
- <./Order1.jpg> <./Shrink2.jpg> <./Order3.jpg> <./Order1Fig.png>]
-<Order2.jpg, id=139, 243.91125pt x 160.34906pt>
-File: Order2.jpg Graphic file (type jpg)
-<use Order2.jpg>
-Package pdftex.def Info: Order2.jpg  used on input line 64.
-(pdftex.def)             Requested size: 113.81479pt x 74.82333pt.
-<Order2Fig.png, id=140, 843.15pt x 632.3625pt>
-File: Order2Fig.png Graphic file (type png)
-<use Order2Fig.png>
-Package pdftex.def Info: Order2Fig.png  used on input line 64.
-(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
- [5
-
- <./Order2.jpg> <./Order2Fig.png (PNG copy)>]
-<Reflect.jpg, id=169, 409.53pt x 74.52844pt>
-File: Reflect.jpg Graphic file (type jpg)
-<use Reflect.jpg>
-Package pdftex.def Info: Reflect.jpg  used on input line 77.
-(pdftex.def)             Requested size: 159.33974pt x 28.99773pt.
-<ReflectFig.png, id=170, 843.15pt x 632.3625pt>
-File: ReflectFig.png Graphic file (type png)
-<use ReflectFig.png>
-Package pdftex.def Info: ReflectFig.png  used on input line 77.
-(pdftex.def)             Requested size: 162.58974pt x 121.9352pt.
- [6
-
- <./Reflect.jpg> <./ReflectFig.png (PNG copy)>]
-<Expand.jpg, id=197, 303.38344pt x 189.70876pt>
-File: Expand.jpg Graphic file (type jpg)
-<use Expand.jpg>
-Package pdftex.def Info: Expand.jpg  used on input line 90.
-(pdftex.def)             Requested size: 126.8198pt x 79.30371pt.
-<ExpandFig.png, id=198, 843.15pt x 632.3625pt>
-File: ExpandFig.png Graphic file (type png)
-<use ExpandFig.png>
-Package pdftex.def Info: ExpandFig.png  used on input line 90.
-(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
- [7
-
- <./Expand.jpg> <./ExpandFig.png (PNG copy)>]
-<OC.jpg, id=226, 431.36156pt x 212.29312pt>
-File: OC.jpg Graphic file (type jpg)
-<use OC.jpg>
-Package pdftex.def Info: OC.jpg  used on input line 103.
-(pdftex.def)             Requested size: 159.33974pt x 78.41765pt.
-<OCFig.png, id=227, 843.15pt x 632.3625pt>
-File: OCFig.png Graphic file (type png)
-<use OCFig.png>
-Package pdftex.def Info: OCFig.png  used on input line 103.
-(pdftex.def)             Requested size: 162.58974pt x 121.9352pt.
- [8
-
- <./OC.jpg> <./OCFig.png (PNG copy)>]
-<IC.jpg, id=254, 319.1925pt x 127.22531pt>
-File: IC.jpg Graphic file (type jpg)
-<use IC.jpg>
-Package pdftex.def Info: IC.jpg  used on input line 116.
-(pdftex.def)             Requested size: 126.8198pt x 50.54755pt.
-<ICFig.png, id=255, 843.15pt x 632.3625pt>
-File: ICFig.png Graphic file (type png)
-<use ICFig.png>
-Package pdftex.def Info: ICFig.png  used on input line 116.
-(pdftex.def)             Requested size: 191.8547pt x 143.88681pt.
-[9
-
- <./IC.jpg> <./ICFig.png (PNG copy)>]
-<Shrink.jpg, id=282, 544.28343pt x 100.12407pt>
-File: Shrink.jpg Graphic file (type jpg)
-<use Shrink.jpg>
-Package pdftex.def Info: Shrink.jpg  used on input line 122.
-(pdftex.def)             Requested size: 290.9531pt x 53.5223pt.
-<ShrinkFig.png, id=283, 843.15pt x 632.3625pt>
-File: ShrinkFig.png Graphic file (type png)
-<use ShrinkFig.png>
-Package pdftex.def Info: ShrinkFig.png  used on input line 122.
-(pdftex.def)             Requested size: 222.48985pt x 166.86124pt.
- [10
-
- <./Shrink.jpg> <./ShrinkFig.png (PNG copy)>]
-<NiceFunctionPlot.jpg, id=310, 1124.2pt x 843.15pt>
-File: NiceFunctionPlot.jpg Graphic file (type jpg)
-<use NiceFunctionPlot.jpg>
-Package pdftex.def Info: NiceFunctionPlot.jpg  used on input line 138.
-(pdftex.def)             Requested size: 159.33974pt x 119.49399pt.
-<NiceFunctionSimplex.jpg, id=311, 878.28125pt x 755.82375pt>
-File: NiceFunctionSimplex.jpg Graphic file (type jpg)
-<use NiceFunctionSimplex.jpg>
-Package pdftex.def Info: NiceFunctionSimplex.jpg  used on input line 138.
-(pdftex.def)             Requested size: 159.33974pt x 137.11496pt.
- [11
-
- <./NiceFunctionPlot.jpg> <./NiceFunctionSimplex.jpg>]
-<rosenbrockPlotS1.jpg, id=341, 1124.2pt x 843.15pt>
-File: rosenbrockPlotS1.jpg Graphic file (type jpg)
-<use rosenbrockPlotS1.jpg>
-Package pdftex.def Info: rosenbrockPlotS1.jpg  used on input line 152.
-(pdftex.def)             Requested size: 159.33974pt x 119.49399pt.
-<Rosenbrock.jpg, id=342, 562.1pt x 421.575pt>
-File: Rosenbrock.jpg Graphic file (type jpg)
-<use Rosenbrock.jpg>
-Package pdftex.def Info: Rosenbrock.jpg  used on input line 152.
-(pdftex.def)             Requested size: 159.33974pt x 119.50041pt.
- [12
-
- <./rosenbrockPlotS1.jpg> <./Rosenbrock.jpg>]
-<rastriginFunction.jpg, id=369, 878.28125pt x 658.46pt>
-File: rastriginFunction.jpg Graphic file (type jpg)
-<use rastriginFunction.jpg>
-Package pdftex.def Info: rastriginFunction.jpg  used on input line 166.
-(pdftex.def)             Requested size: 159.33974pt x 119.45207pt.
-<Rastrigin1.jpg, id=370, 562.1pt x 421.575pt>
-File: Rastrigin1.jpg Graphic file (type jpg)
-<use Rastrigin1.jpg>
-Package pdftex.def Info: Rastrigin1.jpg  used on input line 166.
-(pdftex.def)             Requested size: 159.33974pt x 119.50041pt.
- [13
-
- <./rastriginFunction.jpg> <./Rastrigin1.jpg>]
-File: rastriginFunction.jpg Graphic file (type jpg)
-<use rastriginFunction.jpg>
-Package pdftex.def Info: rastriginFunction.jpg  used on input line 180.
-(pdftex.def)             Requested size: 159.33974pt x 119.45207pt.
-<Rastrigin2.jpg, id=398, 562.1pt x 421.575pt>
-File: Rastrigin2.jpg Graphic file (type jpg)
-<use Rastrigin2.jpg>
-Package pdftex.def Info: Rastrigin2.jpg  used on input line 180.
-(pdftex.def)             Requested size: 159.33974pt x 119.50041pt.
- [14
-
- <./Rastrigin2.jpg>]
-<Data.jpg, id=427, 238.64156pt x 191.21437pt>
-File: Data.jpg Graphic file (type jpg)
-<use Data.jpg>
-Package pdftex.def Info: Data.jpg  used on input line 203.
-(pdftex.def)             Requested size: 146.32976pt x 117.24747pt.
- [15
-
- <./Data.jpg>]
-<Y0a.jpg, id=457, 102.3825pt x 46.67438pt>
-File: Y0a.jpg Graphic file (type jpg)
-<use Y0a.jpg>
-Package pdftex.def Info: Y0a.jpg  used on input line 228.
-(pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
-<StandardParams.jpg, id=458, 109.1578pt x 63.23625pt>
-File: StandardParams.jpg Graphic file (type jpg)
-<use StandardParams.jpg>
-Package pdftex.def Info: StandardParams.jpg  used on input line 228.
-(pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
-<1aSimplex.jpg, id=459, 239.39438pt x 55.70813pt>
-File: 1aSimplex.jpg Graphic file (type jpg)
-<use 1aSimplex.jpg>
-Package pdftex.def Info: 1aSimplex.jpg  used on input line 228.
-(pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
-<Simplex1.jpg, id=460, 1124.2pt x 843.15pt>
-File: Simplex1.jpg Graphic file (type jpg)
-<use Simplex1.jpg>
-Package pdftex.def Info: Simplex1.jpg  used on input line 228.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
-<1aSimplexPlot.jpg, id=461, 1124.2pt x 843.15pt>
-File: 1aSimplexPlot.jpg Graphic file (type jpg)
-<use 1aSimplexPlot.jpg>
-Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 228.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
- [16
-
- <./Y0a.jpg> <./StandardParams.jpg> <./1aSimplex.jpg> <./Simplex1.jpg> <./1aSim
-plexPlot.jpg>]
-<Y0b.jpg, id=488, 176.91093pt x 22.58438pt>
-File: Y0b.jpg Graphic file (type jpg)
-<use Y0b.jpg>
-Package pdftex.def Info: Y0b.jpg  used on input line 250.
-(pdftex.def)             Requested size: 89.85406pt x 11.47066pt.
-File: StandardParams.jpg Graphic file (type jpg)
-<use StandardParams.jpg>
-Package pdftex.def Info: StandardParams.jpg  used on input line 250.
-(pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
-<1bSimplex.jpg, id=489, 233.37187pt x 49.68562pt>
-File: 1bSimplex.jpg Graphic file (type jpg)
-<use 1bSimplex.jpg>
-Package pdftex.def Info: 1bSimplex.jpg  used on input line 250.
-(pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
-<Simplex2.jpg, id=490, 1124.2pt x 843.15pt>
-File: Simplex2.jpg Graphic file (type jpg)
-<use Simplex2.jpg>
-Package pdftex.def Info: Simplex2.jpg  used on input line 250.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
-<1bSimplexPlot.jpg, id=491, 1124.2pt x 843.15pt>
-File: 1bSimplexPlot.jpg Graphic file (type jpg)
-<use 1bSimplexPlot.jpg>
-Package pdftex.def Info: 1bSimplexPlot.jpg  used on input line 250.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
- [17
-
- <./Y0b.jpg> <./1bSimplex.jpg> <./Simplex2.jpg> <./1bSimplexPlot.jpg>]
-File: Y0a.jpg Graphic file (type jpg)
-<use Y0a.jpg>
-Package pdftex.def Info: Y0a.jpg  used on input line 272.
-(pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
-<NewParamsA.jpg, id=518, 112.92188pt x 63.23625pt>
-File: NewParamsA.jpg Graphic file (type jpg)
-<use NewParamsA.jpg>
-Package pdftex.def Info: NewParamsA.jpg  used on input line 272.
-(pdftex.def)             Requested size: 53.91208pt x 30.19093pt.
-File: 1aSimplex.jpg Graphic file (type jpg)
-<use 1aSimplex.jpg>
-Package pdftex.def Info: 1aSimplex.jpg  used on input line 272.
-(pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
-File: Simplex1.jpg Graphic file (type jpg)
-<use Simplex1.jpg>
-Package pdftex.def Info: Simplex1.jpg  used on input line 272.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
-File: 1aSimplexPlot.jpg Graphic file (type jpg)
-<use 1aSimplexPlot.jpg>
-Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 272.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
- [18
-
- <./NewParamsA.jpg>]
-File: Y0b.jpg Graphic file (type jpg)
-<use Y0b.jpg>
-Package pdftex.def Info: Y0b.jpg  used on input line 294.
-(pdftex.def)             Requested size: 89.85406pt x 11.47066pt.
-<NewParamsB.jpg, id=545, 122.70844pt x 63.23625pt>
-File: NewParamsB.jpg Graphic file (type jpg)
-<use NewParamsB.jpg>
-Package pdftex.def Info: NewParamsB.jpg  used on input line 294.
-(pdftex.def)             Requested size: 53.91208pt x 27.78253pt.
-File: 1bSimplex.jpg Graphic file (type jpg)
-<use 1bSimplex.jpg>
-Package pdftex.def Info: 1bSimplex.jpg  used on input line 294.
-(pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
-File: Simplex2.jpg Graphic file (type jpg)
-<use Simplex2.jpg>
-Package pdftex.def Info: Simplex2.jpg  used on input line 294.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
-File: 1bSimplexPlot.jpg Graphic file (type jpg)
-<use 1bSimplexPlot.jpg>
-Package pdftex.def Info: 1bSimplexPlot.jpg  used on input line 294.
-(pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
- [19
-
- <./NewParamsB.jpg>]
-<convergencePlot.jpg, id=572, 1124.2pt x 843.15pt>
-File: convergencePlot.jpg Graphic file (type jpg)
-<use convergencePlot.jpg>
-Package pdftex.def Info: convergencePlot.jpg  used on input line 299.
-(pdftex.def)             Requested size: 290.9531pt x 218.21033pt.
- [20
-
- <./convergencePlot.jpg>]
-\tf@nav=\write6
-\openout6 = `Math462GroupPresentation.nav'.
-
-\tf@toc=\write7
-\openout7 = `Math462GroupPresentation.toc'.
-
-\tf@snm=\write8
-\openout8 = `Math462GroupPresentation.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
-
-(Math462GroupPresentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
-d.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 18291 strings out of 492484
- 355948 string characters out of 3121601
- 416648 words of memory out of 3000000
- 22144 multiletter control sequences out of 15000+200000
- 16141 words of font info for 59 fonts, out of 3000000 for 9000
+ 28852 strings out of 492484
+ 561659 string characters out of 3121601
+ 626043 words of memory out of 3000000
+ 32711 multiletter control sequences out of 15000+200000
+ 534150 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,820b,700s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmex10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sarah/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/sarah/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/sar
-ah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><
-C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmssi10.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmssi12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sarah/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sarah/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Math462GroupPresentation.pdf (20 pages, 2400998 bytes).
-PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 58i,15n,87p,820b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
