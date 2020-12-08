@@ -4,14 +4,9 @@ Y0a(:,:,1) = [3 1 3 2.1;
               3 2 2 1.9;
               3 3 1 2];
 
-
-% Y0a(:,:,1) = [3 1 3 2.1;
-%               3 2 2 1.9;
-%               3 3 1 2];
-% 
-% Y0b(:,:,1) =  -1*[3 1 3 2.1;
-%               3 2 2 1.9;
-%               3 3 1 2]; 
+Y0b(:,:,1) =  -1*[3 1 3 2.1;
+              3 2 2 1.9;
+              3 3 1 2]; 
 
 del_e = 2;            
 del_oc = 1/2;
@@ -19,8 +14,9 @@ del_ic = -1/2;
 gamma = 1/2;
 solution = -2;
 eps = 1e-6;
-f = @(x) x(1)^2 + x(2)^2 + x(3)^2 - 2;
-%f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2;
+%f = @(x) x(1)^2 + x(2)^2 + x(3)^2 - 2;
+%f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2 + (1 - x(2))^2 + 100*(x(3) - x(2))^2;
+f = @(x) 30 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2)))); 
 
 [YkTotal, fkbest, feval_total] = nelderMead(Y0a,del_e,del_oc,del_ic,gamma,f, solution, eps);
 
@@ -76,7 +72,7 @@ axes = gca;
 set(h_current, 'Units','Inches');
 pos = get(h_current,'Position');
 set(h_current,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3),pos(4)]);
-print(h_current, strcat(destination,'niceFunction',num2str(i)),'-dpng')
+print(h_current, strcat(destination,'Rosenbrock',num2str(i)),'-dpng')
 simplexPlot.plot(YkTotal(:,:,i),YkTotal(:,:,i+1),i,destination);
 
 end
