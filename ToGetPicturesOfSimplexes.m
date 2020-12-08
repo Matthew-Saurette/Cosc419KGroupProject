@@ -4,8 +4,8 @@ clc; close all; clear;
 %               3 2 2 1.9;
 %               3 3 1 2];
           
-Y0a(:,:,1) = [3 1 3 2.1;
-              3 2 2 1.9;
+Y0a(:,:,1) = 2*[4 1 3 2.1;
+              3 2 3 1.9;
               3 3 1 2];
           
 Y0b(:,:,1) =  -2*[4 1 3 2.1;
@@ -60,15 +60,16 @@ destination = 'C:\Users\Tyler\Google Drive\UBCO 2016-2020\2020-2021\Term 1\MATH 
 plot3(YkTotala(1,1,end), YkTotala(2,1,end), YkTotala(3,1,end), 'o', 'linewidth', 2, 'Color', 'r')
 hold on
 plot3(YkTotalb(1,1,end), YkTotalb(2,1,end), YkTotalb(3,1,end), 'o', 'linewidth', 2, 'Color', 'b')
+plot3(0, 0, 0, 'o', 'linewidth' ,2 ,'Color','g')
 simplexPlot.plot2(YkTotala(:,:,i),YkTotala(:,:,i+1),YkTotalb(:,:,i),YkTotalb(:,:,i+1),i,destination);
-xlim([-10 5])
+xlim([-10 10])
 ylim([-5 5])
-zlim([-6 4])
+zlim([-10 10])
 grid on
 xlabel('x');
 ylabel('y');
 zlabel('z');
-legend('min 1','min 2',strcat('Ya', num2str(i)), strcat('Ya',num2str(i+1)),strcat('Yb',num2str(i)),strcat('Yb',num2str(i+1)))
+legend('local min 1','local min 2','global min',strcat('Ya', num2str(i)), strcat('Ya',num2str(i+1)),strcat('Yb',num2str(i)),strcat('Yb',num2str(i+1)))
 h_current = gcf;
 axes = gca;
 set(h_current, 'Units','Inches');

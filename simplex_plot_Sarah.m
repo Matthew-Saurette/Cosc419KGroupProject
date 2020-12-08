@@ -19,20 +19,13 @@ gamma = 1/2;
 %Rheology Problem
 gammadot = [0.0137, 0.0274, 0.0434, 0.0866, 0.137, 0.274, 0.434, 0.866, 1.37, 2.74, 4.34, 5.46, 6.88];
 eta_i = [3220, 2190, 1640, 1050, 766, 490, 348, 223, 163, 104, 76.7, 68.1, 58.2];
-<<<<<<< HEAD
 f = @(x) sum((abs(520*x(1)*(1+(14*x(2))^2.*(gammadot).^2).^(((0.038*x(3))-1)/2)-eta_i)).^1); 
 
-=======
->>>>>>> 510c778dfcc4eee8ef6987ae621a32ebd552df4f
 Y0a = [0 1 0 0;
        0 0 1 0;
        0 0 0 1];
 Y0b = Y0a + (9.5)*ones(3,4); 
 solution = f([9.48,8.36,8.71]);
-<<<<<<< HEAD
-
-=======
->>>>>>> 510c778dfcc4eee8ef6987ae621a32ebd552df4f
 
 [YkTotal, fkbest, feval_total] = nelderMead(Y0a,del_e,del_oc,del_ic,gamma,f, solution, eps);
 
