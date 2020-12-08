@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 DEC 2020 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  7 DEC 2020 16:56
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -1556,398 +1556,204 @@ File: niceFunction30.png Graphic file (type png)
 Package pdftex.def Info: niceFunction30.png  used on input line 141.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./niceFunction30.png (PNG copy)> <a0,fr29>
-<niceFunction31.png, id=561, 421.575pt x 316.0608pt>
-File: niceFunction31.png Graphic file (type png)
-<use niceFunction31.png>
-Package pdftex.def Info: niceFunction31.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction31.png (PNG copy)> <a0,fr30>
-<niceFunction32.png, id=569, 421.575pt x 316.0608pt>
-File: niceFunction32.png Graphic file (type png)
-<use niceFunction32.png>
-Package pdftex.def Info: niceFunction32.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction32.png (PNG copy)>
-<a0,fr31>
-<niceFunction33.png, id=577, 421.575pt x 316.0608pt>
-File: niceFunction33.png Graphic file (type png)
-<use niceFunction33.png>
-Package pdftex.def Info: niceFunction33.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction33.png (PNG copy)> <a0,fr32>
-<niceFunction34.png, id=585, 421.575pt x 316.0608pt>
-File: niceFunction34.png Graphic file (type png)
-<use niceFunction34.png>
-Package pdftex.def Info: niceFunction34.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction34.png (PNG copy)> <a0,fr33>
-<niceFunction35.png, id=593, 421.575pt x 316.0608pt>
-File: niceFunction35.png Graphic file (type png)
-<use niceFunction35.png>
-Package pdftex.def Info: niceFunction35.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction35.png (PNG copy)> <a0,fr34>
-<niceFunction36.png, id=601, 421.575pt x 316.0608pt>
-File: niceFunction36.png Graphic file (type png)
-<use niceFunction36.png>
-Package pdftex.def Info: niceFunction36.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction36.png (PNG copy)> <a0,fr35>
-<niceFunction37.png, id=609, 421.575pt x 316.0608pt>
-File: niceFunction37.png Graphic file (type png)
-<use niceFunction37.png>
-Package pdftex.def Info: niceFunction37.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction37.png (PNG copy)> <a0,fr36>
-<niceFunction38.png, id=617, 421.575pt x 316.0608pt>
-File: niceFunction38.png Graphic file (type png)
-<use niceFunction38.png>
-Package pdftex.def Info: niceFunction38.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction38.png (PNG copy)> <a0,fr37>
-<niceFunction39.png, id=625, 421.575pt x 316.0608pt>
-File: niceFunction39.png Graphic file (type png)
-<use niceFunction39.png>
-Package pdftex.def Info: niceFunction39.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction39.png (PNG copy)>
-<a0,fr38>
-<niceFunction40.png, id=633, 421.575pt x 316.0608pt>
-File: niceFunction40.png Graphic file (type png)
-<use niceFunction40.png>
-Package pdftex.def Info: niceFunction40.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction40.png (PNG copy)> <a0,fr39>
-<niceFunction41.png, id=641, 421.575pt x 316.0608pt>
-File: niceFunction41.png Graphic file (type png)
-<use niceFunction41.png>
-Package pdftex.def Info: niceFunction41.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction41.png (PNG copy)> <a0,fr40>
-<niceFunction42.png, id=649, 421.575pt x 316.0608pt>
-File: niceFunction42.png Graphic file (type png)
-<use niceFunction42.png>
-Package pdftex.def Info: niceFunction42.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction42.png (PNG copy)> <a0,fr41>
-<niceFunction43.png, id=657, 421.575pt x 316.0608pt>
-File: niceFunction43.png Graphic file (type png)
-<use niceFunction43.png>
-Package pdftex.def Info: niceFunction43.png  used on input line 141.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./niceFunction43.png (PNG copy)> <a0,fr42> [11
+[11
 
  <./NiceFunctionPlot.jpg>]
-<rosenbrockPlotS1.jpg, id=699, 1124.2pt x 843.15pt>
+<rosenbrockPlotS1.jpg, id=595, 1124.2pt x 843.15pt>
 File: rosenbrockPlotS1.jpg Graphic file (type jpg)
 <use rosenbrockPlotS1.jpg>
 Package pdftex.def Info: rosenbrockPlotS1.jpg  used on input line 157.
 (pdftex.def)             Requested size: 159.33974pt x 119.49399pt.
-<Rosenbrock1.png, id=700, 421.575pt x 316.0608pt>
+<Rosenbrock1.png, id=596, 421.575pt x 316.0608pt>
 File: Rosenbrock1.png Graphic file (type png)
 <use Rosenbrock1.png>
 Package pdftex.def Info: Rosenbrock1.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock1.png (PNG copy)> <a1,fr0>
-<Rosenbrock2.png, id=708, 421.575pt x 316.0608pt>
+<Rosenbrock2.png, id=604, 421.575pt x 316.0608pt>
 File: Rosenbrock2.png Graphic file (type png)
 <use Rosenbrock2.png>
 Package pdftex.def Info: Rosenbrock2.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock2.png (PNG copy)> <a1,fr1>
-<Rosenbrock3.png, id=716, 421.575pt x 316.0608pt>
+<Rosenbrock3.png, id=612, 421.575pt x 316.0608pt>
 File: Rosenbrock3.png Graphic file (type png)
 <use Rosenbrock3.png>
 Package pdftex.def Info: Rosenbrock3.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock3.png (PNG copy)> <a1,fr2>
-<Rosenbrock4.png, id=724, 421.575pt x 316.0608pt>
+<Rosenbrock4.png, id=620, 421.575pt x 316.0608pt>
 File: Rosenbrock4.png Graphic file (type png)
 <use Rosenbrock4.png>
 Package pdftex.def Info: Rosenbrock4.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock4.png (PNG copy)> <a1,fr3>
-<Rosenbrock5.png, id=732, 421.575pt x 316.0608pt>
+<Rosenbrock5.png, id=628, 421.575pt x 316.0608pt>
 File: Rosenbrock5.png Graphic file (type png)
 <use Rosenbrock5.png>
 Package pdftex.def Info: Rosenbrock5.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock5.png (PNG copy)> <a1,fr4>
-<Rosenbrock6.png, id=740, 421.575pt x 316.0608pt>
+<Rosenbrock6.png, id=636, 421.575pt x 316.0608pt>
 File: Rosenbrock6.png Graphic file (type png)
 <use Rosenbrock6.png>
 Package pdftex.def Info: Rosenbrock6.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock6.png (PNG copy)> <a1,fr5>
-<Rosenbrock7.png, id=748, 421.575pt x 316.0608pt>
+<Rosenbrock7.png, id=644, 421.575pt x 316.0608pt>
 File: Rosenbrock7.png Graphic file (type png)
 <use Rosenbrock7.png>
 Package pdftex.def Info: Rosenbrock7.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock7.png (PNG copy)> <a1,fr6>
-<Rosenbrock8.png, id=756, 421.575pt x 316.0608pt>
+<Rosenbrock8.png, id=652, 421.575pt x 316.0608pt>
 File: Rosenbrock8.png Graphic file (type png)
 <use Rosenbrock8.png>
 Package pdftex.def Info: Rosenbrock8.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock8.png (PNG copy)> <a1,fr7>
-<Rosenbrock9.png, id=764, 421.575pt x 316.0608pt>
+<Rosenbrock9.png, id=660, 421.575pt x 316.0608pt>
 File: Rosenbrock9.png Graphic file (type png)
 <use Rosenbrock9.png>
 Package pdftex.def Info: Rosenbrock9.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock9.png (PNG copy)> <a1,fr8>
-<Rosenbrock10.png, id=772, 421.575pt x 316.0608pt>
+<Rosenbrock10.png, id=668, 421.575pt x 316.0608pt>
 File: Rosenbrock10.png Graphic file (type png)
 <use Rosenbrock10.png>
 Package pdftex.def Info: Rosenbrock10.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock10.png (PNG copy)> <a1,fr9>
-<Rosenbrock11.png, id=780, 421.575pt x 316.0608pt>
+<Rosenbrock11.png, id=676, 421.575pt x 316.0608pt>
 File: Rosenbrock11.png Graphic file (type png)
 <use Rosenbrock11.png>
 Package pdftex.def Info: Rosenbrock11.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock11.png (PNG copy)> <a1,fr10>
-<Rosenbrock12.png, id=788, 421.575pt x 316.0608pt>
+<Rosenbrock12.png, id=684, 421.575pt x 316.0608pt>
 File: Rosenbrock12.png Graphic file (type png)
 <use Rosenbrock12.png>
 Package pdftex.def Info: Rosenbrock12.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock12.png (PNG copy)> <a1,fr11>
-<Rosenbrock13.png, id=796, 421.575pt x 316.0608pt>
+<Rosenbrock13.png, id=692, 421.575pt x 316.0608pt>
 File: Rosenbrock13.png Graphic file (type png)
 <use Rosenbrock13.png>
 Package pdftex.def Info: Rosenbrock13.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock13.png (PNG copy)> <a1,fr12>
-<Rosenbrock14.png, id=804, 421.575pt x 316.0608pt>
+ <./Rosenbrock13.png (PNG copy)>
+<a1,fr12>
+<Rosenbrock14.png, id=700, 421.575pt x 316.0608pt>
 File: Rosenbrock14.png Graphic file (type png)
 <use Rosenbrock14.png>
 Package pdftex.def Info: Rosenbrock14.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock14.png (PNG copy)> <a1,fr13>
-<Rosenbrock15.png, id=812, 421.575pt x 316.0608pt>
+<Rosenbrock15.png, id=708, 421.575pt x 316.0608pt>
 File: Rosenbrock15.png Graphic file (type png)
 <use Rosenbrock15.png>
 Package pdftex.def Info: Rosenbrock15.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock15.png (PNG copy)> <a1,fr14>
-<Rosenbrock16.png, id=820, 421.575pt x 316.0608pt>
+<Rosenbrock16.png, id=716, 421.575pt x 316.0608pt>
 File: Rosenbrock16.png Graphic file (type png)
 <use Rosenbrock16.png>
 Package pdftex.def Info: Rosenbrock16.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock16.png (PNG copy)> <a1,fr15>
-<Rosenbrock17.png, id=828, 421.575pt x 316.0608pt>
+<Rosenbrock17.png, id=724, 421.575pt x 316.0608pt>
 File: Rosenbrock17.png Graphic file (type png)
 <use Rosenbrock17.png>
 Package pdftex.def Info: Rosenbrock17.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock17.png (PNG copy)> <a1,fr16>
-<Rosenbrock18.png, id=836, 421.575pt x 316.0608pt>
+<Rosenbrock18.png, id=732, 421.575pt x 316.0608pt>
 File: Rosenbrock18.png Graphic file (type png)
 <use Rosenbrock18.png>
 Package pdftex.def Info: Rosenbrock18.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock18.png (PNG copy)>
-<a1,fr17>
-<Rosenbrock19.png, id=844, 421.575pt x 316.0608pt>
+ <./Rosenbrock18.png (PNG copy)> <a1,fr17>
+<Rosenbrock19.png, id=740, 421.575pt x 316.0608pt>
 File: Rosenbrock19.png Graphic file (type png)
 <use Rosenbrock19.png>
 Package pdftex.def Info: Rosenbrock19.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock19.png (PNG copy)> <a1,fr18>
-<Rosenbrock20.png, id=852, 421.575pt x 316.0608pt>
+<Rosenbrock20.png, id=748, 421.575pt x 316.0608pt>
 File: Rosenbrock20.png Graphic file (type png)
 <use Rosenbrock20.png>
 Package pdftex.def Info: Rosenbrock20.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock20.png (PNG copy)> <a1,fr19>
-<Rosenbrock21.png, id=860, 421.575pt x 316.0608pt>
+<Rosenbrock21.png, id=756, 421.575pt x 316.0608pt>
 File: Rosenbrock21.png Graphic file (type png)
 <use Rosenbrock21.png>
 Package pdftex.def Info: Rosenbrock21.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock21.png (PNG copy)> <a1,fr20>
-<Rosenbrock22.png, id=868, 421.575pt x 316.0608pt>
+<Rosenbrock22.png, id=764, 421.575pt x 316.0608pt>
 File: Rosenbrock22.png Graphic file (type png)
 <use Rosenbrock22.png>
 Package pdftex.def Info: Rosenbrock22.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock22.png (PNG copy)> <a1,fr21>
-<Rosenbrock23.png, id=876, 421.575pt x 316.0608pt>
+<Rosenbrock23.png, id=772, 421.575pt x 316.0608pt>
 File: Rosenbrock23.png Graphic file (type png)
 <use Rosenbrock23.png>
 Package pdftex.def Info: Rosenbrock23.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock23.png (PNG copy)> <a1,fr22>
-<Rosenbrock24.png, id=884, 421.575pt x 316.0608pt>
+<Rosenbrock24.png, id=780, 421.575pt x 316.0608pt>
 File: Rosenbrock24.png Graphic file (type png)
 <use Rosenbrock24.png>
 Package pdftex.def Info: Rosenbrock24.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock24.png (PNG copy)> <a1,fr23>
-<Rosenbrock25.png, id=892, 421.575pt x 316.0608pt>
+<Rosenbrock25.png, id=788, 421.575pt x 316.0608pt>
 File: Rosenbrock25.png Graphic file (type png)
 <use Rosenbrock25.png>
 Package pdftex.def Info: Rosenbrock25.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock25.png (PNG copy)> <a1,fr24>
-<Rosenbrock26.png, id=900, 421.575pt x 316.0608pt>
+<Rosenbrock26.png, id=796, 421.575pt x 316.0608pt>
 File: Rosenbrock26.png Graphic file (type png)
 <use Rosenbrock26.png>
 Package pdftex.def Info: Rosenbrock26.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock26.png (PNG copy)> <a1,fr25>
-<Rosenbrock27.png, id=908, 421.575pt x 316.0608pt>
+ <./Rosenbrock26.png (PNG copy)>
+<a1,fr25>
+<Rosenbrock27.png, id=804, 421.575pt x 316.0608pt>
 File: Rosenbrock27.png Graphic file (type png)
 <use Rosenbrock27.png>
 Package pdftex.def Info: Rosenbrock27.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock27.png (PNG copy)> <a1,fr26>
-<Rosenbrock28.png, id=916, 421.575pt x 316.0608pt>
+<Rosenbrock28.png, id=812, 421.575pt x 316.0608pt>
 File: Rosenbrock28.png Graphic file (type png)
 <use Rosenbrock28.png>
 Package pdftex.def Info: Rosenbrock28.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock28.png (PNG copy)> <a1,fr27>
-<Rosenbrock29.png, id=924, 421.575pt x 316.0608pt>
+<Rosenbrock29.png, id=820, 421.575pt x 316.0608pt>
 File: Rosenbrock29.png Graphic file (type png)
 <use Rosenbrock29.png>
 Package pdftex.def Info: Rosenbrock29.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rosenbrock29.png (PNG copy)> <a1,fr28>
-<Rosenbrock30.png, id=932, 421.575pt x 316.0608pt>
+<Rosenbrock30.png, id=828, 421.575pt x 316.0608pt>
 File: Rosenbrock30.png Graphic file (type png)
 <use Rosenbrock30.png>
 Package pdftex.def Info: Rosenbrock30.png  used on input line 157.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock30.png (PNG copy)> <a1,fr29>
-<Rosenbrock31.png, id=940, 421.575pt x 316.0608pt>
-File: Rosenbrock31.png Graphic file (type png)
-<use Rosenbrock31.png>
-Package pdftex.def Info: Rosenbrock31.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock31.png (PNG copy)>
-<a1,fr30>
-<Rosenbrock32.png, id=948, 421.575pt x 316.0608pt>
-File: Rosenbrock32.png Graphic file (type png)
-<use Rosenbrock32.png>
-Package pdftex.def Info: Rosenbrock32.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock32.png (PNG copy)> <a1,fr31>
-<Rosenbrock33.png, id=956, 421.575pt x 316.0608pt>
-File: Rosenbrock33.png Graphic file (type png)
-<use Rosenbrock33.png>
-Package pdftex.def Info: Rosenbrock33.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock33.png (PNG copy)> <a1,fr32>
-<Rosenbrock34.png, id=964, 421.575pt x 316.0608pt>
-File: Rosenbrock34.png Graphic file (type png)
-<use Rosenbrock34.png>
-Package pdftex.def Info: Rosenbrock34.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock34.png (PNG copy)> <a1,fr33>
-<Rosenbrock35.png, id=972, 421.575pt x 316.0608pt>
-File: Rosenbrock35.png Graphic file (type png)
-<use Rosenbrock35.png>
-Package pdftex.def Info: Rosenbrock35.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock35.png (PNG copy)> <a1,fr34>
-<Rosenbrock36.png, id=980, 421.575pt x 316.0608pt>
-File: Rosenbrock36.png Graphic file (type png)
-<use Rosenbrock36.png>
-Package pdftex.def Info: Rosenbrock36.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock36.png (PNG copy)> <a1,fr35>
-<Rosenbrock37.png, id=988, 421.575pt x 316.0608pt>
-File: Rosenbrock37.png Graphic file (type png)
-<use Rosenbrock37.png>
-Package pdftex.def Info: Rosenbrock37.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock37.png (PNG copy)> <a1,fr36>
-<Rosenbrock38.png, id=996, 421.575pt x 316.0608pt>
-File: Rosenbrock38.png Graphic file (type png)
-<use Rosenbrock38.png>
-Package pdftex.def Info: Rosenbrock38.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock38.png (PNG copy)> <a1,fr37>
-<Rosenbrock39.png, id=1004, 421.575pt x 316.0608pt>
-File: Rosenbrock39.png Graphic file (type png)
-<use Rosenbrock39.png>
-Package pdftex.def Info: Rosenbrock39.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock39.png (PNG copy)> <a1,fr38>
-<Rosenbrock40.png, id=1012, 421.575pt x 316.0608pt>
-File: Rosenbrock40.png Graphic file (type png)
-<use Rosenbrock40.png>
-Package pdftex.def Info: Rosenbrock40.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock40.png (PNG copy)> <a1,fr39>
-<Rosenbrock41.png, id=1020, 421.575pt x 316.0608pt>
-File: Rosenbrock41.png Graphic file (type png)
-<use Rosenbrock41.png>
-Package pdftex.def Info: Rosenbrock41.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock41.png (PNG copy)> <a1,fr40>
-<Rosenbrock42.png, id=1028, 421.575pt x 316.0608pt>
-File: Rosenbrock42.png Graphic file (type png)
-<use Rosenbrock42.png>
-Package pdftex.def Info: Rosenbrock42.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock42.png (PNG copy)> <a1,fr41>
-<Rosenbrock43.png, id=1036, 421.575pt x 316.0608pt>
-File: Rosenbrock43.png Graphic file (type png)
-<use Rosenbrock43.png>
-Package pdftex.def Info: Rosenbrock43.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock43.png (PNG copy)> <a1,fr42>
-<Rosenbrock44.png, id=1044, 421.575pt x 316.0608pt>
-File: Rosenbrock44.png Graphic file (type png)
-<use Rosenbrock44.png>
-Package pdftex.def Info: Rosenbrock44.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock44.png (PNG copy)>
-<a1,fr43>
-<Rosenbrock45.png, id=1052, 421.575pt x 316.0608pt>
-File: Rosenbrock45.png Graphic file (type png)
-<use Rosenbrock45.png>
-Package pdftex.def Info: Rosenbrock45.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock45.png (PNG copy)> <a1,fr44>
-<Rosenbrock46.png, id=1060, 421.575pt x 316.0608pt>
-File: Rosenbrock46.png Graphic file (type png)
-<use Rosenbrock46.png>
-Package pdftex.def Info: Rosenbrock46.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock46.png (PNG copy)> <a1,fr45>
-<Rosenbrock47.png, id=1068, 421.575pt x 316.0608pt>
-File: Rosenbrock47.png Graphic file (type png)
-<use Rosenbrock47.png>
-Package pdftex.def Info: Rosenbrock47.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock47.png (PNG copy)> <a1,fr46>
-<Rosenbrock48.png, id=1076, 421.575pt x 316.0608pt>
-File: Rosenbrock48.png Graphic file (type png)
-<use Rosenbrock48.png>
-Package pdftex.def Info: Rosenbrock48.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock48.png (PNG copy)> <a1,fr47>
-<Rosenbrock49.png, id=1084, 421.575pt x 316.0608pt>
-File: Rosenbrock49.png Graphic file (type png)
-<use Rosenbrock49.png>
-Package pdftex.def Info: Rosenbrock49.png  used on input line 157.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rosenbrock49.png (PNG copy)> <a1,fr48> [12
+ <./Rosenbrock30.png (PNG copy)> <a1,fr29> [12
 
  <./rosenbrockPlotS1.jpg>]
-<rastriginFunction.jpg, id=1123, 878.28125pt x 658.46pt>
+<rastriginFunction.jpg, id=867, 878.28125pt x 658.46pt>
 File: rastriginFunction.jpg Graphic file (type jpg)
 <use rastriginFunction.jpg>
 Package pdftex.def Info: rastriginFunction.jpg  used on input line 171.
 (pdftex.def)             Requested size: 159.33974pt x 119.45207pt.
-<Rastrigin1.jpg, id=1124, 562.1pt x 421.575pt>
+<Rastrigin1.jpg, id=868, 562.1pt x 421.575pt>
 File: Rastrigin1.jpg Graphic file (type jpg)
 <use Rastrigin1.jpg>
 Package pdftex.def Info: Rastrigin1.jpg  used on input line 171.
@@ -1959,7 +1765,7 @@ File: rastriginFunction.jpg Graphic file (type jpg)
 <use rastriginFunction.jpg>
 Package pdftex.def Info: rastriginFunction.jpg  used on input line 185.
 (pdftex.def)             Requested size: 159.33974pt x 119.45207pt.
-<Rastrigin2.jpg, id=1153, 562.1pt x 421.575pt>
+<Rastrigin2.jpg, id=897, 562.1pt x 421.575pt>
 File: Rastrigin2.jpg Graphic file (type jpg)
 <use Rastrigin2.jpg>
 Package pdftex.def Info: Rastrigin2.jpg  used on input line 185.
@@ -1967,7 +1773,7 @@ Package pdftex.def Info: Rastrigin2.jpg  used on input line 185.
  [14
 
  <./Rastrigin2.jpg>]
-<Data.jpg, id=1183, 238.64156pt x 191.21437pt>
+<Data.jpg, id=927, 238.64156pt x 191.21437pt>
 File: Data.jpg Graphic file (type jpg)
 <use Data.jpg>
 Package pdftex.def Info: Data.jpg  used on input line 208.
@@ -1975,27 +1781,27 @@ Package pdftex.def Info: Data.jpg  used on input line 208.
  [15
 
  <./Data.jpg>]
-<Y0a.jpg, id=1214, 102.3825pt x 46.67438pt>
+<Y0a.jpg, id=958, 102.3825pt x 46.67438pt>
 File: Y0a.jpg Graphic file (type jpg)
 <use Y0a.jpg>
 Package pdftex.def Info: Y0a.jpg  used on input line 233.
 (pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
-<StandardParams.jpg, id=1215, 109.1578pt x 63.23625pt>
+<StandardParams.jpg, id=959, 109.1578pt x 63.23625pt>
 File: StandardParams.jpg Graphic file (type jpg)
 <use StandardParams.jpg>
 Package pdftex.def Info: StandardParams.jpg  used on input line 233.
 (pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
-<1aSimplex.jpg, id=1216, 239.39438pt x 55.70813pt>
+<1aSimplex.jpg, id=960, 239.39438pt x 55.70813pt>
 File: 1aSimplex.jpg Graphic file (type jpg)
 <use 1aSimplex.jpg>
 Package pdftex.def Info: 1aSimplex.jpg  used on input line 233.
 (pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
-<Simplex1.jpg, id=1217, 1124.2pt x 843.15pt>
+<Simplex1.jpg, id=961, 1124.2pt x 843.15pt>
 File: Simplex1.jpg Graphic file (type jpg)
 <use Simplex1.jpg>
 Package pdftex.def Info: Simplex1.jpg  used on input line 233.
 (pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
-<1aSimplexPlot.jpg, id=1218, 1124.2pt x 843.15pt>
+<1aSimplexPlot.jpg, id=962, 1124.2pt x 843.15pt>
 File: 1aSimplexPlot.jpg Graphic file (type jpg)
 <use 1aSimplexPlot.jpg>
 Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 233.
@@ -2004,7 +1810,7 @@ Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 233.
 
  <./Y0a.jpg> <./StandardParams.jpg> <./1aSimplex.jpg> <./Simplex1.jpg> <./1aSim
 plexPlot.jpg>]
-<Y0b.jpg, id=1246, 176.91093pt x 22.58438pt>
+<Y0b.jpg, id=990, 176.91093pt x 22.58438pt>
 File: Y0b.jpg Graphic file (type jpg)
 <use Y0b.jpg>
 Package pdftex.def Info: Y0b.jpg  used on input line 255.
@@ -2013,17 +1819,17 @@ File: StandardParams.jpg Graphic file (type jpg)
 <use StandardParams.jpg>
 Package pdftex.def Info: StandardParams.jpg  used on input line 255.
 (pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
-<1bSimplex.jpg, id=1247, 233.37187pt x 49.68562pt>
+<1bSimplex.jpg, id=991, 233.37187pt x 49.68562pt>
 File: 1bSimplex.jpg Graphic file (type jpg)
 <use 1bSimplex.jpg>
 Package pdftex.def Info: 1bSimplex.jpg  used on input line 255.
 (pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
-<Simplex2.jpg, id=1248, 1124.2pt x 843.15pt>
+<Simplex2.jpg, id=992, 1124.2pt x 843.15pt>
 File: Simplex2.jpg Graphic file (type jpg)
 <use Simplex2.jpg>
 Package pdftex.def Info: Simplex2.jpg  used on input line 255.
 (pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
-<1bSimplexPlot.jpg, id=1249, 1124.2pt x 843.15pt>
+<1bSimplexPlot.jpg, id=993, 1124.2pt x 843.15pt>
 File: 1bSimplexPlot.jpg Graphic file (type jpg)
 <use 1bSimplexPlot.jpg>
 Package pdftex.def Info: 1bSimplexPlot.jpg  used on input line 255.
@@ -2035,7 +1841,7 @@ File: Y0a.jpg Graphic file (type jpg)
 <use Y0a.jpg>
 Package pdftex.def Info: Y0a.jpg  used on input line 277.
 (pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
-<NewParamsA.jpg, id=1277, 112.92188pt x 63.23625pt>
+<NewParamsA.jpg, id=1021, 112.92188pt x 63.23625pt>
 File: NewParamsA.jpg Graphic file (type jpg)
 <use NewParamsA.jpg>
 Package pdftex.def Info: NewParamsA.jpg  used on input line 277.
@@ -2052,14 +1858,15 @@ File: 1aSimplexPlot.jpg Graphic file (type jpg)
 <use 1aSimplexPlot.jpg>
 Package pdftex.def Info: 1aSimplexPlot.jpg  used on input line 277.
 (pdftex.def)             Requested size: 97.0408pt x 72.77965pt.
- [18
+
+[18
 
  <./NewParamsA.jpg>]
 File: Y0b.jpg Graphic file (type jpg)
 <use Y0b.jpg>
 Package pdftex.def Info: Y0b.jpg  used on input line 299.
 (pdftex.def)             Requested size: 89.85406pt x 11.47066pt.
-<NewParamsB.jpg, id=1305, 122.70844pt x 63.23625pt>
+<NewParamsB.jpg, id=1049, 122.70844pt x 63.23625pt>
 File: NewParamsB.jpg Graphic file (type jpg)
 <use NewParamsB.jpg>
 Package pdftex.def Info: NewParamsB.jpg  used on input line 299.
@@ -2079,7 +1886,7 @@ Package pdftex.def Info: 1bSimplexPlot.jpg  used on input line 299.
  [19
 
  <./NewParamsB.jpg>]
-<convergencePlot.jpg, id=1333, 1124.2pt x 843.15pt>
+<convergencePlot.jpg, id=1077, 1124.2pt x 843.15pt>
 File: convergencePlot.jpg Graphic file (type jpg)
 <use convergencePlot.jpg>
 Package pdftex.def Info: convergencePlot.jpg  used on input line 304.
@@ -2098,7 +1905,8 @@ Package pdftex.def Info: convergencePlot.jpg  used on input line 304.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
- (Math462GroupPresentation.aux)
+
+(Math462GroupPresentation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
@@ -2106,10 +1914,10 @@ d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30323 strings out of 492484
- 592207 string characters out of 3121601
- 646537 words of memory out of 3000000
- 34025 multiletter control sequences out of 15000+200000
+ 29965 strings out of 492484
+ 584246 string characters out of 3121601
+ 638357 words of memory out of 3000000
+ 33699 multiletter control sequences out of 15000+200000
  544839 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,87p,820b,877s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2126,9 +1934,9 @@ ic/amsfonts/cm/cmssi12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sarah/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sarah/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Math462GroupPresentation.pdf (20 pages, 3753747 bytes).
+Output written on Math462GroupPresentation.pdf (20 pages, 3270073 bytes).
 PDF statistics:
- 1407 PDF objects out of 1440 (max. 8388607)
+ 1151 PDF objects out of 1200 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
- 2388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1652 words of extra memory for PDF output out of 10000 (max. 10000000)
 
