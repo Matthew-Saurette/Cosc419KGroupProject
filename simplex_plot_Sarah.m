@@ -19,13 +19,11 @@ gamma = 1/2;
 %Rheology Problem
 gammadot = [0.0137, 0.0274, 0.0434, 0.0866, 0.137, 0.274, 0.434, 0.866, 1.37, 2.74, 4.34, 5.46, 6.88];
 eta_i = [3220, 2190, 1640, 1050, 766, 490, 348, 223, 163, 104, 76.7, 68.1, 58.2];
-f = @(x) (1-x(1))^2 + 100*(x(2)-x(1))^2;
 Y0a = [0 1 0 0;
        0 0 1 0;
        0 0 0 1];
 Y0b = Y0a + (9.5)*ones(3,4); 
 solution = f([9.48,8.36,8.71]);
-f = @(x) 30 + (x(1)^2 - 10*cos(2*pi*x(1)) + (x(2)^2 - 10*cos(2*pi*x(2))) + x(3)^2 - 10*cos(2*pi*x(3))); 
 
 for i = 1:length(YkTotal(1,1,:))-1
 %destination = 'C:\Users\sarah\Documents\School\Fifth Year\Math 462\Cosc419KGroupProject\Rheology2a\';

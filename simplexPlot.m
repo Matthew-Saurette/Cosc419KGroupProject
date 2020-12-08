@@ -9,8 +9,8 @@ classdef simplexPlot
 %             [k1,av1] = convhull(X(1,:),X(2,:));
 %             [k2,av2] = convhull(Y(1,:),Y(2,:));
             
-            [k1,av1] = convhull(X(:,1),X(:,2),X(:,3));
-            [k2,av2] = convhull(Y(:,1),Y(:,2),Y(:,3));
+            [k1,av1] = convhull(X(1,:),X(2,:),X(3,:));
+            [k2,av2] = convhull(Y(1,:),Y(2,:),Y(3,:));
             if mod(iter,2) == 1
             s1 = trimesh(k1,X(:,1),X(:,2),X(:,3),'FaceColor','red','DisplayName',strcat('Y',string(iter)));
             hold on;            
@@ -63,7 +63,7 @@ classdef simplexPlot
             for i = 1:length(X(1,1,:))
                 
                 [k1,av1] = convhull(X(:,1,i),X(:,2,i),X(:,3,i));
-                s1 = trimesh(k1,X(:,1,i),X(:,2,i),X(:,3,i),'FaceColor',[1,i/length(X(1,1,:)),0],'DisplayName',strcat('Y',string(i)));
+                s1 = trimesh(k1,X(:,1,i),X(:,2,i),X(:,1,i),'FaceColor',[1,i/length(X(1,1,:)),0],'DisplayName',strcat('Y',string(i)));
                 alpha(s1,0.1);
                 if i ==1
                     hold on;
