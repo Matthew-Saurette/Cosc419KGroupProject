@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  8 DEC 2020 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.2)  8 DEC 2020 16:20
 entering extended mode
 **./Math462GroupPresentation.tex
 (Math462GroupPresentation.tex
@@ -1938,70 +1938,10 @@ File: Rastrigin20.png Graphic file (type png)
 <use Rastrigin20.png>
 Package pdftex.def Info: Rastrigin20.png  used on input line 172.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin20.png (PNG copy)> <a2,fr19>
-<Rastrigin21.png, id=1108, 421.575pt x 316.0608pt>
-File: Rastrigin21.png Graphic file (type png)
-<use Rastrigin21.png>
-Package pdftex.def Info: Rastrigin21.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin21.png (PNG copy)> <a2,fr20>
-<Rastrigin22.png, id=1116, 421.575pt x 316.0608pt>
-File: Rastrigin22.png Graphic file (type png)
-<use Rastrigin22.png>
-Package pdftex.def Info: Rastrigin22.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin22.png (PNG copy)> <a2,fr21>
-<Rastrigin23.png, id=1124, 421.575pt x 316.0608pt>
-File: Rastrigin23.png Graphic file (type png)
-<use Rastrigin23.png>
-Package pdftex.def Info: Rastrigin23.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin23.png (PNG copy)> <a2,fr22>
-<Rastrigin24.png, id=1132, 421.575pt x 316.0608pt>
-File: Rastrigin24.png Graphic file (type png)
-<use Rastrigin24.png>
-Package pdftex.def Info: Rastrigin24.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin24.png (PNG copy)> <a2,fr23>
-<Rastrigin25.png, id=1140, 421.575pt x 316.0608pt>
-File: Rastrigin25.png Graphic file (type png)
-<use Rastrigin25.png>
-Package pdftex.def Info: Rastrigin25.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin25.png (PNG copy)> <a2,fr24>
-<Rastrigin26.png, id=1148, 421.575pt x 316.0608pt>
-File: Rastrigin26.png Graphic file (type png)
-<use Rastrigin26.png>
-Package pdftex.def Info: Rastrigin26.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin26.png (PNG copy)> <a2,fr25>
-<Rastrigin27.png, id=1156, 421.575pt x 316.0608pt>
-File: Rastrigin27.png Graphic file (type png)
-<use Rastrigin27.png>
-Package pdftex.def Info: Rastrigin27.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin27.png (PNG copy)> <a2,fr26>
-<Rastrigin28.png, id=1164, 421.575pt x 316.0608pt>
-File: Rastrigin28.png Graphic file (type png)
-<use Rastrigin28.png>
-Package pdftex.def Info: Rastrigin28.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin28.png (PNG copy)> <a2,fr27>
-<Rastrigin29.png, id=1172, 421.575pt x 316.0608pt>
-File: Rastrigin29.png Graphic file (type png)
-<use Rastrigin29.png>
-Package pdftex.def Info: Rastrigin29.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin29.png (PNG copy)> <a2,fr28>
-<Rastrigin30.png, id=1180, 421.575pt x 316.0608pt>
-File: Rastrigin30.png Graphic file (type png)
-<use Rastrigin30.png>
-Package pdftex.def Info: Rastrigin30.png  used on input line 172.
-(pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rastrigin30.png (PNG copy)> <a2,fr29> [13
+ <./Rastrigin20.png (PNG copy)> <a2,fr19> [13
 
  <./rastriginFunction.jpg>]
-<Data.jpg, id=1222, 238.64156pt x 191.21437pt>
+<Data.jpg, id=1142, 238.64156pt x 191.21437pt>
 File: Data.jpg Graphic file (type jpg)
 <use Data.jpg>
 Package pdftex.def Info: Data.jpg  used on input line 195.
@@ -2009,625 +1949,626 @@ Package pdftex.def Info: Data.jpg  used on input line 195.
  [14
 
  <./Data.jpg>]
-<Y0a.jpg, id=1253, 102.3825pt x 46.67438pt>
+<Y0a.jpg, id=1173, 102.3825pt x 46.67438pt>
 File: Y0a.jpg Graphic file (type jpg)
 <use Y0a.jpg>
 Package pdftex.def Info: Y0a.jpg  used on input line 220.
 (pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
-<StandardParams.jpg, id=1254, 109.1578pt x 63.23625pt>
+<StandardParams.jpg, id=1174, 109.1578pt x 63.23625pt>
 File: StandardParams.jpg Graphic file (type jpg)
 <use StandardParams.jpg>
 Package pdftex.def Info: StandardParams.jpg  used on input line 220.
 (pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
-<1aSimplex.jpg, id=1255, 239.39438pt x 55.70813pt>
+<1aSimplex.jpg, id=1175, 239.39438pt x 55.70813pt>
 File: 1aSimplex.jpg Graphic file (type jpg)
 <use 1aSimplex.jpg>
 Package pdftex.def Info: 1aSimplex.jpg  used on input line 220.
 (pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
-<Rheology1a1.png, id=1256, 421.575pt x 316.0608pt>
+<Rheology1a1.png, id=1176, 421.575pt x 316.0608pt>
 File: Rheology1a1.png Graphic file (type png)
 <use Rheology1a1.png>
 Package pdftex.def Info: Rheology1a1.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a1.png (PNG copy)> <a3,fr0>
-<Rheology1a2.png, id=1264, 421.575pt x 316.0608pt>
+<Rheology1a2.png, id=1184, 421.575pt x 316.0608pt>
 File: Rheology1a2.png Graphic file (type png)
 <use Rheology1a2.png>
 Package pdftex.def Info: Rheology1a2.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a2.png (PNG copy)> <a3,fr1>
-<Rheology1a3.png, id=1272, 421.575pt x 316.0608pt>
+<Rheology1a3.png, id=1192, 421.575pt x 316.0608pt>
 File: Rheology1a3.png Graphic file (type png)
 <use Rheology1a3.png>
 Package pdftex.def Info: Rheology1a3.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a3.png (PNG copy)> <a3,fr2>
-<Rheology1a4.png, id=1280, 421.575pt x 316.0608pt>
+<Rheology1a4.png, id=1200, 421.575pt x 316.0608pt>
 File: Rheology1a4.png Graphic file (type png)
 <use Rheology1a4.png>
 Package pdftex.def Info: Rheology1a4.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a4.png (PNG copy)> <a3,fr3>
-<Rheology1a5.png, id=1288, 421.575pt x 316.0608pt>
+<Rheology1a5.png, id=1208, 421.575pt x 316.0608pt>
 File: Rheology1a5.png Graphic file (type png)
 <use Rheology1a5.png>
 Package pdftex.def Info: Rheology1a5.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a5.png (PNG copy)> <a3,fr4>
-<Rheology1a6.png, id=1296, 421.575pt x 316.0608pt>
+<Rheology1a6.png, id=1216, 421.575pt x 316.0608pt>
 File: Rheology1a6.png Graphic file (type png)
 <use Rheology1a6.png>
 Package pdftex.def Info: Rheology1a6.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a6.png (PNG copy)> <a3,fr5>
-<Rheology1a7.png, id=1304, 421.575pt x 316.0608pt>
+<Rheology1a7.png, id=1224, 421.575pt x 316.0608pt>
 File: Rheology1a7.png Graphic file (type png)
 <use Rheology1a7.png>
 Package pdftex.def Info: Rheology1a7.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a7.png (PNG copy)> <a3,fr6>
-<Rheology1a8.png, id=1312, 421.575pt x 316.0608pt>
+<Rheology1a8.png, id=1232, 421.575pt x 316.0608pt>
 File: Rheology1a8.png Graphic file (type png)
 <use Rheology1a8.png>
 Package pdftex.def Info: Rheology1a8.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a8.png (PNG copy)> <a3,fr7>
-<Rheology1a9.png, id=1320, 421.575pt x 316.0608pt>
+<Rheology1a9.png, id=1240, 421.575pt x 316.0608pt>
 File: Rheology1a9.png Graphic file (type png)
 <use Rheology1a9.png>
 Package pdftex.def Info: Rheology1a9.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a9.png (PNG copy)> <a3,fr8>
-<Rheology1a10.png, id=1328, 421.575pt x 316.0608pt>
+<Rheology1a10.png, id=1248, 421.575pt x 316.0608pt>
 File: Rheology1a10.png Graphic file (type png)
 <use Rheology1a10.png>
 Package pdftex.def Info: Rheology1a10.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a10.png (PNG copy)> <a3,fr9>
-<Rheology1a11.png, id=1336, 421.575pt x 316.0608pt>
+<Rheology1a11.png, id=1256, 421.575pt x 316.0608pt>
 File: Rheology1a11.png Graphic file (type png)
 <use Rheology1a11.png>
 Package pdftex.def Info: Rheology1a11.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a11.png (PNG copy)> <a3,fr10>
-<Rheology1a12.png, id=1344, 421.575pt x 316.0608pt>
+<Rheology1a12.png, id=1264, 421.575pt x 316.0608pt>
 File: Rheology1a12.png Graphic file (type png)
 <use Rheology1a12.png>
 Package pdftex.def Info: Rheology1a12.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a12.png (PNG copy)> <a3,fr11>
-<Rheology1a13.png, id=1352, 421.575pt x 316.0608pt>
+ <./Rheology1a12.png (PNG copy)>
+<a3,fr11>
+<Rheology1a13.png, id=1272, 421.575pt x 316.0608pt>
 File: Rheology1a13.png Graphic file (type png)
 <use Rheology1a13.png>
 Package pdftex.def Info: Rheology1a13.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a13.png (PNG copy)> <a3,fr12>
-<Rheology1a14.png, id=1360, 421.575pt x 316.0608pt>
+<Rheology1a14.png, id=1280, 421.575pt x 316.0608pt>
 File: Rheology1a14.png Graphic file (type png)
 <use Rheology1a14.png>
 Package pdftex.def Info: Rheology1a14.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a14.png (PNG copy)> <a3,fr13>
-<Rheology1a15.png, id=1368, 421.575pt x 316.0608pt>
+<Rheology1a15.png, id=1288, 421.575pt x 316.0608pt>
 File: Rheology1a15.png Graphic file (type png)
 <use Rheology1a15.png>
 Package pdftex.def Info: Rheology1a15.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a15.png (PNG copy)> <a3,fr14>
-<Rheology1a16.png, id=1376, 421.575pt x 316.0608pt>
+<Rheology1a16.png, id=1296, 421.575pt x 316.0608pt>
 File: Rheology1a16.png Graphic file (type png)
 <use Rheology1a16.png>
 Package pdftex.def Info: Rheology1a16.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a16.png (PNG copy)> <a3,fr15>
-<Rheology1a17.png, id=1384, 421.575pt x 316.0608pt>
+<Rheology1a17.png, id=1304, 421.575pt x 316.0608pt>
 File: Rheology1a17.png Graphic file (type png)
 <use Rheology1a17.png>
 Package pdftex.def Info: Rheology1a17.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a17.png (PNG copy)> <a3,fr16>
-<Rheology1a18.png, id=1392, 421.575pt x 316.0608pt>
+<Rheology1a18.png, id=1312, 421.575pt x 316.0608pt>
 File: Rheology1a18.png Graphic file (type png)
 <use Rheology1a18.png>
 Package pdftex.def Info: Rheology1a18.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a18.png (PNG copy)> <a3,fr17>
-<Rheology1a19.png, id=1400, 421.575pt x 316.0608pt>
+<Rheology1a19.png, id=1320, 421.575pt x 316.0608pt>
 File: Rheology1a19.png Graphic file (type png)
 <use Rheology1a19.png>
 Package pdftex.def Info: Rheology1a19.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a19.png (PNG copy)> <a3,fr18>
-<Rheology1a20.png, id=1408, 421.575pt x 316.0608pt>
+<Rheology1a20.png, id=1328, 421.575pt x 316.0608pt>
 File: Rheology1a20.png Graphic file (type png)
 <use Rheology1a20.png>
 Package pdftex.def Info: Rheology1a20.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a20.png (PNG copy)> <a3,fr19>
-<Rheology1a21.png, id=1416, 421.575pt x 316.0608pt>
+<Rheology1a21.png, id=1336, 421.575pt x 316.0608pt>
 File: Rheology1a21.png Graphic file (type png)
 <use Rheology1a21.png>
 Package pdftex.def Info: Rheology1a21.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a21.png (PNG copy)>
-<a3,fr20>
-<Rheology1a22.png, id=1424, 421.575pt x 316.0608pt>
+ <./Rheology1a21.png (PNG copy)> <a3,fr20>
+<Rheology1a22.png, id=1344, 421.575pt x 316.0608pt>
 File: Rheology1a22.png Graphic file (type png)
 <use Rheology1a22.png>
 Package pdftex.def Info: Rheology1a22.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a22.png (PNG copy)> <a3,fr21>
-<Rheology1a23.png, id=1432, 421.575pt x 316.0608pt>
+<Rheology1a23.png, id=1352, 421.575pt x 316.0608pt>
 File: Rheology1a23.png Graphic file (type png)
 <use Rheology1a23.png>
 Package pdftex.def Info: Rheology1a23.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a23.png (PNG copy)> <a3,fr22>
-<Rheology1a24.png, id=1440, 421.575pt x 316.0608pt>
+<Rheology1a24.png, id=1360, 421.575pt x 316.0608pt>
 File: Rheology1a24.png Graphic file (type png)
 <use Rheology1a24.png>
 Package pdftex.def Info: Rheology1a24.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a24.png (PNG copy)> <a3,fr23>
-<Rheology1a25.png, id=1448, 421.575pt x 316.0608pt>
+<Rheology1a25.png, id=1368, 421.575pt x 316.0608pt>
 File: Rheology1a25.png Graphic file (type png)
 <use Rheology1a25.png>
 Package pdftex.def Info: Rheology1a25.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a25.png (PNG copy)> <a3,fr24>
-<Rheology1a26.png, id=1456, 421.575pt x 316.0608pt>
+ <./Rheology1a25.png (PNG copy)>
+<a3,fr24>
+<Rheology1a26.png, id=1376, 421.575pt x 316.0608pt>
 File: Rheology1a26.png Graphic file (type png)
 <use Rheology1a26.png>
 Package pdftex.def Info: Rheology1a26.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a26.png (PNG copy)> <a3,fr25>
-<Rheology1a27.png, id=1464, 421.575pt x 316.0608pt>
+<Rheology1a27.png, id=1384, 421.575pt x 316.0608pt>
 File: Rheology1a27.png Graphic file (type png)
 <use Rheology1a27.png>
 Package pdftex.def Info: Rheology1a27.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a27.png (PNG copy)> <a3,fr26>
-<Rheology1a28.png, id=1472, 421.575pt x 316.0608pt>
+<Rheology1a28.png, id=1392, 421.575pt x 316.0608pt>
 File: Rheology1a28.png Graphic file (type png)
 <use Rheology1a28.png>
 Package pdftex.def Info: Rheology1a28.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a28.png (PNG copy)> <a3,fr27>
-<Rheology1a29.png, id=1480, 421.575pt x 316.0608pt>
+<Rheology1a29.png, id=1400, 421.575pt x 316.0608pt>
 File: Rheology1a29.png Graphic file (type png)
 <use Rheology1a29.png>
 Package pdftex.def Info: Rheology1a29.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a29.png (PNG copy)> <a3,fr28>
-<Rheology1a30.png, id=1488, 421.575pt x 316.0608pt>
+<Rheology1a30.png, id=1408, 421.575pt x 316.0608pt>
 File: Rheology1a30.png Graphic file (type png)
 <use Rheology1a30.png>
 Package pdftex.def Info: Rheology1a30.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a30.png (PNG copy)> <a3,fr29>
-<Rheology1a31.png, id=1496, 421.575pt x 316.0608pt>
+<Rheology1a31.png, id=1416, 421.575pt x 316.0608pt>
 File: Rheology1a31.png Graphic file (type png)
 <use Rheology1a31.png>
 Package pdftex.def Info: Rheology1a31.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a31.png (PNG copy)> <a3,fr30>
-<Rheology1a32.png, id=1504, 421.575pt x 316.0608pt>
+<Rheology1a32.png, id=1424, 421.575pt x 316.0608pt>
 File: Rheology1a32.png Graphic file (type png)
 <use Rheology1a32.png>
 Package pdftex.def Info: Rheology1a32.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a32.png (PNG copy)> <a3,fr31>
-<Rheology1a33.png, id=1512, 421.575pt x 316.0608pt>
+<Rheology1a33.png, id=1432, 421.575pt x 316.0608pt>
 File: Rheology1a33.png Graphic file (type png)
 <use Rheology1a33.png>
 Package pdftex.def Info: Rheology1a33.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a33.png (PNG copy)> <a3,fr32>
-<Rheology1a34.png, id=1520, 421.575pt x 316.0608pt>
+<Rheology1a34.png, id=1440, 421.575pt x 316.0608pt>
 File: Rheology1a34.png Graphic file (type png)
 <use Rheology1a34.png>
 Package pdftex.def Info: Rheology1a34.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a34.png (PNG copy)>
-<a3,fr33>
-<Rheology1a35.png, id=1528, 421.575pt x 316.0608pt>
+ <./Rheology1a34.png (PNG copy)> <a3,fr33>
+<Rheology1a35.png, id=1448, 421.575pt x 316.0608pt>
 File: Rheology1a35.png Graphic file (type png)
 <use Rheology1a35.png>
 Package pdftex.def Info: Rheology1a35.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a35.png (PNG copy)> <a3,fr34>
-<Rheology1a36.png, id=1536, 421.575pt x 316.0608pt>
+<Rheology1a36.png, id=1456, 421.575pt x 316.0608pt>
 File: Rheology1a36.png Graphic file (type png)
 <use Rheology1a36.png>
 Package pdftex.def Info: Rheology1a36.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a36.png (PNG copy)> <a3,fr35>
-<Rheology1a37.png, id=1544, 421.575pt x 316.0608pt>
+<Rheology1a37.png, id=1464, 421.575pt x 316.0608pt>
 File: Rheology1a37.png Graphic file (type png)
 <use Rheology1a37.png>
 Package pdftex.def Info: Rheology1a37.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a37.png (PNG copy)> <a3,fr36>
-<Rheology1a38.png, id=1552, 421.575pt x 316.0608pt>
+<Rheology1a38.png, id=1472, 421.575pt x 316.0608pt>
 File: Rheology1a38.png Graphic file (type png)
 <use Rheology1a38.png>
 Package pdftex.def Info: Rheology1a38.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a38.png (PNG copy)> <a3,fr37>
-<Rheology1a39.png, id=1560, 421.575pt x 316.0608pt>
+ <./Rheology1a38.png (PNG copy)>
+<a3,fr37>
+<Rheology1a39.png, id=1480, 421.575pt x 316.0608pt>
 File: Rheology1a39.png Graphic file (type png)
 <use Rheology1a39.png>
 Package pdftex.def Info: Rheology1a39.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a39.png (PNG copy)> <a3,fr38>
-<Rheology1a40.png, id=1568, 421.575pt x 316.0608pt>
+<Rheology1a40.png, id=1488, 421.575pt x 316.0608pt>
 File: Rheology1a40.png Graphic file (type png)
 <use Rheology1a40.png>
 Package pdftex.def Info: Rheology1a40.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a40.png (PNG copy)> <a3,fr39>
-<Rheology1a41.png, id=1576, 421.575pt x 316.0608pt>
+<Rheology1a41.png, id=1496, 421.575pt x 316.0608pt>
 File: Rheology1a41.png Graphic file (type png)
 <use Rheology1a41.png>
 Package pdftex.def Info: Rheology1a41.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a41.png (PNG copy)> <a3,fr40>
-<Rheology1a42.png, id=1584, 421.575pt x 316.0608pt>
+<Rheology1a42.png, id=1504, 421.575pt x 316.0608pt>
 File: Rheology1a42.png Graphic file (type png)
 <use Rheology1a42.png>
 Package pdftex.def Info: Rheology1a42.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a42.png (PNG copy)> <a3,fr41>
-<Rheology1a43.png, id=1592, 421.575pt x 316.0608pt>
+<Rheology1a43.png, id=1512, 421.575pt x 316.0608pt>
 File: Rheology1a43.png Graphic file (type png)
 <use Rheology1a43.png>
 Package pdftex.def Info: Rheology1a43.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a43.png (PNG copy)> <a3,fr42>
-<Rheology1a44.png, id=1600, 421.575pt x 316.0608pt>
+<Rheology1a44.png, id=1520, 421.575pt x 316.0608pt>
 File: Rheology1a44.png Graphic file (type png)
 <use Rheology1a44.png>
 Package pdftex.def Info: Rheology1a44.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a44.png (PNG copy)> <a3,fr43>
-<Rheology1a45.png, id=1608, 421.575pt x 316.0608pt>
+<Rheology1a45.png, id=1528, 421.575pt x 316.0608pt>
 File: Rheology1a45.png Graphic file (type png)
 <use Rheology1a45.png>
 Package pdftex.def Info: Rheology1a45.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a45.png (PNG copy)> <a3,fr44>
-<Rheology1a46.png, id=1616, 421.575pt x 316.0608pt>
+<Rheology1a46.png, id=1536, 421.575pt x 316.0608pt>
 File: Rheology1a46.png Graphic file (type png)
 <use Rheology1a46.png>
 Package pdftex.def Info: Rheology1a46.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a46.png (PNG copy)> <a3,fr45>
-<Rheology1a47.png, id=1624, 421.575pt x 316.0608pt>
+<Rheology1a47.png, id=1544, 421.575pt x 316.0608pt>
 File: Rheology1a47.png Graphic file (type png)
 <use Rheology1a47.png>
 Package pdftex.def Info: Rheology1a47.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a47.png (PNG copy)>
-<a3,fr46>
-<Rheology1a48.png, id=1632, 421.575pt x 316.0608pt>
+ <./Rheology1a47.png (PNG copy)> <a3,fr46>
+<Rheology1a48.png, id=1552, 421.575pt x 316.0608pt>
 File: Rheology1a48.png Graphic file (type png)
 <use Rheology1a48.png>
 Package pdftex.def Info: Rheology1a48.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a48.png (PNG copy)> <a3,fr47>
-<Rheology1a49.png, id=1640, 421.575pt x 316.0608pt>
+<Rheology1a49.png, id=1560, 421.575pt x 316.0608pt>
 File: Rheology1a49.png Graphic file (type png)
 <use Rheology1a49.png>
 Package pdftex.def Info: Rheology1a49.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a49.png (PNG copy)> <a3,fr48>
-<Rheology1a50.png, id=1648, 421.575pt x 316.0608pt>
+<Rheology1a50.png, id=1568, 421.575pt x 316.0608pt>
 File: Rheology1a50.png Graphic file (type png)
 <use Rheology1a50.png>
 Package pdftex.def Info: Rheology1a50.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a50.png (PNG copy)> <a3,fr49>
-<Rheology1a51.png, id=1656, 421.575pt x 316.0608pt>
+<Rheology1a51.png, id=1576, 421.575pt x 316.0608pt>
 File: Rheology1a51.png Graphic file (type png)
 <use Rheology1a51.png>
 Package pdftex.def Info: Rheology1a51.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a51.png (PNG copy)> <a3,fr50>
-<Rheology1a52.png, id=1664, 421.575pt x 316.0608pt>
+ <./Rheology1a51.png (PNG copy)>
+<a3,fr50>
+<Rheology1a52.png, id=1584, 421.575pt x 316.0608pt>
 File: Rheology1a52.png Graphic file (type png)
 <use Rheology1a52.png>
 Package pdftex.def Info: Rheology1a52.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a52.png (PNG copy)> <a3,fr51>
-<Rheology1a53.png, id=1672, 421.575pt x 316.0608pt>
+<Rheology1a53.png, id=1592, 421.575pt x 316.0608pt>
 File: Rheology1a53.png Graphic file (type png)
 <use Rheology1a53.png>
 Package pdftex.def Info: Rheology1a53.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a53.png (PNG copy)> <a3,fr52>
-<Rheology1a54.png, id=1680, 421.575pt x 316.0608pt>
+<Rheology1a54.png, id=1600, 421.575pt x 316.0608pt>
 File: Rheology1a54.png Graphic file (type png)
 <use Rheology1a54.png>
 Package pdftex.def Info: Rheology1a54.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a54.png (PNG copy)> <a3,fr53>
-<Rheology1a55.png, id=1688, 421.575pt x 316.0608pt>
+<Rheology1a55.png, id=1608, 421.575pt x 316.0608pt>
 File: Rheology1a55.png Graphic file (type png)
 <use Rheology1a55.png>
 Package pdftex.def Info: Rheology1a55.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a55.png (PNG copy)> <a3,fr54>
-<Rheology1a56.png, id=1696, 421.575pt x 316.0608pt>
+<Rheology1a56.png, id=1616, 421.575pt x 316.0608pt>
 File: Rheology1a56.png Graphic file (type png)
 <use Rheology1a56.png>
 Package pdftex.def Info: Rheology1a56.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a56.png (PNG copy)> <a3,fr55>
-<Rheology1a57.png, id=1704, 421.575pt x 316.0608pt>
+<Rheology1a57.png, id=1624, 421.575pt x 316.0608pt>
 File: Rheology1a57.png Graphic file (type png)
 <use Rheology1a57.png>
 Package pdftex.def Info: Rheology1a57.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a57.png (PNG copy)> <a3,fr56>
-<Rheology1a58.png, id=1712, 421.575pt x 316.0608pt>
+<Rheology1a58.png, id=1632, 421.575pt x 316.0608pt>
 File: Rheology1a58.png Graphic file (type png)
 <use Rheology1a58.png>
 Package pdftex.def Info: Rheology1a58.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a58.png (PNG copy)> <a3,fr57>
-<Rheology1a59.png, id=1720, 421.575pt x 316.0608pt>
+<Rheology1a59.png, id=1640, 421.575pt x 316.0608pt>
 File: Rheology1a59.png Graphic file (type png)
 <use Rheology1a59.png>
 Package pdftex.def Info: Rheology1a59.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a59.png (PNG copy)> <a3,fr58>
-<Rheology1a60.png, id=1728, 421.575pt x 316.0608pt>
+<Rheology1a60.png, id=1648, 421.575pt x 316.0608pt>
 File: Rheology1a60.png Graphic file (type png)
 <use Rheology1a60.png>
 Package pdftex.def Info: Rheology1a60.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a60.png (PNG copy)>
-<a3,fr59>
-<Rheology1a61.png, id=1736, 421.575pt x 316.0608pt>
+ <./Rheology1a60.png (PNG copy)> <a3,fr59>
+<Rheology1a61.png, id=1656, 421.575pt x 316.0608pt>
 File: Rheology1a61.png Graphic file (type png)
 <use Rheology1a61.png>
 Package pdftex.def Info: Rheology1a61.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a61.png (PNG copy)> <a3,fr60>
-<Rheology1a62.png, id=1744, 421.575pt x 316.0608pt>
+<Rheology1a62.png, id=1664, 421.575pt x 316.0608pt>
 File: Rheology1a62.png Graphic file (type png)
 <use Rheology1a62.png>
 Package pdftex.def Info: Rheology1a62.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a62.png (PNG copy)> <a3,fr61>
-<Rheology1a63.png, id=1752, 421.575pt x 316.0608pt>
+<Rheology1a63.png, id=1672, 421.575pt x 316.0608pt>
 File: Rheology1a63.png Graphic file (type png)
 <use Rheology1a63.png>
 Package pdftex.def Info: Rheology1a63.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a63.png (PNG copy)> <a3,fr62>
-<Rheology1a64.png, id=1760, 421.575pt x 316.0608pt>
+<Rheology1a64.png, id=1680, 421.575pt x 316.0608pt>
 File: Rheology1a64.png Graphic file (type png)
 <use Rheology1a64.png>
 Package pdftex.def Info: Rheology1a64.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a64.png (PNG copy)> <a3,fr63>
-<Rheology1a65.png, id=1768, 421.575pt x 316.0608pt>
+ <./Rheology1a64.png (PNG copy)>
+<a3,fr63>
+<Rheology1a65.png, id=1688, 421.575pt x 316.0608pt>
 File: Rheology1a65.png Graphic file (type png)
 <use Rheology1a65.png>
 Package pdftex.def Info: Rheology1a65.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a65.png (PNG copy)> <a3,fr64>
-<Rheology1a66.png, id=1776, 421.575pt x 316.0608pt>
+<Rheology1a66.png, id=1696, 421.575pt x 316.0608pt>
 File: Rheology1a66.png Graphic file (type png)
 <use Rheology1a66.png>
 Package pdftex.def Info: Rheology1a66.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a66.png (PNG copy)> <a3,fr65>
-<Rheology1a67.png, id=1784, 421.575pt x 316.0608pt>
+<Rheology1a67.png, id=1704, 421.575pt x 316.0608pt>
 File: Rheology1a67.png Graphic file (type png)
 <use Rheology1a67.png>
 Package pdftex.def Info: Rheology1a67.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a67.png (PNG copy)> <a3,fr66>
-<Rheology1a68.png, id=1792, 421.575pt x 316.0608pt>
+<Rheology1a68.png, id=1712, 421.575pt x 316.0608pt>
 File: Rheology1a68.png Graphic file (type png)
 <use Rheology1a68.png>
 Package pdftex.def Info: Rheology1a68.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a68.png (PNG copy)> <a3,fr67>
-<Rheology1a69.png, id=1800, 421.575pt x 316.0608pt>
+<Rheology1a69.png, id=1720, 421.575pt x 316.0608pt>
 File: Rheology1a69.png Graphic file (type png)
 <use Rheology1a69.png>
 Package pdftex.def Info: Rheology1a69.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a69.png (PNG copy)> <a3,fr68>
-<Rheology1a70.png, id=1808, 421.575pt x 316.0608pt>
+<Rheology1a70.png, id=1728, 421.575pt x 316.0608pt>
 File: Rheology1a70.png Graphic file (type png)
 <use Rheology1a70.png>
 Package pdftex.def Info: Rheology1a70.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a70.png (PNG copy)> <a3,fr69>
-<Rheology1a71.png, id=1816, 421.575pt x 316.0608pt>
+<Rheology1a71.png, id=1736, 421.575pt x 316.0608pt>
 File: Rheology1a71.png Graphic file (type png)
 <use Rheology1a71.png>
 Package pdftex.def Info: Rheology1a71.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a71.png (PNG copy)> <a3,fr70>
-<Rheology1a72.png, id=1824, 421.575pt x 316.0608pt>
+<Rheology1a72.png, id=1744, 421.575pt x 316.0608pt>
 File: Rheology1a72.png Graphic file (type png)
 <use Rheology1a72.png>
 Package pdftex.def Info: Rheology1a72.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a72.png (PNG copy)> <a3,fr71>
-<Rheology1a73.png, id=1832, 421.575pt x 316.0608pt>
+<Rheology1a73.png, id=1752, 421.575pt x 316.0608pt>
 File: Rheology1a73.png Graphic file (type png)
 <use Rheology1a73.png>
 Package pdftex.def Info: Rheology1a73.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a73.png (PNG copy)>
-<a3,fr72>
-<Rheology1a74.png, id=1840, 421.575pt x 316.0608pt>
+ <./Rheology1a73.png (PNG copy)> <a3,fr72>
+<Rheology1a74.png, id=1760, 421.575pt x 316.0608pt>
 File: Rheology1a74.png Graphic file (type png)
 <use Rheology1a74.png>
 Package pdftex.def Info: Rheology1a74.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a74.png (PNG copy)> <a3,fr73>
-<Rheology1a75.png, id=1848, 421.575pt x 316.0608pt>
+<Rheology1a75.png, id=1768, 421.575pt x 316.0608pt>
 File: Rheology1a75.png Graphic file (type png)
 <use Rheology1a75.png>
 Package pdftex.def Info: Rheology1a75.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a75.png (PNG copy)> <a3,fr74>
-<Rheology1a76.png, id=1856, 421.575pt x 316.0608pt>
+<Rheology1a76.png, id=1776, 421.575pt x 316.0608pt>
 File: Rheology1a76.png Graphic file (type png)
 <use Rheology1a76.png>
 Package pdftex.def Info: Rheology1a76.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a76.png (PNG copy)> <a3,fr75>
-<Rheology1a77.png, id=1864, 421.575pt x 316.0608pt>
+<Rheology1a77.png, id=1784, 421.575pt x 316.0608pt>
 File: Rheology1a77.png Graphic file (type png)
 <use Rheology1a77.png>
 Package pdftex.def Info: Rheology1a77.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a77.png (PNG copy)> <a3,fr76>
-<Rheology1a78.png, id=1872, 421.575pt x 316.0608pt>
+ <./Rheology1a77.png (PNG copy)>
+<a3,fr76>
+<Rheology1a78.png, id=1792, 421.575pt x 316.0608pt>
 File: Rheology1a78.png Graphic file (type png)
 <use Rheology1a78.png>
 Package pdftex.def Info: Rheology1a78.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a78.png (PNG copy)> <a3,fr77>
-<Rheology1a79.png, id=1880, 421.575pt x 316.0608pt>
+<Rheology1a79.png, id=1800, 421.575pt x 316.0608pt>
 File: Rheology1a79.png Graphic file (type png)
 <use Rheology1a79.png>
 Package pdftex.def Info: Rheology1a79.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a79.png (PNG copy)> <a3,fr78>
-<Rheology1a80.png, id=1888, 421.575pt x 316.0608pt>
+<Rheology1a80.png, id=1808, 421.575pt x 316.0608pt>
 File: Rheology1a80.png Graphic file (type png)
 <use Rheology1a80.png>
 Package pdftex.def Info: Rheology1a80.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a80.png (PNG copy)> <a3,fr79>
-<Rheology1a81.png, id=1896, 421.575pt x 316.0608pt>
+<Rheology1a81.png, id=1816, 421.575pt x 316.0608pt>
 File: Rheology1a81.png Graphic file (type png)
 <use Rheology1a81.png>
 Package pdftex.def Info: Rheology1a81.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a81.png (PNG copy)> <a3,fr80>
-<Rheology1a82.png, id=1904, 421.575pt x 316.0608pt>
+<Rheology1a82.png, id=1824, 421.575pt x 316.0608pt>
 File: Rheology1a82.png Graphic file (type png)
 <use Rheology1a82.png>
 Package pdftex.def Info: Rheology1a82.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a82.png (PNG copy)> <a3,fr81>
-<Rheology1a83.png, id=1912, 421.575pt x 316.0608pt>
+<Rheology1a83.png, id=1832, 421.575pt x 316.0608pt>
 File: Rheology1a83.png Graphic file (type png)
 <use Rheology1a83.png>
 Package pdftex.def Info: Rheology1a83.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a83.png (PNG copy)> <a3,fr82>
-<Rheology1a84.png, id=1920, 421.575pt x 316.0608pt>
+<Rheology1a84.png, id=1840, 421.575pt x 316.0608pt>
 File: Rheology1a84.png Graphic file (type png)
 <use Rheology1a84.png>
 Package pdftex.def Info: Rheology1a84.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a84.png (PNG copy)> <a3,fr83>
-<Rheology1a85.png, id=1928, 421.575pt x 316.0608pt>
+<Rheology1a85.png, id=1848, 421.575pt x 316.0608pt>
 File: Rheology1a85.png Graphic file (type png)
 <use Rheology1a85.png>
 Package pdftex.def Info: Rheology1a85.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a85.png (PNG copy)> <a3,fr84>
-<Rheology1a86.png, id=1936, 421.575pt x 316.0608pt>
+<Rheology1a86.png, id=1856, 421.575pt x 316.0608pt>
 File: Rheology1a86.png Graphic file (type png)
 <use Rheology1a86.png>
 Package pdftex.def Info: Rheology1a86.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a86.png (PNG copy)>
-<a3,fr85>
-<Rheology1a87.png, id=1944, 421.575pt x 316.0608pt>
+ <./Rheology1a86.png (PNG copy)> <a3,fr85>
+<Rheology1a87.png, id=1864, 421.575pt x 316.0608pt>
 File: Rheology1a87.png Graphic file (type png)
 <use Rheology1a87.png>
 Package pdftex.def Info: Rheology1a87.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a87.png (PNG copy)> <a3,fr86>
-<Rheology1a88.png, id=1952, 421.575pt x 316.0608pt>
+<Rheology1a88.png, id=1872, 421.575pt x 316.0608pt>
 File: Rheology1a88.png Graphic file (type png)
 <use Rheology1a88.png>
 Package pdftex.def Info: Rheology1a88.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a88.png (PNG copy)> <a3,fr87>
-<Rheology1a89.png, id=1960, 421.575pt x 316.0608pt>
+<Rheology1a89.png, id=1880, 421.575pt x 316.0608pt>
 File: Rheology1a89.png Graphic file (type png)
 <use Rheology1a89.png>
 Package pdftex.def Info: Rheology1a89.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a89.png (PNG copy)> <a3,fr88>
-<Rheology1a90.png, id=1968, 421.575pt x 316.0608pt>
+<Rheology1a90.png, id=1888, 421.575pt x 316.0608pt>
 File: Rheology1a90.png Graphic file (type png)
 <use Rheology1a90.png>
 Package pdftex.def Info: Rheology1a90.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a90.png (PNG copy)> <a3,fr89>
-<Rheology1a91.png, id=1976, 421.575pt x 316.0608pt>
+ <./Rheology1a90.png (PNG copy)>
+<a3,fr89>
+<Rheology1a91.png, id=1896, 421.575pt x 316.0608pt>
 File: Rheology1a91.png Graphic file (type png)
 <use Rheology1a91.png>
 Package pdftex.def Info: Rheology1a91.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a91.png (PNG copy)> <a3,fr90>
-<Rheology1a92.png, id=1984, 421.575pt x 316.0608pt>
+<Rheology1a92.png, id=1904, 421.575pt x 316.0608pt>
 File: Rheology1a92.png Graphic file (type png)
 <use Rheology1a92.png>
 Package pdftex.def Info: Rheology1a92.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a92.png (PNG copy)> <a3,fr91>
-<Rheology1a93.png, id=1992, 421.575pt x 316.0608pt>
+<Rheology1a93.png, id=1912, 421.575pt x 316.0608pt>
 File: Rheology1a93.png Graphic file (type png)
 <use Rheology1a93.png>
 Package pdftex.def Info: Rheology1a93.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a93.png (PNG copy)> <a3,fr92>
-<Rheology1a94.png, id=2000, 421.575pt x 316.0608pt>
+<Rheology1a94.png, id=1920, 421.575pt x 316.0608pt>
 File: Rheology1a94.png Graphic file (type png)
 <use Rheology1a94.png>
 Package pdftex.def Info: Rheology1a94.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a94.png (PNG copy)> <a3,fr93>
-<Rheology1a95.png, id=2008, 421.575pt x 316.0608pt>
+<Rheology1a95.png, id=1928, 421.575pt x 316.0608pt>
 File: Rheology1a95.png Graphic file (type png)
 <use Rheology1a95.png>
 Package pdftex.def Info: Rheology1a95.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a95.png (PNG copy)> <a3,fr94>
-<Rheology1a96.png, id=2016, 421.575pt x 316.0608pt>
+<Rheology1a96.png, id=1936, 421.575pt x 316.0608pt>
 File: Rheology1a96.png Graphic file (type png)
 <use Rheology1a96.png>
 Package pdftex.def Info: Rheology1a96.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a96.png (PNG copy)> <a3,fr95>
-<Rheology1a97.png, id=2024, 421.575pt x 316.0608pt>
+<Rheology1a97.png, id=1944, 421.575pt x 316.0608pt>
 File: Rheology1a97.png Graphic file (type png)
 <use Rheology1a97.png>
 Package pdftex.def Info: Rheology1a97.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a97.png (PNG copy)> <a3,fr96>
-<Rheology1a98.png, id=2032, 421.575pt x 316.0608pt>
+<Rheology1a98.png, id=1952, 421.575pt x 316.0608pt>
 File: Rheology1a98.png Graphic file (type png)
 <use Rheology1a98.png>
 Package pdftex.def Info: Rheology1a98.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1a98.png (PNG copy)> <a3,fr97>
-<Rheology1a99.png, id=2040, 421.575pt x 316.0608pt>
+<Rheology1a99.png, id=1960, 421.575pt x 316.0608pt>
 File: Rheology1a99.png Graphic file (type png)
 <use Rheology1a99.png>
 Package pdftex.def Info: Rheology1a99.png  used on input line 220.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1a99.png (PNG copy)>
-<a3,fr98> [15
+ <./Rheology1a99.png (PNG copy)> <a3,fr98>
+[15
 
  <./Y0a.jpg> <./StandardParams.jpg> <./1aSimplex.jpg>]
-<Y0b.jpg, id=2079, 176.91093pt x 22.58438pt>
+<Y0b.jpg, id=1999, 176.91093pt x 22.58438pt>
 File: Y0b.jpg Graphic file (type jpg)
 <use Y0b.jpg>
 Package pdftex.def Info: Y0b.jpg  used on input line 242.
@@ -2636,309 +2577,309 @@ File: StandardParams.jpg Graphic file (type jpg)
 <use StandardParams.jpg>
 Package pdftex.def Info: StandardParams.jpg  used on input line 242.
 (pdftex.def)             Requested size: 53.91208pt x 31.23207pt.
-<1bSimplex.jpg, id=2080, 233.37187pt x 49.68562pt>
+<1bSimplex.jpg, id=2000, 233.37187pt x 49.68562pt>
 File: 1bSimplex.jpg Graphic file (type jpg)
 <use 1bSimplex.jpg>
 Package pdftex.def Info: 1bSimplex.jpg  used on input line 242.
 (pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
-<Rheology1b1.png, id=2081, 421.575pt x 316.0608pt>
+<Rheology1b1.png, id=2001, 421.575pt x 316.0608pt>
 File: Rheology1b1.png Graphic file (type png)
 <use Rheology1b1.png>
 Package pdftex.def Info: Rheology1b1.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b1.png (PNG copy)> <a4,fr0>
-<Rheology1b2.png, id=2089, 421.575pt x 316.0608pt>
+<Rheology1b2.png, id=2009, 421.575pt x 316.0608pt>
 File: Rheology1b2.png Graphic file (type png)
 <use Rheology1b2.png>
 Package pdftex.def Info: Rheology1b2.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b2.png (PNG copy)> <a4,fr1>
-<Rheology1b3.png, id=2097, 421.575pt x 316.0608pt>
+<Rheology1b3.png, id=2017, 421.575pt x 316.0608pt>
 File: Rheology1b3.png Graphic file (type png)
 <use Rheology1b3.png>
 Package pdftex.def Info: Rheology1b3.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b3.png (PNG copy)> <a4,fr2>
-<Rheology1b4.png, id=2105, 421.575pt x 316.0608pt>
+<Rheology1b4.png, id=2025, 421.575pt x 316.0608pt>
 File: Rheology1b4.png Graphic file (type png)
 <use Rheology1b4.png>
 Package pdftex.def Info: Rheology1b4.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b4.png (PNG copy)> <a4,fr3>
-<Rheology1b5.png, id=2113, 421.575pt x 316.0608pt>
+<Rheology1b5.png, id=2033, 421.575pt x 316.0608pt>
 File: Rheology1b5.png Graphic file (type png)
 <use Rheology1b5.png>
 Package pdftex.def Info: Rheology1b5.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b5.png (PNG copy)> <a4,fr4>
-<Rheology1b6.png, id=2121, 421.575pt x 316.0608pt>
+<Rheology1b6.png, id=2041, 421.575pt x 316.0608pt>
 File: Rheology1b6.png Graphic file (type png)
 <use Rheology1b6.png>
 Package pdftex.def Info: Rheology1b6.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b6.png (PNG copy)> <a4,fr5>
-<Rheology1b7.png, id=2129, 421.575pt x 316.0608pt>
+<Rheology1b7.png, id=2049, 421.575pt x 316.0608pt>
 File: Rheology1b7.png Graphic file (type png)
 <use Rheology1b7.png>
 Package pdftex.def Info: Rheology1b7.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b7.png (PNG copy)> <a4,fr6>
-<Rheology1b8.png, id=2137, 421.575pt x 316.0608pt>
+<Rheology1b8.png, id=2057, 421.575pt x 316.0608pt>
 File: Rheology1b8.png Graphic file (type png)
 <use Rheology1b8.png>
 Package pdftex.def Info: Rheology1b8.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b8.png (PNG copy)> <a4,fr7>
-<Rheology1b9.png, id=2145, 421.575pt x 316.0608pt>
+<Rheology1b9.png, id=2065, 421.575pt x 316.0608pt>
 File: Rheology1b9.png Graphic file (type png)
 <use Rheology1b9.png>
 Package pdftex.def Info: Rheology1b9.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b9.png (PNG copy)> <a4,fr8>
-<Rheology1b10.png, id=2153, 421.575pt x 316.0608pt>
+<Rheology1b10.png, id=2073, 421.575pt x 316.0608pt>
 File: Rheology1b10.png Graphic file (type png)
 <use Rheology1b10.png>
 Package pdftex.def Info: Rheology1b10.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b10.png (PNG copy)> <a4,fr9>
-<Rheology1b11.png, id=2161, 421.575pt x 316.0608pt>
+<Rheology1b11.png, id=2081, 421.575pt x 316.0608pt>
 File: Rheology1b11.png Graphic file (type png)
 <use Rheology1b11.png>
 Package pdftex.def Info: Rheology1b11.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b11.png (PNG copy)> <a4,fr10>
-<Rheology1b12.png, id=2169, 421.575pt x 316.0608pt>
+<Rheology1b12.png, id=2089, 421.575pt x 316.0608pt>
 File: Rheology1b12.png Graphic file (type png)
 <use Rheology1b12.png>
 Package pdftex.def Info: Rheology1b12.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b12.png (PNG copy)> <a4,fr11>
-<Rheology1b13.png, id=2177, 421.575pt x 316.0608pt>
+<Rheology1b13.png, id=2097, 421.575pt x 316.0608pt>
 File: Rheology1b13.png Graphic file (type png)
 <use Rheology1b13.png>
 Package pdftex.def Info: Rheology1b13.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b13.png (PNG copy)> <a4,fr12>
-<Rheology1b14.png, id=2185, 421.575pt x 316.0608pt>
+<Rheology1b14.png, id=2105, 421.575pt x 316.0608pt>
 File: Rheology1b14.png Graphic file (type png)
 <use Rheology1b14.png>
 Package pdftex.def Info: Rheology1b14.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1b14.png (PNG copy)>
-<a4,fr13>
-<Rheology1b15.png, id=2193, 421.575pt x 316.0608pt>
+ <./Rheology1b14.png (PNG copy)> <a4,fr13>
+<Rheology1b15.png, id=2113, 421.575pt x 316.0608pt>
 File: Rheology1b15.png Graphic file (type png)
 <use Rheology1b15.png>
 Package pdftex.def Info: Rheology1b15.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b15.png (PNG copy)> <a4,fr14>
-<Rheology1b16.png, id=2201, 421.575pt x 316.0608pt>
+<Rheology1b16.png, id=2121, 421.575pt x 316.0608pt>
 File: Rheology1b16.png Graphic file (type png)
 <use Rheology1b16.png>
 Package pdftex.def Info: Rheology1b16.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b16.png (PNG copy)> <a4,fr15>
-<Rheology1b17.png, id=2209, 421.575pt x 316.0608pt>
+<Rheology1b17.png, id=2129, 421.575pt x 316.0608pt>
 File: Rheology1b17.png Graphic file (type png)
 <use Rheology1b17.png>
 Package pdftex.def Info: Rheology1b17.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b17.png (PNG copy)> <a4,fr16>
-<Rheology1b18.png, id=2217, 421.575pt x 316.0608pt>
+<Rheology1b18.png, id=2137, 421.575pt x 316.0608pt>
 File: Rheology1b18.png Graphic file (type png)
 <use Rheology1b18.png>
 Package pdftex.def Info: Rheology1b18.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1b18.png (PNG copy)> <a4,fr17>
-<Rheology1b19.png, id=2225, 421.575pt x 316.0608pt>
+ <./Rheology1b18.png (PNG copy)>
+<a4,fr17>
+<Rheology1b19.png, id=2145, 421.575pt x 316.0608pt>
 File: Rheology1b19.png Graphic file (type png)
 <use Rheology1b19.png>
 Package pdftex.def Info: Rheology1b19.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b19.png (PNG copy)> <a4,fr18>
-<Rheology1b20.png, id=2233, 421.575pt x 316.0608pt>
+<Rheology1b20.png, id=2153, 421.575pt x 316.0608pt>
 File: Rheology1b20.png Graphic file (type png)
 <use Rheology1b20.png>
 Package pdftex.def Info: Rheology1b20.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b20.png (PNG copy)> <a4,fr19>
-<Rheology1b21.png, id=2241, 421.575pt x 316.0608pt>
+<Rheology1b21.png, id=2161, 421.575pt x 316.0608pt>
 File: Rheology1b21.png Graphic file (type png)
 <use Rheology1b21.png>
 Package pdftex.def Info: Rheology1b21.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b21.png (PNG copy)> <a4,fr20>
-<Rheology1b22.png, id=2249, 421.575pt x 316.0608pt>
+<Rheology1b22.png, id=2169, 421.575pt x 316.0608pt>
 File: Rheology1b22.png Graphic file (type png)
 <use Rheology1b22.png>
 Package pdftex.def Info: Rheology1b22.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b22.png (PNG copy)> <a4,fr21>
-<Rheology1b23.png, id=2257, 421.575pt x 316.0608pt>
+<Rheology1b23.png, id=2177, 421.575pt x 316.0608pt>
 File: Rheology1b23.png Graphic file (type png)
 <use Rheology1b23.png>
 Package pdftex.def Info: Rheology1b23.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b23.png (PNG copy)> <a4,fr22>
-<Rheology1b24.png, id=2265, 421.575pt x 316.0608pt>
+<Rheology1b24.png, id=2185, 421.575pt x 316.0608pt>
 File: Rheology1b24.png Graphic file (type png)
 <use Rheology1b24.png>
 Package pdftex.def Info: Rheology1b24.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b24.png (PNG copy)> <a4,fr23>
-<Rheology1b25.png, id=2273, 421.575pt x 316.0608pt>
+<Rheology1b25.png, id=2193, 421.575pt x 316.0608pt>
 File: Rheology1b25.png Graphic file (type png)
 <use Rheology1b25.png>
 Package pdftex.def Info: Rheology1b25.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b25.png (PNG copy)> <a4,fr24>
-<Rheology1b26.png, id=2281, 421.575pt x 316.0608pt>
+<Rheology1b26.png, id=2201, 421.575pt x 316.0608pt>
 File: Rheology1b26.png Graphic file (type png)
 <use Rheology1b26.png>
 Package pdftex.def Info: Rheology1b26.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b26.png (PNG copy)> <a4,fr25>
-<Rheology1b27.png, id=2289, 421.575pt x 316.0608pt>
+<Rheology1b27.png, id=2209, 421.575pt x 316.0608pt>
 File: Rheology1b27.png Graphic file (type png)
 <use Rheology1b27.png>
 Package pdftex.def Info: Rheology1b27.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1b27.png (PNG copy)>
-<a4,fr26>
-<Rheology1b28.png, id=2297, 421.575pt x 316.0608pt>
+ <./Rheology1b27.png (PNG copy)> <a4,fr26>
+<Rheology1b28.png, id=2217, 421.575pt x 316.0608pt>
 File: Rheology1b28.png Graphic file (type png)
 <use Rheology1b28.png>
 Package pdftex.def Info: Rheology1b28.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b28.png (PNG copy)> <a4,fr27>
-<Rheology1b29.png, id=2305, 421.575pt x 316.0608pt>
+<Rheology1b29.png, id=2225, 421.575pt x 316.0608pt>
 File: Rheology1b29.png Graphic file (type png)
 <use Rheology1b29.png>
 Package pdftex.def Info: Rheology1b29.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b29.png (PNG copy)> <a4,fr28>
-<Rheology1b30.png, id=2313, 421.575pt x 316.0608pt>
+<Rheology1b30.png, id=2233, 421.575pt x 316.0608pt>
 File: Rheology1b30.png Graphic file (type png)
 <use Rheology1b30.png>
 Package pdftex.def Info: Rheology1b30.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b30.png (PNG copy)> <a4,fr29>
-<Rheology1b31.png, id=2321, 421.575pt x 316.0608pt>
+<Rheology1b31.png, id=2241, 421.575pt x 316.0608pt>
 File: Rheology1b31.png Graphic file (type png)
 <use Rheology1b31.png>
 Package pdftex.def Info: Rheology1b31.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1b31.png (PNG copy)> <a4,fr30>
-<Rheology1b32.png, id=2329, 421.575pt x 316.0608pt>
+ <./Rheology1b31.png (PNG copy)>
+<a4,fr30>
+<Rheology1b32.png, id=2249, 421.575pt x 316.0608pt>
 File: Rheology1b32.png Graphic file (type png)
 <use Rheology1b32.png>
 Package pdftex.def Info: Rheology1b32.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b32.png (PNG copy)> <a4,fr31>
-<Rheology1b33.png, id=2337, 421.575pt x 316.0608pt>
+<Rheology1b33.png, id=2257, 421.575pt x 316.0608pt>
 File: Rheology1b33.png Graphic file (type png)
 <use Rheology1b33.png>
 Package pdftex.def Info: Rheology1b33.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b33.png (PNG copy)> <a4,fr32>
-<Rheology1b34.png, id=2345, 421.575pt x 316.0608pt>
+<Rheology1b34.png, id=2265, 421.575pt x 316.0608pt>
 File: Rheology1b34.png Graphic file (type png)
 <use Rheology1b34.png>
 Package pdftex.def Info: Rheology1b34.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b34.png (PNG copy)> <a4,fr33>
-<Rheology1b35.png, id=2353, 421.575pt x 316.0608pt>
+<Rheology1b35.png, id=2273, 421.575pt x 316.0608pt>
 File: Rheology1b35.png Graphic file (type png)
 <use Rheology1b35.png>
 Package pdftex.def Info: Rheology1b35.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b35.png (PNG copy)> <a4,fr34>
-<Rheology1b36.png, id=2361, 421.575pt x 316.0608pt>
+<Rheology1b36.png, id=2281, 421.575pt x 316.0608pt>
 File: Rheology1b36.png Graphic file (type png)
 <use Rheology1b36.png>
 Package pdftex.def Info: Rheology1b36.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b36.png (PNG copy)> <a4,fr35>
-<Rheology1b37.png, id=2369, 421.575pt x 316.0608pt>
+<Rheology1b37.png, id=2289, 421.575pt x 316.0608pt>
 File: Rheology1b37.png Graphic file (type png)
 <use Rheology1b37.png>
 Package pdftex.def Info: Rheology1b37.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b37.png (PNG copy)> <a4,fr36>
-<Rheology1b38.png, id=2377, 421.575pt x 316.0608pt>
+<Rheology1b38.png, id=2297, 421.575pt x 316.0608pt>
 File: Rheology1b38.png Graphic file (type png)
 <use Rheology1b38.png>
 Package pdftex.def Info: Rheology1b38.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b38.png (PNG copy)> <a4,fr37>
-<Rheology1b39.png, id=2385, 421.575pt x 316.0608pt>
+<Rheology1b39.png, id=2305, 421.575pt x 316.0608pt>
 File: Rheology1b39.png Graphic file (type png)
 <use Rheology1b39.png>
 Package pdftex.def Info: Rheology1b39.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b39.png (PNG copy)> <a4,fr38>
-<Rheology1b40.png, id=2393, 421.575pt x 316.0608pt>
+<Rheology1b40.png, id=2313, 421.575pt x 316.0608pt>
 File: Rheology1b40.png Graphic file (type png)
 <use Rheology1b40.png>
 Package pdftex.def Info: Rheology1b40.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1b40.png (PNG copy)>
-<a4,fr39>
-<Rheology1b41.png, id=2401, 421.575pt x 316.0608pt>
+ <./Rheology1b40.png (PNG copy)> <a4,fr39>
+<Rheology1b41.png, id=2321, 421.575pt x 316.0608pt>
 File: Rheology1b41.png Graphic file (type png)
 <use Rheology1b41.png>
 Package pdftex.def Info: Rheology1b41.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b41.png (PNG copy)> <a4,fr40>
-<Rheology1b42.png, id=2409, 421.575pt x 316.0608pt>
+<Rheology1b42.png, id=2329, 421.575pt x 316.0608pt>
 File: Rheology1b42.png Graphic file (type png)
 <use Rheology1b42.png>
 Package pdftex.def Info: Rheology1b42.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b42.png (PNG copy)> <a4,fr41>
-<Rheology1b43.png, id=2417, 421.575pt x 316.0608pt>
+<Rheology1b43.png, id=2337, 421.575pt x 316.0608pt>
 File: Rheology1b43.png Graphic file (type png)
 <use Rheology1b43.png>
 Package pdftex.def Info: Rheology1b43.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b43.png (PNG copy)> <a4,fr42>
-<Rheology1b44.png, id=2425, 421.575pt x 316.0608pt>
+<Rheology1b44.png, id=2345, 421.575pt x 316.0608pt>
 File: Rheology1b44.png Graphic file (type png)
 <use Rheology1b44.png>
 Package pdftex.def Info: Rheology1b44.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology1b44.png (PNG copy)> <a4,fr43>
-<Rheology1b45.png, id=2433, 421.575pt x 316.0608pt>
+ <./Rheology1b44.png (PNG copy)>
+<a4,fr43>
+<Rheology1b45.png, id=2353, 421.575pt x 316.0608pt>
 File: Rheology1b45.png Graphic file (type png)
 <use Rheology1b45.png>
 Package pdftex.def Info: Rheology1b45.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b45.png (PNG copy)> <a4,fr44>
-<Rheology1b46.png, id=2441, 421.575pt x 316.0608pt>
+<Rheology1b46.png, id=2361, 421.575pt x 316.0608pt>
 File: Rheology1b46.png Graphic file (type png)
 <use Rheology1b46.png>
 Package pdftex.def Info: Rheology1b46.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b46.png (PNG copy)> <a4,fr45>
-<Rheology1b47.png, id=2449, 421.575pt x 316.0608pt>
+<Rheology1b47.png, id=2369, 421.575pt x 316.0608pt>
 File: Rheology1b47.png Graphic file (type png)
 <use Rheology1b47.png>
 Package pdftex.def Info: Rheology1b47.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b47.png (PNG copy)> <a4,fr46>
-<Rheology1b48.png, id=2457, 421.575pt x 316.0608pt>
+<Rheology1b48.png, id=2377, 421.575pt x 316.0608pt>
 File: Rheology1b48.png Graphic file (type png)
 <use Rheology1b48.png>
 Package pdftex.def Info: Rheology1b48.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b48.png (PNG copy)> <a4,fr47>
-<Rheology1b49.png, id=2465, 421.575pt x 316.0608pt>
+<Rheology1b49.png, id=2385, 421.575pt x 316.0608pt>
 File: Rheology1b49.png Graphic file (type png)
 <use Rheology1b49.png>
 Package pdftex.def Info: Rheology1b49.png  used on input line 242.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology1b49.png (PNG copy)> <a4,fr48>
-<Rheology1b50.png, id=2473, 421.575pt x 316.0608pt>
+<Rheology1b50.png, id=2393, 421.575pt x 316.0608pt>
 File: Rheology1b50.png Graphic file (type png)
 <use Rheology1b50.png>
 Package pdftex.def Info: Rheology1b50.png  used on input line 242.
@@ -2950,7 +2891,7 @@ File: Y0a.jpg Graphic file (type jpg)
 <use Y0a.jpg>
 Package pdftex.def Info: Y0a.jpg  used on input line 264.
 (pdftex.def)             Requested size: 53.91208pt x 24.57776pt.
-<NewParamsA.jpg, id=2512, 112.92188pt x 63.23625pt>
+<NewParamsA.jpg, id=2432, 112.92188pt x 63.23625pt>
 File: NewParamsA.jpg Graphic file (type jpg)
 <use NewParamsA.jpg>
 Package pdftex.def Info: NewParamsA.jpg  used on input line 264.
@@ -2959,396 +2900,395 @@ File: 1aSimplex.jpg Graphic file (type jpg)
 <use 1aSimplex.jpg>
 Package pdftex.def Info: 1aSimplex.jpg  used on input line 264.
 (pdftex.def)             Requested size: 113.81479pt x 26.48543pt.
-<Rheology2a1.png, id=2513, 421.575pt x 316.0608pt>
+<Rheology2a1.png, id=2433, 421.575pt x 316.0608pt>
 File: Rheology2a1.png Graphic file (type png)
 <use Rheology2a1.png>
 Package pdftex.def Info: Rheology2a1.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a1.png (PNG copy)> <a5,fr0>
-<Rheology2a2.png, id=2521, 421.575pt x 316.0608pt>
+<Rheology2a2.png, id=2441, 421.575pt x 316.0608pt>
 File: Rheology2a2.png Graphic file (type png)
 <use Rheology2a2.png>
 Package pdftex.def Info: Rheology2a2.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a2.png (PNG copy)> <a5,fr1>
-<Rheology2a3.png, id=2529, 421.575pt x 316.0608pt>
+<Rheology2a3.png, id=2449, 421.575pt x 316.0608pt>
 File: Rheology2a3.png Graphic file (type png)
 <use Rheology2a3.png>
 Package pdftex.def Info: Rheology2a3.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a3.png (PNG copy)> <a5,fr2>
-<Rheology2a4.png, id=2537, 421.575pt x 316.0608pt>
+<Rheology2a4.png, id=2457, 421.575pt x 316.0608pt>
 File: Rheology2a4.png Graphic file (type png)
 <use Rheology2a4.png>
 Package pdftex.def Info: Rheology2a4.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a4.png (PNG copy)> <a5,fr3>
-<Rheology2a5.png, id=2545, 421.575pt x 316.0608pt>
+<Rheology2a5.png, id=2465, 421.575pt x 316.0608pt>
 File: Rheology2a5.png Graphic file (type png)
 <use Rheology2a5.png>
 Package pdftex.def Info: Rheology2a5.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a5.png (PNG copy)> <a5,fr4>
-<Rheology2a6.png, id=2553, 421.575pt x 316.0608pt>
+<Rheology2a6.png, id=2473, 421.575pt x 316.0608pt>
 File: Rheology2a6.png Graphic file (type png)
 <use Rheology2a6.png>
 Package pdftex.def Info: Rheology2a6.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a6.png (PNG copy)> <a5,fr5>
-<Rheology2a7.png, id=2561, 421.575pt x 316.0608pt>
+<Rheology2a7.png, id=2481, 421.575pt x 316.0608pt>
 File: Rheology2a7.png Graphic file (type png)
 <use Rheology2a7.png>
 Package pdftex.def Info: Rheology2a7.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a7.png (PNG copy)> <a5,fr6>
-<Rheology2a8.png, id=2569, 421.575pt x 316.0608pt>
+<Rheology2a8.png, id=2489, 421.575pt x 316.0608pt>
 File: Rheology2a8.png Graphic file (type png)
 <use Rheology2a8.png>
 Package pdftex.def Info: Rheology2a8.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a8.png (PNG copy)> <a5,fr7>
-<Rheology2a9.png, id=2577, 421.575pt x 316.0608pt>
+<Rheology2a9.png, id=2497, 421.575pt x 316.0608pt>
 File: Rheology2a9.png Graphic file (type png)
 <use Rheology2a9.png>
 Package pdftex.def Info: Rheology2a9.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a9.png (PNG copy)> <a5,fr8>
-<Rheology2a10.png, id=2585, 421.575pt x 316.0608pt>
+<Rheology2a10.png, id=2505, 421.575pt x 316.0608pt>
 File: Rheology2a10.png Graphic file (type png)
 <use Rheology2a10.png>
 Package pdftex.def Info: Rheology2a10.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a10.png (PNG copy)> <a5,fr9>
-<Rheology2a11.png, id=2593, 421.575pt x 316.0608pt>
+<Rheology2a11.png, id=2513, 421.575pt x 316.0608pt>
 File: Rheology2a11.png Graphic file (type png)
 <use Rheology2a11.png>
 Package pdftex.def Info: Rheology2a11.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a11.png (PNG copy)> <a5,fr10>
-<Rheology2a12.png, id=2601, 421.575pt x 316.0608pt>
+<Rheology2a12.png, id=2521, 421.575pt x 316.0608pt>
 File: Rheology2a12.png Graphic file (type png)
 <use Rheology2a12.png>
 Package pdftex.def Info: Rheology2a12.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a12.png (PNG copy)>
-<a5,fr11>
-<Rheology2a13.png, id=2609, 421.575pt x 316.0608pt>
+ <./Rheology2a12.png (PNG copy)> <a5,fr11>
+<Rheology2a13.png, id=2529, 421.575pt x 316.0608pt>
 File: Rheology2a13.png Graphic file (type png)
 <use Rheology2a13.png>
 Package pdftex.def Info: Rheology2a13.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a13.png (PNG copy)> <a5,fr12>
-<Rheology2a14.png, id=2617, 421.575pt x 316.0608pt>
+<Rheology2a14.png, id=2537, 421.575pt x 316.0608pt>
 File: Rheology2a14.png Graphic file (type png)
 <use Rheology2a14.png>
 Package pdftex.def Info: Rheology2a14.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a14.png (PNG copy)> <a5,fr13>
-<Rheology2a15.png, id=2625, 421.575pt x 316.0608pt>
+<Rheology2a15.png, id=2545, 421.575pt x 316.0608pt>
 File: Rheology2a15.png Graphic file (type png)
 <use Rheology2a15.png>
 Package pdftex.def Info: Rheology2a15.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a15.png (PNG copy)> <a5,fr14>
-<Rheology2a16.png, id=2633, 421.575pt x 316.0608pt>
+<Rheology2a16.png, id=2553, 421.575pt x 316.0608pt>
 File: Rheology2a16.png Graphic file (type png)
 <use Rheology2a16.png>
 Package pdftex.def Info: Rheology2a16.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a16.png (PNG copy)> <a5,fr15>
-<Rheology2a17.png, id=2641, 421.575pt x 316.0608pt>
+ <./Rheology2a16.png (PNG copy)>
+<a5,fr15>
+<Rheology2a17.png, id=2561, 421.575pt x 316.0608pt>
 File: Rheology2a17.png Graphic file (type png)
 <use Rheology2a17.png>
 Package pdftex.def Info: Rheology2a17.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a17.png (PNG copy)> <a5,fr16>
-<Rheology2a18.png, id=2649, 421.575pt x 316.0608pt>
+<Rheology2a18.png, id=2569, 421.575pt x 316.0608pt>
 File: Rheology2a18.png Graphic file (type png)
 <use Rheology2a18.png>
 Package pdftex.def Info: Rheology2a18.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a18.png (PNG copy)> <a5,fr17>
-<Rheology2a19.png, id=2657, 421.575pt x 316.0608pt>
+<Rheology2a19.png, id=2577, 421.575pt x 316.0608pt>
 File: Rheology2a19.png Graphic file (type png)
 <use Rheology2a19.png>
 Package pdftex.def Info: Rheology2a19.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a19.png (PNG copy)> <a5,fr18>
-<Rheology2a20.png, id=2665, 421.575pt x 316.0608pt>
+<Rheology2a20.png, id=2585, 421.575pt x 316.0608pt>
 File: Rheology2a20.png Graphic file (type png)
 <use Rheology2a20.png>
 Package pdftex.def Info: Rheology2a20.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a20.png (PNG copy)> <a5,fr19>
-<Rheology2a21.png, id=2673, 421.575pt x 316.0608pt>
+<Rheology2a21.png, id=2593, 421.575pt x 316.0608pt>
 File: Rheology2a21.png Graphic file (type png)
 <use Rheology2a21.png>
 Package pdftex.def Info: Rheology2a21.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a21.png (PNG copy)> <a5,fr20>
-<Rheology2a22.png, id=2681, 421.575pt x 316.0608pt>
+<Rheology2a22.png, id=2601, 421.575pt x 316.0608pt>
 File: Rheology2a22.png Graphic file (type png)
 <use Rheology2a22.png>
 Package pdftex.def Info: Rheology2a22.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a22.png (PNG copy)> <a5,fr21>
-<Rheology2a23.png, id=2689, 421.575pt x 316.0608pt>
+<Rheology2a23.png, id=2609, 421.575pt x 316.0608pt>
 File: Rheology2a23.png Graphic file (type png)
 <use Rheology2a23.png>
 Package pdftex.def Info: Rheology2a23.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a23.png (PNG copy)> <a5,fr22>
-<Rheology2a24.png, id=2697, 421.575pt x 316.0608pt>
+<Rheology2a24.png, id=2617, 421.575pt x 316.0608pt>
 File: Rheology2a24.png Graphic file (type png)
 <use Rheology2a24.png>
 Package pdftex.def Info: Rheology2a24.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a24.png (PNG copy)> <a5,fr23>
-<Rheology2a25.png, id=2705, 421.575pt x 316.0608pt>
+<Rheology2a25.png, id=2625, 421.575pt x 316.0608pt>
 File: Rheology2a25.png Graphic file (type png)
 <use Rheology2a25.png>
 Package pdftex.def Info: Rheology2a25.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a25.png (PNG copy)>
-<a5,fr24>
-<Rheology2a26.png, id=2713, 421.575pt x 316.0608pt>
+ <./Rheology2a25.png (PNG copy)> <a5,fr24>
+<Rheology2a26.png, id=2633, 421.575pt x 316.0608pt>
 File: Rheology2a26.png Graphic file (type png)
 <use Rheology2a26.png>
 Package pdftex.def Info: Rheology2a26.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a26.png (PNG copy)> <a5,fr25>
-<Rheology2a27.png, id=2721, 421.575pt x 316.0608pt>
+<Rheology2a27.png, id=2641, 421.575pt x 316.0608pt>
 File: Rheology2a27.png Graphic file (type png)
 <use Rheology2a27.png>
 Package pdftex.def Info: Rheology2a27.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a27.png (PNG copy)> <a5,fr26>
-<Rheology2a28.png, id=2729, 421.575pt x 316.0608pt>
+<Rheology2a28.png, id=2649, 421.575pt x 316.0608pt>
 File: Rheology2a28.png Graphic file (type png)
 <use Rheology2a28.png>
 Package pdftex.def Info: Rheology2a28.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a28.png (PNG copy)> <a5,fr27>
-<Rheology2a29.png, id=2737, 421.575pt x 316.0608pt>
+<Rheology2a29.png, id=2657, 421.575pt x 316.0608pt>
 File: Rheology2a29.png Graphic file (type png)
 <use Rheology2a29.png>
 Package pdftex.def Info: Rheology2a29.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a29.png (PNG copy)> <a5,fr28>
-<Rheology2a30.png, id=2745, 421.575pt x 316.0608pt>
+ <./Rheology2a29.png (PNG copy)>
+<a5,fr28>
+<Rheology2a30.png, id=2665, 421.575pt x 316.0608pt>
 File: Rheology2a30.png Graphic file (type png)
 <use Rheology2a30.png>
 Package pdftex.def Info: Rheology2a30.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a30.png (PNG copy)> <a5,fr29>
-<Rheology2a31.png, id=2753, 421.575pt x 316.0608pt>
+<Rheology2a31.png, id=2673, 421.575pt x 316.0608pt>
 File: Rheology2a31.png Graphic file (type png)
 <use Rheology2a31.png>
 Package pdftex.def Info: Rheology2a31.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a31.png (PNG copy)> <a5,fr30>
-<Rheology2a32.png, id=2761, 421.575pt x 316.0608pt>
+<Rheology2a32.png, id=2681, 421.575pt x 316.0608pt>
 File: Rheology2a32.png Graphic file (type png)
 <use Rheology2a32.png>
 Package pdftex.def Info: Rheology2a32.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a32.png (PNG copy)> <a5,fr31>
-<Rheology2a33.png, id=2769, 421.575pt x 316.0608pt>
+<Rheology2a33.png, id=2689, 421.575pt x 316.0608pt>
 File: Rheology2a33.png Graphic file (type png)
 <use Rheology2a33.png>
 Package pdftex.def Info: Rheology2a33.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a33.png (PNG copy)> <a5,fr32>
-<Rheology2a34.png, id=2777, 421.575pt x 316.0608pt>
+<Rheology2a34.png, id=2697, 421.575pt x 316.0608pt>
 File: Rheology2a34.png Graphic file (type png)
 <use Rheology2a34.png>
 Package pdftex.def Info: Rheology2a34.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a34.png (PNG copy)> <a5,fr33>
-<Rheology2a35.png, id=2785, 421.575pt x 316.0608pt>
+<Rheology2a35.png, id=2705, 421.575pt x 316.0608pt>
 File: Rheology2a35.png Graphic file (type png)
 <use Rheology2a35.png>
 Package pdftex.def Info: Rheology2a35.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a35.png (PNG copy)> <a5,fr34>
-<Rheology2a36.png, id=2793, 421.575pt x 316.0608pt>
+<Rheology2a36.png, id=2713, 421.575pt x 316.0608pt>
 File: Rheology2a36.png Graphic file (type png)
 <use Rheology2a36.png>
 Package pdftex.def Info: Rheology2a36.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a36.png (PNG copy)> <a5,fr35>
-<Rheology2a37.png, id=2801, 421.575pt x 316.0608pt>
+<Rheology2a37.png, id=2721, 421.575pt x 316.0608pt>
 File: Rheology2a37.png Graphic file (type png)
 <use Rheology2a37.png>
 Package pdftex.def Info: Rheology2a37.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a37.png (PNG copy)> <a5,fr36>
-<Rheology2a38.png, id=2809, 421.575pt x 316.0608pt>
+<Rheology2a38.png, id=2729, 421.575pt x 316.0608pt>
 File: Rheology2a38.png Graphic file (type png)
 <use Rheology2a38.png>
 Package pdftex.def Info: Rheology2a38.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a38.png (PNG copy)>
-<a5,fr37>
-<Rheology2a39.png, id=2817, 421.575pt x 316.0608pt>
+ <./Rheology2a38.png (PNG copy)> <a5,fr37>
+<Rheology2a39.png, id=2737, 421.575pt x 316.0608pt>
 File: Rheology2a39.png Graphic file (type png)
 <use Rheology2a39.png>
 Package pdftex.def Info: Rheology2a39.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a39.png (PNG copy)> <a5,fr38>
-<Rheology2a40.png, id=2825, 421.575pt x 316.0608pt>
+<Rheology2a40.png, id=2745, 421.575pt x 316.0608pt>
 File: Rheology2a40.png Graphic file (type png)
 <use Rheology2a40.png>
 Package pdftex.def Info: Rheology2a40.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a40.png (PNG copy)> <a5,fr39>
-<Rheology2a41.png, id=2833, 421.575pt x 316.0608pt>
+<Rheology2a41.png, id=2753, 421.575pt x 316.0608pt>
 File: Rheology2a41.png Graphic file (type png)
 <use Rheology2a41.png>
 Package pdftex.def Info: Rheology2a41.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a41.png (PNG copy)> <a5,fr40>
-<Rheology2a42.png, id=2841, 421.575pt x 316.0608pt>
+<Rheology2a42.png, id=2761, 421.575pt x 316.0608pt>
 File: Rheology2a42.png Graphic file (type png)
 <use Rheology2a42.png>
 Package pdftex.def Info: Rheology2a42.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a42.png (PNG copy)> <a5,fr41>
-<Rheology2a43.png, id=2849, 421.575pt x 316.0608pt>
+ <./Rheology2a42.png (PNG copy)>
+<a5,fr41>
+<Rheology2a43.png, id=2769, 421.575pt x 316.0608pt>
 File: Rheology2a43.png Graphic file (type png)
 <use Rheology2a43.png>
 Package pdftex.def Info: Rheology2a43.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a43.png (PNG copy)> <a5,fr42>
-<Rheology2a44.png, id=2857, 421.575pt x 316.0608pt>
+<Rheology2a44.png, id=2777, 421.575pt x 316.0608pt>
 File: Rheology2a44.png Graphic file (type png)
 <use Rheology2a44.png>
 Package pdftex.def Info: Rheology2a44.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a44.png (PNG copy)> <a5,fr43>
-<Rheology2a45.png, id=2865, 421.575pt x 316.0608pt>
+<Rheology2a45.png, id=2785, 421.575pt x 316.0608pt>
 File: Rheology2a45.png Graphic file (type png)
 <use Rheology2a45.png>
 Package pdftex.def Info: Rheology2a45.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a45.png (PNG copy)> <a5,fr44>
-<Rheology2a46.png, id=2873, 421.575pt x 316.0608pt>
+<Rheology2a46.png, id=2793, 421.575pt x 316.0608pt>
 File: Rheology2a46.png Graphic file (type png)
 <use Rheology2a46.png>
 Package pdftex.def Info: Rheology2a46.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a46.png (PNG copy)> <a5,fr45>
-<Rheology2a47.png, id=2881, 421.575pt x 316.0608pt>
+<Rheology2a47.png, id=2801, 421.575pt x 316.0608pt>
 File: Rheology2a47.png Graphic file (type png)
 <use Rheology2a47.png>
 Package pdftex.def Info: Rheology2a47.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a47.png (PNG copy)> <a5,fr46>
-<Rheology2a48.png, id=2889, 421.575pt x 316.0608pt>
+<Rheology2a48.png, id=2809, 421.575pt x 316.0608pt>
 File: Rheology2a48.png Graphic file (type png)
 <use Rheology2a48.png>
 Package pdftex.def Info: Rheology2a48.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a48.png (PNG copy)> <a5,fr47>
-<Rheology2a49.png, id=2897, 421.575pt x 316.0608pt>
+<Rheology2a49.png, id=2817, 421.575pt x 316.0608pt>
 File: Rheology2a49.png Graphic file (type png)
 <use Rheology2a49.png>
 Package pdftex.def Info: Rheology2a49.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a49.png (PNG copy)> <a5,fr48>
-<Rheology2a50.png, id=2905, 421.575pt x 316.0608pt>
+<Rheology2a50.png, id=2825, 421.575pt x 316.0608pt>
 File: Rheology2a50.png Graphic file (type png)
 <use Rheology2a50.png>
 Package pdftex.def Info: Rheology2a50.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a50.png (PNG copy)> <a5,fr49>
-<Rheology2a51.png, id=2913, 421.575pt x 316.0608pt>
+<Rheology2a51.png, id=2833, 421.575pt x 316.0608pt>
 File: Rheology2a51.png Graphic file (type png)
 <use Rheology2a51.png>
 Package pdftex.def Info: Rheology2a51.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a51.png (PNG copy)>
-<a5,fr50>
-<Rheology2a52.png, id=2921, 421.575pt x 316.0608pt>
+ <./Rheology2a51.png (PNG copy)> <a5,fr50>
+<Rheology2a52.png, id=2841, 421.575pt x 316.0608pt>
 File: Rheology2a52.png Graphic file (type png)
 <use Rheology2a52.png>
 Package pdftex.def Info: Rheology2a52.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a52.png (PNG copy)> <a5,fr51>
-<Rheology2a53.png, id=2929, 421.575pt x 316.0608pt>
+<Rheology2a53.png, id=2849, 421.575pt x 316.0608pt>
 File: Rheology2a53.png Graphic file (type png)
 <use Rheology2a53.png>
 Package pdftex.def Info: Rheology2a53.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a53.png (PNG copy)> <a5,fr52>
-<Rheology2a54.png, id=2937, 421.575pt x 316.0608pt>
+<Rheology2a54.png, id=2857, 421.575pt x 316.0608pt>
 File: Rheology2a54.png Graphic file (type png)
 <use Rheology2a54.png>
 Package pdftex.def Info: Rheology2a54.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a54.png (PNG copy)> <a5,fr53>
-<Rheology2a55.png, id=2945, 421.575pt x 316.0608pt>
+<Rheology2a55.png, id=2865, 421.575pt x 316.0608pt>
 File: Rheology2a55.png Graphic file (type png)
 <use Rheology2a55.png>
 Package pdftex.def Info: Rheology2a55.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a55.png (PNG copy)> <a5,fr54>
-<Rheology2a56.png, id=2953, 421.575pt x 316.0608pt>
+ <./Rheology2a55.png (PNG copy)>
+<a5,fr54>
+<Rheology2a56.png, id=2873, 421.575pt x 316.0608pt>
 File: Rheology2a56.png Graphic file (type png)
 <use Rheology2a56.png>
 Package pdftex.def Info: Rheology2a56.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a56.png (PNG copy)> <a5,fr55>
-<Rheology2a57.png, id=2961, 421.575pt x 316.0608pt>
+<Rheology2a57.png, id=2881, 421.575pt x 316.0608pt>
 File: Rheology2a57.png Graphic file (type png)
 <use Rheology2a57.png>
 Package pdftex.def Info: Rheology2a57.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a57.png (PNG copy)> <a5,fr56>
-<Rheology2a58.png, id=2969, 421.575pt x 316.0608pt>
+<Rheology2a58.png, id=2889, 421.575pt x 316.0608pt>
 File: Rheology2a58.png Graphic file (type png)
 <use Rheology2a58.png>
 Package pdftex.def Info: Rheology2a58.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a58.png (PNG copy)> <a5,fr57>
-<Rheology2a59.png, id=2977, 421.575pt x 316.0608pt>
+<Rheology2a59.png, id=2897, 421.575pt x 316.0608pt>
 File: Rheology2a59.png Graphic file (type png)
 <use Rheology2a59.png>
 Package pdftex.def Info: Rheology2a59.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a59.png (PNG copy)> <a5,fr58>
-<Rheology2a60.png, id=2985, 421.575pt x 316.0608pt>
+<Rheology2a60.png, id=2905, 421.575pt x 316.0608pt>
 File: Rheology2a60.png Graphic file (type png)
 <use Rheology2a60.png>
 Package pdftex.def Info: Rheology2a60.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a60.png (PNG copy)> <a5,fr59>
-<Rheology2a61.png, id=2993, 421.575pt x 316.0608pt>
+<Rheology2a61.png, id=2913, 421.575pt x 316.0608pt>
 File: Rheology2a61.png Graphic file (type png)
 <use Rheology2a61.png>
 Package pdftex.def Info: Rheology2a61.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a61.png (PNG copy)> <a5,fr60>
-<Rheology2a62.png, id=3001, 421.575pt x 316.0608pt>
+<Rheology2a62.png, id=2921, 421.575pt x 316.0608pt>
 File: Rheology2a62.png Graphic file (type png)
 <use Rheology2a62.png>
 Package pdftex.def Info: Rheology2a62.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a62.png (PNG copy)> <a5,fr61>
-<Rheology2a63.png, id=3009, 421.575pt x 316.0608pt>
+<Rheology2a63.png, id=2929, 421.575pt x 316.0608pt>
 File: Rheology2a63.png Graphic file (type png)
 <use Rheology2a63.png>
 Package pdftex.def Info: Rheology2a63.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2a63.png (PNG copy)> <a5,fr62>
-<Rheology2a64.png, id=3017, 421.575pt x 316.0608pt>
+<Rheology2a64.png, id=2937, 421.575pt x 316.0608pt>
 File: Rheology2a64.png Graphic file (type png)
 <use Rheology2a64.png>
 Package pdftex.def Info: Rheology2a64.png  used on input line 264.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2a64.png (PNG copy)>
-<a5,fr63>
-<Rheology2a65.png, id=3025, 421.575pt x 316.0608pt>
+ <./Rheology2a64.png (PNG copy)> <a5,fr63>
+<Rheology2a65.png, id=2945, 421.575pt x 316.0608pt>
 File: Rheology2a65.png Graphic file (type png)
 <use Rheology2a65.png>
 Package pdftex.def Info: Rheology2a65.png  used on input line 264.
@@ -3360,7 +3300,7 @@ File: Y0b.jpg Graphic file (type jpg)
 <use Y0b.jpg>
 Package pdftex.def Info: Y0b.jpg  used on input line 286.
 (pdftex.def)             Requested size: 89.85406pt x 11.47066pt.
-<NewParamsB.jpg, id=3064, 122.70844pt x 63.23625pt>
+<NewParamsB.jpg, id=2984, 122.70844pt x 63.23625pt>
 File: NewParamsB.jpg Graphic file (type jpg)
 <use NewParamsB.jpg>
 Package pdftex.def Info: NewParamsB.jpg  used on input line 286.
@@ -3369,216 +3309,215 @@ File: 1bSimplex.jpg Graphic file (type jpg)
 <use 1bSimplex.jpg>
 Package pdftex.def Info: 1bSimplex.jpg  used on input line 286.
 (pdftex.def)             Requested size: 113.81479pt x 24.23167pt.
-<Rheology2b1.png, id=3065, 421.575pt x 316.0608pt>
+<Rheology2b1.png, id=2985, 421.575pt x 316.0608pt>
 File: Rheology2b1.png Graphic file (type png)
 <use Rheology2b1.png>
 Package pdftex.def Info: Rheology2b1.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b1.png (PNG copy)> <a6,fr0>
-<Rheology2b2.png, id=3073, 421.575pt x 316.0608pt>
+<Rheology2b2.png, id=2993, 421.575pt x 316.0608pt>
 File: Rheology2b2.png Graphic file (type png)
 <use Rheology2b2.png>
 Package pdftex.def Info: Rheology2b2.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b2.png (PNG copy)> <a6,fr1>
-<Rheology2b3.png, id=3081, 421.575pt x 316.0608pt>
+<Rheology2b3.png, id=3001, 421.575pt x 316.0608pt>
 File: Rheology2b3.png Graphic file (type png)
 <use Rheology2b3.png>
 Package pdftex.def Info: Rheology2b3.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b3.png (PNG copy)> <a6,fr2>
-<Rheology2b4.png, id=3089, 421.575pt x 316.0608pt>
+<Rheology2b4.png, id=3009, 421.575pt x 316.0608pt>
 File: Rheology2b4.png Graphic file (type png)
 <use Rheology2b4.png>
 Package pdftex.def Info: Rheology2b4.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b4.png (PNG copy)> <a6,fr3>
-<Rheology2b5.png, id=3097, 421.575pt x 316.0608pt>
+<Rheology2b5.png, id=3017, 421.575pt x 316.0608pt>
 File: Rheology2b5.png Graphic file (type png)
 <use Rheology2b5.png>
 Package pdftex.def Info: Rheology2b5.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b5.png (PNG copy)> <a6,fr4>
-<Rheology2b6.png, id=3105, 421.575pt x 316.0608pt>
+<Rheology2b6.png, id=3025, 421.575pt x 316.0608pt>
 File: Rheology2b6.png Graphic file (type png)
 <use Rheology2b6.png>
 Package pdftex.def Info: Rheology2b6.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b6.png (PNG copy)> <a6,fr5>
-<Rheology2b7.png, id=3113, 421.575pt x 316.0608pt>
+<Rheology2b7.png, id=3033, 421.575pt x 316.0608pt>
 File: Rheology2b7.png Graphic file (type png)
 <use Rheology2b7.png>
 Package pdftex.def Info: Rheology2b7.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b7.png (PNG copy)> <a6,fr6>
-<Rheology2b8.png, id=3121, 421.575pt x 316.0608pt>
+<Rheology2b8.png, id=3041, 421.575pt x 316.0608pt>
 File: Rheology2b8.png Graphic file (type png)
 <use Rheology2b8.png>
 Package pdftex.def Info: Rheology2b8.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2b8.png (PNG copy)>
-<a6,fr7>
-<Rheology2b9.png, id=3129, 421.575pt x 316.0608pt>
+ <./Rheology2b8.png (PNG copy)> <a6,fr7>
+<Rheology2b9.png, id=3049, 421.575pt x 316.0608pt>
 File: Rheology2b9.png Graphic file (type png)
 <use Rheology2b9.png>
 Package pdftex.def Info: Rheology2b9.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b9.png (PNG copy)> <a6,fr8>
-<Rheology2b10.png, id=3137, 421.575pt x 316.0608pt>
+<Rheology2b10.png, id=3057, 421.575pt x 316.0608pt>
 File: Rheology2b10.png Graphic file (type png)
 <use Rheology2b10.png>
 Package pdftex.def Info: Rheology2b10.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b10.png (PNG copy)> <a6,fr9>
-<Rheology2b11.png, id=3145, 421.575pt x 316.0608pt>
+<Rheology2b11.png, id=3065, 421.575pt x 316.0608pt>
 File: Rheology2b11.png Graphic file (type png)
 <use Rheology2b11.png>
 Package pdftex.def Info: Rheology2b11.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b11.png (PNG copy)> <a6,fr10>
-<Rheology2b12.png, id=3153, 421.575pt x 316.0608pt>
+<Rheology2b12.png, id=3073, 421.575pt x 316.0608pt>
 File: Rheology2b12.png Graphic file (type png)
 <use Rheology2b12.png>
 Package pdftex.def Info: Rheology2b12.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b12.png (PNG copy)> <a6,fr11>
-<Rheology2b13.png, id=3161, 421.575pt x 316.0608pt>
+<Rheology2b13.png, id=3081, 421.575pt x 316.0608pt>
 File: Rheology2b13.png Graphic file (type png)
 <use Rheology2b13.png>
 Package pdftex.def Info: Rheology2b13.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b13.png (PNG copy)> <a6,fr12>
-<Rheology2b14.png, id=3169, 421.575pt x 316.0608pt>
+<Rheology2b14.png, id=3089, 421.575pt x 316.0608pt>
 File: Rheology2b14.png Graphic file (type png)
 <use Rheology2b14.png>
 Package pdftex.def Info: Rheology2b14.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b14.png (PNG copy)> <a6,fr13>
-<Rheology2b15.png, id=3177, 421.575pt x 316.0608pt>
+<Rheology2b15.png, id=3097, 421.575pt x 316.0608pt>
 File: Rheology2b15.png Graphic file (type png)
 <use Rheology2b15.png>
 Package pdftex.def Info: Rheology2b15.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b15.png (PNG copy)> <a6,fr14>
-<Rheology2b16.png, id=3185, 421.575pt x 316.0608pt>
+<Rheology2b16.png, id=3105, 421.575pt x 316.0608pt>
 File: Rheology2b16.png Graphic file (type png)
 <use Rheology2b16.png>
 Package pdftex.def Info: Rheology2b16.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2b16.png (PNG copy)> <a6,fr15>
-<Rheology2b17.png, id=3193, 421.575pt x 316.0608pt>
+ <./Rheology2b16.png (PNG copy)>
+<a6,fr15>
+<Rheology2b17.png, id=3113, 421.575pt x 316.0608pt>
 File: Rheology2b17.png Graphic file (type png)
 <use Rheology2b17.png>
 Package pdftex.def Info: Rheology2b17.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b17.png (PNG copy)> <a6,fr16>
-<Rheology2b18.png, id=3201, 421.575pt x 316.0608pt>
+<Rheology2b18.png, id=3121, 421.575pt x 316.0608pt>
 File: Rheology2b18.png Graphic file (type png)
 <use Rheology2b18.png>
 Package pdftex.def Info: Rheology2b18.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b18.png (PNG copy)> <a6,fr17>
-<Rheology2b19.png, id=3209, 421.575pt x 316.0608pt>
+<Rheology2b19.png, id=3129, 421.575pt x 316.0608pt>
 File: Rheology2b19.png Graphic file (type png)
 <use Rheology2b19.png>
 Package pdftex.def Info: Rheology2b19.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b19.png (PNG copy)> <a6,fr18>
-<Rheology2b20.png, id=3217, 421.575pt x 316.0608pt>
+<Rheology2b20.png, id=3137, 421.575pt x 316.0608pt>
 File: Rheology2b20.png Graphic file (type png)
 <use Rheology2b20.png>
 Package pdftex.def Info: Rheology2b20.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b20.png (PNG copy)> <a6,fr19>
-<Rheology2b21.png, id=3225, 421.575pt x 316.0608pt>
+<Rheology2b21.png, id=3145, 421.575pt x 316.0608pt>
 File: Rheology2b21.png Graphic file (type png)
 <use Rheology2b21.png>
 Package pdftex.def Info: Rheology2b21.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b21.png (PNG copy)> <a6,fr20>
-<Rheology2b22.png, id=3233, 421.575pt x 316.0608pt>
+<Rheology2b22.png, id=3153, 421.575pt x 316.0608pt>
 File: Rheology2b22.png Graphic file (type png)
 <use Rheology2b22.png>
 Package pdftex.def Info: Rheology2b22.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b22.png (PNG copy)> <a6,fr21>
-<Rheology2b23.png, id=3241, 421.575pt x 316.0608pt>
+<Rheology2b23.png, id=3161, 421.575pt x 316.0608pt>
 File: Rheology2b23.png Graphic file (type png)
 <use Rheology2b23.png>
 Package pdftex.def Info: Rheology2b23.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2b23.png (PNG copy)>
-<a6,fr22>
-<Rheology2b24.png, id=3249, 421.575pt x 316.0608pt>
+ <./Rheology2b23.png (PNG copy)> <a6,fr22>
+<Rheology2b24.png, id=3169, 421.575pt x 316.0608pt>
 File: Rheology2b24.png Graphic file (type png)
 <use Rheology2b24.png>
 Package pdftex.def Info: Rheology2b24.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b24.png (PNG copy)> <a6,fr23>
-<Rheology2b25.png, id=3257, 421.575pt x 316.0608pt>
+<Rheology2b25.png, id=3177, 421.575pt x 316.0608pt>
 File: Rheology2b25.png Graphic file (type png)
 <use Rheology2b25.png>
 Package pdftex.def Info: Rheology2b25.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b25.png (PNG copy)> <a6,fr24>
-<Rheology2b26.png, id=3265, 421.575pt x 316.0608pt>
+<Rheology2b26.png, id=3185, 421.575pt x 316.0608pt>
 File: Rheology2b26.png Graphic file (type png)
 <use Rheology2b26.png>
 Package pdftex.def Info: Rheology2b26.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b26.png (PNG copy)> <a6,fr25>
-<Rheology2b27.png, id=3273, 421.575pt x 316.0608pt>
+<Rheology2b27.png, id=3193, 421.575pt x 316.0608pt>
 File: Rheology2b27.png Graphic file (type png)
 <use Rheology2b27.png>
 Package pdftex.def Info: Rheology2b27.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b27.png (PNG copy)> <a6,fr26>
-<Rheology2b28.png, id=3281, 421.575pt x 316.0608pt>
+<Rheology2b28.png, id=3201, 421.575pt x 316.0608pt>
 File: Rheology2b28.png Graphic file (type png)
 <use Rheology2b28.png>
 Package pdftex.def Info: Rheology2b28.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b28.png (PNG copy)> <a6,fr27>
-<Rheology2b29.png, id=3289, 421.575pt x 316.0608pt>
+<Rheology2b29.png, id=3209, 421.575pt x 316.0608pt>
 File: Rheology2b29.png Graphic file (type png)
 <use Rheology2b29.png>
 Package pdftex.def Info: Rheology2b29.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2b29.png (PNG copy)> <a6,fr28>
-<Rheology2b30.png, id=3297, 421.575pt x 316.0608pt>
+ <./Rheology2b29.png (PNG copy)>
+<a6,fr28>
+<Rheology2b30.png, id=3217, 421.575pt x 316.0608pt>
 File: Rheology2b30.png Graphic file (type png)
 <use Rheology2b30.png>
 Package pdftex.def Info: Rheology2b30.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b30.png (PNG copy)> <a6,fr29>
-<Rheology2b31.png, id=3305, 421.575pt x 316.0608pt>
+<Rheology2b31.png, id=3225, 421.575pt x 316.0608pt>
 File: Rheology2b31.png Graphic file (type png)
 <use Rheology2b31.png>
 Package pdftex.def Info: Rheology2b31.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b31.png (PNG copy)> <a6,fr30>
-<Rheology2b32.png, id=3313, 421.575pt x 316.0608pt>
+<Rheology2b32.png, id=3233, 421.575pt x 316.0608pt>
 File: Rheology2b32.png Graphic file (type png)
 <use Rheology2b32.png>
 Package pdftex.def Info: Rheology2b32.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b32.png (PNG copy)> <a6,fr31>
-<Rheology2b33.png, id=3321, 421.575pt x 316.0608pt>
+<Rheology2b33.png, id=3241, 421.575pt x 316.0608pt>
 File: Rheology2b33.png Graphic file (type png)
 <use Rheology2b33.png>
 Package pdftex.def Info: Rheology2b33.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
  <./Rheology2b33.png (PNG copy)> <a6,fr32>
-<Rheology2b34.png, id=3329, 421.575pt x 316.0608pt>
+<Rheology2b34.png, id=3249, 421.575pt x 316.0608pt>
 File: Rheology2b34.png Graphic file (type png)
 <use Rheology2b34.png>
 Package pdftex.def Info: Rheology2b34.png  used on input line 286.
 (pdftex.def)             Requested size: 421.57396pt x 316.06003pt.
- <./Rheology2b34.png (PNG copy)> <a6,fr33>
-[18
+ <./Rheology2b34.png (PNG copy)> <a6,fr33> [18
 
  <./NewParamsB.jpg>]
-<convergencePlot.jpg, id=3367, 1124.2pt x 843.15pt>
+<convergencePlot.jpg, id=3287, 1124.2pt x 843.15pt>
 File: convergencePlot.jpg Graphic file (type jpg)
 <use convergencePlot.jpg>
 Package pdftex.def Info: convergencePlot.jpg  used on input line 291.
@@ -3597,8 +3536,7 @@ Package pdftex.def Info: convergencePlot.jpg  used on input line 291.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
-
-(Math462GroupPresentation.aux)
+ (Math462GroupPresentation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `Math462GroupPresentation.out' has not change
@@ -3606,10 +3544,10 @@ d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32946 strings out of 492484
- 650851 string characters out of 3121601
- 697511 words of memory out of 3000000
- 36389 multiletter control sequences out of 15000+200000
+ 32846 strings out of 492484
+ 648621 string characters out of 3121601
+ 695831 words of memory out of 3000000
+ 36299 multiletter control sequences out of 15000+200000
  544839 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,87p,820b,1028s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3626,9 +3564,9 @@ ic/amsfonts/cm/cmssi12.pfb><C:/Users/sarah/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sarah/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sarah/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Math462GroupPresentation.pdf (19 pages, 12164191 bytes).
+Output written on Math462GroupPresentation.pdf (19 pages, 11886526 bytes).
 PDF statistics:
- 3442 PDF objects out of 3580 (max. 8388607)
+ 3362 PDF objects out of 3580 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
- 8286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8056 words of extra memory for PDF output out of 10000 (max. 10000000)
 
